@@ -1,11 +1,18 @@
 Remove alias_code Dec 2014 .
 
+Add UN country codes back in
+   http://unstats.un.org/unsd/methods/m49/m49alpha.htm 
+as their own list.  Jarkko Hietaniemi
+
 Add GENC country codes (replacement for FIPS-10):
    https://nsgreg.nga.mil/genc/discovery
 
 Add Storable as a build prereq. (in t/*.pl)
 
 ??? Make the name list and alias lists case sensitive.  RT 92680
+
+Add regional codes including:
+   MARC:  http://www.loc.gov/marc/countries/   Jarkko Hietaniemi
 
 =========
 

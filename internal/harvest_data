@@ -596,6 +596,7 @@ sub do_language {
          }
 
          my @language = split(/\s*;\s*/,$language);
+         $term = $alpha3  if (! $term);
 
          return ($alpha3,$term,$alpha2,@language);
       }

@@ -111,6 +111,9 @@ Copy in the modified files.
    cd cpan/Locale-Codes
    lcdir=`find ~/perl-modules -type d -name Locale-Codes\*`
 
+   new=`echo $lcdir | sed -e 's,^.*-,,'`
+   old=`echo "$new - 0.01" | bc`
+
    for i in `find . -type f` ;do
       if [ ! -e $lcdir/$i ]; then
          echo "## Remove: $i"
@@ -162,7 +165,7 @@ Create the patch (NOTE: fix the version numbers):
    git config --global user.name "Sullivan Beck"
    git config --global user.email 'sbeck@cpan.org'
 
-   git commit -a -m 'Bump Locale-Codes from 3.15 to 3.16'
+   git commit -a -m "Bump Locale-Codes from $old to $new"
    git format-patch origin
    mv 0001* /tmp
 
@@ -176,30 +179,24 @@ in the patch.
 
 and make sure that the tests all succeed. Then submit the patch.
 
+   cat <<EOF;
 ====
-
 To: perl5-porters@perl.org
-Subject: PATCH: Bump Locale-Codes from 3.20 to 3.21
+Subject: PATCH: Bump Locale-Codes from $old to $new 
 
-I just released Locale-Codes-3.21 which contains the core modules Locale::Country, Locale::Language, and Locale::Currency.  Due to the size of the patch (due to changes in codes), I'm including a link here instead of sending it as an attachment:
+I just released Locale-Codes-$new which contains the core modules Locale::Country, Locale::Language, and Locale::Currency.  Due to the size of the patch (due to changes in codes), I'm including a link here instead of sending it as an attachment:
 
-http://sullybeck.com/0001-Bump-Locale-Codes-from-3.16-to-3.17.patch
+http://sullybeck.com/0001-Bump-Locale-Codes-from-$old-to-$new.patch
 
 OR
 
-I just released Locale-Codes-3.21 which contains the core modules Locale::Country, Locale::Language, and Locale::Currency.  The patch is attached here.
+I just released Locale-Codes-$new which contains the core modules Locale::Country, Locale::Language, and Locale::Currency.  The patch is attached here.
 
 ====
 Background:
 
-The core modules Locale::Country, Locale::Language, and Locale::Currency
-(all part of the Locale-Codes distribution) should be updated on a
-regular basis. They contain "codes" from various internet standards
-which change over time.
+The core modules Locale::Country, Locale::Language, and Locale::Currency (all part of the Locale-Codes distribution) should be updated on a regular basis. They contain "codes" from various internet standards which change over time.
 
-I plan on releasing new versions at 4 times a year to keep the codes
-up-to-date. At this point, I'm not planning on any significant code
-changes (other than bug fixes), so the only significant changes
-between releases should be to update the codes.
-
+I plan on releasing new versions at 4 times a year to keep the codes up-to-date. At this point, I'm not planning on any significant code changes (other than bug fixes), so the only significant changes between releases should be to update the codes.
+EOF
 
