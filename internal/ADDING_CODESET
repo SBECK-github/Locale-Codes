@@ -1,0 +1,13 @@
+When adding a codeset, the following locations must be modified:
+
+lib/Locale/Codes/Constants.pm:
+   @EXPORT
+   Constants section (twice)
+
+lib/Locale/Codes/TYPE.pod:
+   Supported code sets
+
+lib/Locale/Codes/TYPE_Codes.pm:
+
+internal/???
+
