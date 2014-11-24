@@ -1,9 +1,11 @@
+.travis.yml
 Build.PL
 Changes
 examples/code2country
 examples/country2code
 INSTALL
 internal/_no_tests
+internal/ADDING_CODESET
 internal/build.yaml
 internal/curr.yaml
 internal/data.country.pl

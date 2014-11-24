@@ -37,7 +37,7 @@ my $class = Module::Build->subclass(
 
 my $build = $class->new(
       module_name        => "Locale::Codes",
-      dist_version       => "3.32",
+      dist_version       => "3.33",
       dist_abstract      => "a distribution of modules to handle locale codes",
       license            => "perl",
       dist_author        => "Sullivan Beck <sbeck\@cpan.org>",
@@ -52,6 +52,14 @@ my $build = $class->new(
       build_requires     => \%build_prereq,
       recommends         => \%script_prereq,
       sign               => 1,
+
+      ($Module::Build::VERSION >= 0.28
+       ? (meta_merge => {
+             resources => {
+                repository => "https://github.com/SBECK-github/Locale-Codes",
+             }
+          })
+       : ()),
       installdirs        => 'core',
 );
 

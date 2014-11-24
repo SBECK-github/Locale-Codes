@@ -4038,7 +4038,7 @@ currency:
       CRC: Costa Rican Colon
       CUC: Peso Convertible
       CUP: Cuban Peso
-      CVE: Cape Verde Escudo
+      CVE: Cabo Verde Escudo
       CZK: Czech Koruna
       DJF: Djibouti Franc
       DKK: Danish Krone
@@ -4255,12 +4255,12 @@ currency:
       burundi franc: 
         - BIF
         - Burundi Franc
+      cabo verde escudo: 
+        - CVE
+        - Cabo Verde Escudo
       canadian dollar: 
         - CAD
         - Canadian Dollar
-      cape verde escudo: 
-        - CVE
-        - Cape Verde Escudo
       cayman islands dollar: 
         - KYD
         - Cayman Islands Dollar
@@ -4730,7 +4730,7 @@ currency:
       108: Burundi Franc
       116: Riel
       124: Canadian Dollar
-      132: Cape Verde Escudo
+      132: Cabo Verde Escudo
       136: Cayman Islands Dollar
       144: Sri Lanka Rupee
       152: Chilean Peso
@@ -4966,12 +4966,12 @@ currency:
       burundi franc: 
         - 108
         - Burundi Franc
+      cabo verde escudo: 
+        - 132
+        - Cabo Verde Escudo
       canadian dollar: 
         - 124
         - Canadian Dollar
-      cape verde escudo: 
-        - 132
-        - Cape Verde Escudo
       cayman islands dollar: 
         - 136
         - Cayman Islands Dollar

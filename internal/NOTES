@@ -125,7 +125,7 @@ Copy in the modified files.
    done
 
    for file in `cd $lcdir; find . -type f` ;do
-      tmp=`echo $file | sed -e 's,\(examples\|internal\)/,,'`
+      tmp=`echo $file | sed -e 's,\(examples\|internal\|.git\)/,,'`
       if [ "$tmp" != "$file" -o \
            "$tmp"  = "./Build.PL" -o \
            "$tmp"  = "./Changes" -o \
@@ -137,6 +137,7 @@ Copy in the modified files.
            "$tmp"  = "./Makefile.PL" -o \
            "$tmp"  = "./README" -o \
            "$tmp"  = "./README.first" -o \
+           "$tmp"  = "./.travis.yml" -o \
            "$tmp"  = "./t/runtests.bat" -o \
            "$tmp"  = "./t/runtests" -o \
            "$tmp"  = "./t/pod.t" -o \

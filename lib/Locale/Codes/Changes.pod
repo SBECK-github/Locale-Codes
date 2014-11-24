@@ -22,7 +22,9 @@ September, December). I will also check on request, so if a code
 changes that you use, feel free to contact me.  Any time there are new
 codes, I will add them to the module and release a new version.
 
-=head1 VERSION 3.33  (planned 2014-12-01; sbeck)
+=head1 VERSION 3.34  (planned 2015-03-01; sbeck)
+
+=head1 VERSION 3.33  (2014-12-01; sbeck)
 
 NEW CODE(s)
 

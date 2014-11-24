@@ -19,17 +19,18 @@ $Data{'currency'}{'iso'}{'orig'}{'name'} = {
    "US Dollar (Next day)Â " => "US Dollar (Next day)",
    "US Dollar (Same day)Â " => "US Dollar (Same day)",
    "Bond Markets Unit European Monetary Unit (E.M.U.-6)Â "
-                           => "Bond Markets Unit European Monetary Unit (E.M.U.-6)",   "ÅLAND ISLANDS"      => "Aland Islands",
-   "CÔTE D'IVOIRE"      => "Cote d'Ivoire",
-   "CURAÇAO"            => "Curacao",
-   "INTERNATIONAL MONETARY FUND (IMF) "
-                           => "International Monetary Fund (IMF) ",
+                           => "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+   "?LAND ISLANDS"      => "Aland Islands",
+   "C?TE D'IVOIRE"      => "Cote d'Ivoire",
+   "CURA?AO"            => "Curacao",
+   "INTERNATIONAL MONETARY FUND (IMF)?"
+                           => "International Monetary Fund (IMF)?",
    "KOREA, DEMOCRATIC PEOPLEâ€™S REPUBLIC OF"
                            => "Korea, Democratic People's Republic of",
    "LAO PEOPLEâ€™S DEMOCRATIC REPUBLIC"
                            => "Lao People's Democratic Republic",
-   "RÉUNION"            => "Reunion",
-   "SAINT BARTHÉLEMY"   => "Saint Barthelemy",
+   "R?UNION"            => "Reunion",
+   "SAINT BARTH?LEMY"   => "Saint Barthelemy",
 };
 
 $Data{'currency'}{'iso'}{'ignore'} = {

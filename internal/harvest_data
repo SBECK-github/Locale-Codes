@@ -762,7 +762,7 @@ sub do_currency {
 
    sub _init_currency_iso {
       $in = _read_file('url'       => $currency_iso_url,
-                       'head'      => 'ENTITY,Currency',
+                       'head'      => 'ENTITY',
                        'as_list'   => 1,
                        'type'      => 'xls',
                        'join'      => 1,
@@ -1608,7 +1608,7 @@ sub _read_file {
       $csv    =~ s/.xls/.csv/;
 
       # New command
-      my $cmd = "xls2csv -o $csv $file; dos2unix $csv";
+      my $cmd = "xls2csv.py $file > $csv; dos2unix $csv";
 
       system($cmd);
       @in = `cat $csv`;
