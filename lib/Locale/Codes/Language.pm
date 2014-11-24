@@ -22,7 +22,7 @@ use Locale::Codes::Language_Retired;
 
 our($VERSION,@ISA,@EXPORT,@EXPORT_OK);
 
-$VERSION='3.33';
+$VERSION='3.34';
 @ISA       = qw(Exporter);
 @EXPORT    = qw(code2language
                 language2code

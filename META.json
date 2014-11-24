@@ -37,55 +37,55 @@
    "provides" : {
       "Locale::Codes" : {
          "file" : "lib/Locale/Codes.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::Constants" : {
          "file" : "lib/Locale/Codes/Constants.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::Country" : {
          "file" : "lib/Locale/Codes/Country.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::Currency" : {
          "file" : "lib/Locale/Codes/Currency.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::LangExt" : {
          "file" : "lib/Locale/Codes/LangExt.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::LangFam" : {
          "file" : "lib/Locale/Codes/LangFam.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::LangVar" : {
          "file" : "lib/Locale/Codes/LangVar.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::Language" : {
          "file" : "lib/Locale/Codes/Language.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Codes::Script" : {
          "file" : "lib/Locale/Codes/Script.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Country" : {
          "file" : "lib/Locale/Country.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Currency" : {
          "file" : "lib/Locale/Currency.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Language" : {
          "file" : "lib/Locale/Language.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       },
       "Locale::Script" : {
          "file" : "lib/Locale/Script.pm",
-         "version" : "3.33"
+         "version" : "3.34"
       }
    },
    "release_status" : "stable",
@@ -97,5 +97,5 @@
          "url" : "https://github.com/SBECK-github/Locale-Codes"
       }
    },
-   "version" : "3.33"
+   "version" : "3.34"
 }

@@ -31,7 +31,7 @@ our($VERSION,%Data,%Retired);
 # $Retired{ TYPE }{ CODESET }{ code }{ CODE } = NAME
 #                            { name }{ NAME } = [CODE,NAME]  (the key is lowercase)
 
-$VERSION='3.33';
+$VERSION='3.34';
 
 #=======================================================================
 #
