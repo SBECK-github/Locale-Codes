@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# Copyright (c) 2010-2014 Sullivan Beck.  All rights reserved.
+# Copyright (c) 2010-2015 Sullivan Beck.  All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -99,6 +99,7 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Bädi Kanum"                                    => "Badi Kanum",
    "Cabiyarí"                                      => "Cabiyari",
    "Cabécar"                                       => "Cabecar",
+   "Ca̱hungwa̱rya̱"                                   => "Cahungwarya",
    "Cakchiquel-Quiché Mixed Language"              => "Cakchiquel-Quiche Mixed Language",
    "Calderón Highland Quichua"                     => "Calderon Highland Quichua",
    "Caló"                                          => "Calo",
@@ -146,6 +147,7 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Fwâi"                                          => "Fwai",
    "Gabrielino-Fernandeño"                         => "Gabrielino-Fernandeno",
    "Gagnoa Bété"                                   => "Gagnoa Bete",
+   "Gāndhārī"                                      => "Gandhari",
    "Gavião Do Jiparaná"                            => "Gaviao Do Jiparana",
    "Ghadamès"                                      => "Ghadames",
    "Ghomálá'"                                      => "Ghomala'",
@@ -154,6 +156,7 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Guajajára"                                     => "Guajajara",
    "Guajá"                                         => "Guaja",
    "Guató"                                         => "Guato",
+   "Guernésiais"                                   => "Guernesiais",
    "Guiberoua Béte"                                => "Guiberoua Bete",
    "Gwichʼin"                                       => "Gwich'in",
    "Güilá Zapotec"                                 => "Guila Zapotec",
@@ -181,6 +184,7 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Jalapa De Díaz Mazatec"                        => "Jalapa De Diaz Mazatec",
    "Jamamadí"                                      => "Jamamadi",
    "Japrería"                                      => "Japreria",
+   "Jèrriais"                                      => "Jerriais",
    "Jorá"                                          => "Jora",
    "Jurúna"                                        => "Juruna",
    "Júma"                                          => "Juma",
@@ -287,6 +291,8 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Nyâlayu"                                       => "Nyalayu",
    "Ná-Meo"                                        => "Na-Meo",
    "Nêlêmwa-Nixumwak"                              => "Nelemwa-Nixumwak",
+   "Northwestern !Kung"                            => "Northwestern Kung",
+   "Northwestern ǃKung"                            => "Northwestern Kung",
    "Nüpode Huitoto"                                => "Nupode Huitoto",
    "N’Ko"                                          => "N'Ko",
    "Obispeño"                                      => "Obispeno",
@@ -481,6 +487,7 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Ménik"                                         => "Menik",
    "Nyelâyu"                                       => "Nyelayu",
    "Yolŋu Sign Language"                           => "Yolnu Sign Language",
+   "ǂUngkue"                                       => "Ungkue",
 };
 
 $Data{'language'}{'iana'}{'ignore'} = {

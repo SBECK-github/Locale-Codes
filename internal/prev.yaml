@@ -39046,87 +39046,1951 @@ language:
         - Zyphe Chin
   term: 
     code: 
+      aar: Afar
+      abk: Abkhazian
+      ace: Achinese
+      ach: Acoli
+      ada: Adangme
+      ady: Adyghe
+      afa: Afro-Asiatic languages
+      afh: Afrihili
+      afr: Afrikaans
+      ain: Ainu
+      aka: Akan
+      akk: Akkadian
+      ale: Aleut
+      alg: Algonquian languages
+      alt: Southern Altai
+      amh: Amharic
+      ang: English, Old (ca.450-1100)
+      anp: Angika
+      apa: Apache languages
+      ara: Arabic
+      arc: Official Aramaic (700-300 BCE)
+      arg: Aragonese
+      arn: Mapudungun
+      arp: Arapaho
+      art: Artificial languages
+      arw: Arawak
+      asm: Assamese
+      ast: Asturian
+      ath: Athapascan languages
+      aus: Australian languages
+      ava: Avaric
+      ave: Avestan
+      awa: Awadhi
+      aym: Aymara
+      aze: Azerbaijani
+      bad: Banda languages
+      bai: Bamileke languages
+      bak: Bashkir
+      bal: Baluchi
+      bam: Bambara
+      ban: Balinese
+      bas: Basa
+      bat: Baltic languages
+      bej: Beja
+      bel: Belarusian
+      bem: Bemba
+      ben: Bengali
+      ber: Berber languages
+      bho: Bhojpuri
+      bih: Bihari languages
+      bik: Bikol
+      bin: Bini
+      bis: Bislama
+      bla: Siksika
+      bnt: Bantu (Other)
       bod: Tibetan
+      bos: Bosnian
+      bra: Braj
+      bre: Breton
+      btk: Batak languages
+      bua: Buriat
+      bug: Buginese
+      bul: Bulgarian
+      byn: Blin
+      cad: Caddo
+      cai: Central American Indian languages
+      car: Galibi Carib
+      cat: Catalan
+      cau: Caucasian languages
+      ceb: Cebuano
+      cel: Celtic languages
       ces: Czech
+      cha: Chamorro
+      chb: Chibcha
+      che: Chechen
+      chg: Chagatai
+      chk: Chuukese
+      chm: Mari
+      chn: Chinook jargon
+      cho: Choctaw
+      chp: Chipewyan
+      chr: Cherokee
+      chu: Church Slavic
+      chv: Chuvash
+      chy: Cheyenne
+      cmc: Chamic languages
+      cop: Coptic
+      cor: Cornish
+      cos: Corsican
+      cpe: Creoles and pidgins, English based
+      cpf: "Creoles and pidgins, French-based "
+      cpp: "Creoles and pidgins, Portuguese-based "
+      cre: Cree
+      crh: Crimean Tatar
+      crp: "Creoles and pidgins "
+      csb: Kashubian
+      cus: Cushitic languages
       cym: Welsh
+      dak: Dakota
+      dan: Danish
+      dar: Dargwa
+      day: Land Dayak languages
+      del: Delaware
+      den: Slave (Athapascan)
       deu: German
+      dgr: Dogrib
+      din: Dinka
+      div: Divehi
+      doi: Dogri
+      dra: Dravidian languages
+      dsb: Lower Sorbian
+      dua: Duala
+      dum: Dutch, Middle (ca.1050-1350)
+      dyu: Dyula
+      dzo: Dzongkha
+      efi: Efik
+      egy: Egyptian (Ancient)
+      eka: Ekajuk
       ell: Greek, Modern (1453-)
+      elx: Elamite
+      eng: English
+      enm: English, Middle (1100-1500)
+      epo: Esperanto
+      est: Estonian
       eus: Basque
+      ewe: Ewe
+      ewo: Ewondo
+      fan: Fang
+      fao: Faroese
       fas: Persian
+      fat: Fanti
+      fij: Fijian
+      fil: Filipino
+      fin: Finnish
+      fiu: Finno-Ugrian languages
+      fon: Fon
       fra: French
+      frm: French, Middle (ca.1400-1600)
+      fro: French, Old (842-ca.1400)
+      frr: Northern Frisian
+      frs: Eastern Frisian
+      fry: Western Frisian
+      ful: Fulah
+      fur: Friulian
+      gaa: Ga
+      gay: Gayo
+      gba: Gbaya
+      gem: Germanic languages
+      gez: Geez
+      gil: Gilbertese
+      gla: Gaelic
+      gle: Irish
+      glg: Galician
+      glv: Manx
+      gmh: German, Middle High (ca.1050-1500)
+      goh: German, Old High (ca.750-1050)
+      gon: Gondi
+      gor: Gorontalo
+      got: Gothic
+      grb: Grebo
+      grc: Greek, Ancient (to 1453)
+      grn: Guarani
+      gsw: Swiss German
+      guj: Gujarati
+      gwi: Gwich'in
+      hai: Haida
+      hat: Haitian
+      hau: Hausa
+      haw: Hawaiian
+      heb: Hebrew
+      her: Herero
+      hil: Hiligaynon
+      him: Himachali languages
+      hin: Hindi
+      hit: Hittite
+      hmn: Hmong
+      hmo: Hiri Motu
+      hrv: Croatian
+      hsb: Upper Sorbian
+      hun: Hungarian
+      hup: Hupa
       hye: Armenian
+      iba: Iban
+      ibo: Igbo
+      ido: Ido
+      iii: Sichuan Yi
+      ijo: Ijo languages
+      iku: Inuktitut
+      ile: Interlingue
+      ilo: Iloko
+      ina: Interlingua (International Auxiliary Language Association)
+      inc: Indic languages
+      ind: Indonesian
+      ine: Indo-European languages
+      inh: Ingush
+      ipk: Inupiaq
+      ira: Iranian languages
+      iro: Iroquoian languages
       isl: Icelandic
+      ita: Italian
+      jav: Javanese
+      jbo: Lojban
+      jpn: Japanese
+      jpr: Judeo-Persian
+      jrb: Judeo-Arabic
+      kaa: Kara-Kalpak
+      kab: Kabyle
+      kac: Kachin
+      kal: Kalaallisut
+      kam: Kamba
+      kan: Kannada
+      kar: Karen languages
+      kas: Kashmiri
       kat: Georgian
+      kau: Kanuri
+      kaw: Kawi
+      kaz: Kazakh
+      kbd: Kabardian
+      kha: Khasi
+      khi: Khoisan languages
+      khm: Central Khmer
+      kho: Khotanese
+      kik: Kikuyu
+      kin: Kinyarwanda
+      kir: Kirghiz
+      kmb: Kimbundu
+      kok: Konkani
+      kom: Komi
+      kon: Kongo
+      kor: Korean
+      kos: Kosraean
+      kpe: Kpelle
+      krc: Karachay-Balkar
+      krl: Karelian
+      kro: Kru languages
+      kru: Kurukh
+      kua: Kuanyama
+      kum: Kumyk
+      kur: Kurdish
+      kut: Kutenai
+      lad: Ladino
+      lah: Lahnda
+      lam: Lamba
+      lao: Lao
+      lat: Latin
+      lav: Latvian
+      lez: Lezghian
+      lim: Limburgan
+      lin: Lingala
+      lit: Lithuanian
+      lol: Mongo
+      loz: Lozi
+      ltz: Luxembourgish
+      lua: Luba-Lulua
+      lub: Luba-Katanga
+      lug: Ganda
+      lui: Luiseno
+      lun: Lunda
+      luo: Luo (Kenya and Tanzania)
+      lus: Lushai
+      mad: Madurese
+      mag: Magahi
+      mah: Marshallese
+      mai: Maithili
+      mak: Makasar
+      mal: Malayalam
+      man: Mandingo
+      map: Austronesian languages
+      mar: Marathi
+      mas: Masai
+      mdf: Moksha
+      mdr: Mandar
+      men: Mende
+      mga: Irish, Middle (900-1200)
+      mic: Mi'kmaq
+      min: Minangkabau
+      mis: Uncoded languages
       mkd: Macedonian
+      mkh: Mon-Khmer languages
+      mlg: Malagasy
+      mlt: Maltese
+      mnc: Manchu
+      mni: Manipuri
+      mno: Manobo languages
+      moh: Mohawk
+      mon: Mongolian
+      mos: Mossi
       mri: Maori
       msa: Malay
+      mul: Multiple languages
+      mun: Munda languages
+      mus: Creek
+      mwl: Mirandese
+      mwr: Marwari
       mya: Burmese
+      myn: Mayan languages
+      myv: Erzya
+      nah: Nahuatl languages
+      nai: North American Indian languages
+      nap: Neapolitan
+      nau: Nauru
+      nav: Navajo
+      nbl: Ndebele, South
+      nde: Ndebele, North
+      ndo: Ndonga
+      nds: Low German
+      nep: Nepali
+      new: Nepal Bhasa
+      nia: Nias
+      nic: Niger-Kordofanian languages
+      niu: Niuean
       nld: Dutch
+      nno: Norwegian Nynorsk
+      nob: Bokmal, Norwegian
+      nog: Nogai
+      non: Norse, Old
+      nor: Norwegian
+      nqo: N'Ko
+      nso: Pedi
+      nub: Nubian languages
+      nwc: Classical Newari
+      nya: Chichewa
+      nym: Nyamwezi
+      nyn: Nyankole
+      nyo: Nyoro
+      nzi: Nzima
+      oci: Occitan (post 1500)
+      oji: Ojibwa
+      ori: Oriya
+      orm: Oromo
+      osa: Osage
+      oss: Ossetian
+      ota: Turkish, Ottoman (1500-1928)
+      oto: Otomian languages
+      paa: Papuan languages
+      pag: Pangasinan
+      pal: Pahlavi
+      pam: Pampanga
+      pan: Panjabi
+      pap: Papiamento
+      pau: Palauan
+      peo: Persian, Old (ca.600-400 B.C.)
+      phi: Philippine languages
+      phn: Phoenician
+      pli: Pali
+      pol: Polish
+      pon: Pohnpeian
+      por: Portuguese
+      pra: Prakrit languages
+      pro: Provencal, Old (to 1500)
+      pus: Pushto
+      qtz: Reserved for local use
+      que: Quechua
+      raj: Rajasthani
+      rap: Rapanui
+      rar: Rarotongan
+      roa: Romance languages
+      roh: Romansh
+      rom: Romany
       ron: Romanian
+      run: Rundi
+      rup: Aromanian
+      rus: Russian
+      sad: Sandawe
+      sag: Sango
+      sah: Yakut
+      sai: South American Indian (Other)
+      sal: Salishan languages
+      sam: Samaritan Aramaic
+      san: Sanskrit
+      sas: Sasak
+      sat: Santali
+      scn: Sicilian
+      sco: Scots
+      sel: Selkup
+      sem: Semitic languages
+      sga: Irish, Old (to 900)
+      sgn: Sign Languages
+      shn: Shan
+      sid: Sidamo
+      sin: Sinhala
+      sio: Siouan languages
+      sit: Sino-Tibetan languages
+      sla: Slavic languages
       slk: Slovak
+      slv: Slovenian
+      sma: Southern Sami
+      sme: Northern Sami
+      smi: Sami languages
+      smj: Lule Sami
+      smn: Inari Sami
+      smo: Samoan
+      sms: Skolt Sami
+      sna: Shona
+      snd: Sindhi
+      snk: Soninke
+      sog: Sogdian
+      som: Somali
+      son: Songhai languages
+      sot: Sotho, Southern
+      spa: Spanish
       sqi: Albanian
+      srd: Sardinian
+      srn: Sranan Tongo
+      srp: Serbian
+      srr: Serer
+      ssa: Nilo-Saharan languages
+      ssw: Swati
+      suk: Sukuma
+      sun: Sundanese
+      sus: Susu
+      sux: Sumerian
+      swa: Swahili
+      swe: Swedish
+      syc: Classical Syriac
+      syr: Syriac
+      tah: Tahitian
+      tai: Tai languages
+      tam: Tamil
+      tat: Tatar
+      tel: Telugu
+      tem: Timne
+      ter: Tereno
+      tet: Tetum
+      tgk: Tajik
+      tgl: Tagalog
+      tha: Thai
+      tig: Tigre
+      tir: Tigrinya
+      tiv: Tiv
+      tkl: Tokelau
+      tlh: Klingon
+      tli: Tlingit
+      tmh: Tamashek
+      tog: Tonga (Nyasa)
+      ton: Tonga (Tonga Islands)
+      tpi: Tok Pisin
+      tsi: Tsimshian
+      tsn: Tswana
+      tso: Tsonga
+      tuk: Turkmen
+      tum: Tumbuka
+      tup: Tupi languages
+      tur: Turkish
+      tut: Altaic languages
+      tvl: Tuvalu
+      twi: Twi
+      tyv: Tuvinian
+      udm: Udmurt
+      uga: Ugaritic
+      uig: Uighur
+      ukr: Ukrainian
+      umb: Umbundu
+      und: Undetermined
+      urd: Urdu
+      uzb: Uzbek
+      vai: Vai
+      ven: Venda
+      vie: Vietnamese
+      vol: Volapuk
+      vot: Votic
+      wak: Wakashan languages
+      wal: Walamo
+      war: Waray
+      was: Washo
+      wen: Sorbian languages
+      wln: Walloon
+      wol: Wolof
+      xal: Kalmyk
+      xho: Xhosa
+      yao: Yao
+      yap: Yapese
+      yid: Yiddish
+      yor: Yoruba
+      ypk: Yupik languages
+      zap: Zapotec
+      zbl: Blissymbols
+      zen: Zenaga
+      zgh: Standard Moroccan Tamazight
+      zha: Zhuang
       zho: Chinese
+      znd: Zande languages
+      zul: Zulu
+      zun: Zuni
+      zxx: No linguistic content
+      zza: Zaza
     name: 
+      abkhazian: 
+        - abk
+        - Abkhazian
+      achinese: 
+        - ace
+        - Achinese
+      acoli: 
+        - ach
+        - Acoli
+      adangme: 
+        - ada
+        - Adangme
+      adyghe: 
+        - ady
+        - Adyghe
+      afar: 
+        - aar
+        - Afar
+      afrihili: 
+        - afh
+        - Afrihili
+      afrikaans: 
+        - afr
+        - Afrikaans
+      afro-asiatic languages: 
+        - afa
+        - Afro-Asiatic languages
+      ainu: 
+        - ain
+        - Ainu
+      akan: 
+        - aka
+        - Akan
+      akkadian: 
+        - akk
+        - Akkadian
       albanian: 
         - sqi
         - Albanian
+      aleut: 
+        - ale
+        - Aleut
+      algonquian languages: 
+        - alg
+        - Algonquian languages
+      altaic languages: 
+        - tut
+        - Altaic languages
+      amharic: 
+        - amh
+        - Amharic
+      angika: 
+        - anp
+        - Angika
+      apache languages: 
+        - apa
+        - Apache languages
+      arabic: 
+        - ara
+        - Arabic
+      aragonese: 
+        - arg
+        - Aragonese
+      arapaho: 
+        - arp
+        - Arapaho
+      arawak: 
+        - arw
+        - Arawak
       armenian: 
         - hye
         - Armenian
+      aromanian: 
+        - rup
+        - Aromanian
+      artificial languages: 
+        - art
+        - Artificial languages
+      assamese: 
+        - asm
+        - Assamese
+      asturian: 
+        - ast
+        - Asturian
+      athapascan languages: 
+        - ath
+        - Athapascan languages
+      australian languages: 
+        - aus
+        - Australian languages
+      austronesian languages: 
+        - map
+        - Austronesian languages
+      avaric: 
+        - ava
+        - Avaric
+      avestan: 
+        - ave
+        - Avestan
+      awadhi: 
+        - awa
+        - Awadhi
+      aymara: 
+        - aym
+        - Aymara
+      azerbaijani: 
+        - aze
+        - Azerbaijani
+      balinese: 
+        - ban
+        - Balinese
+      baltic languages: 
+        - bat
+        - Baltic languages
+      baluchi: 
+        - bal
+        - Baluchi
+      bambara: 
+        - bam
+        - Bambara
+      bamileke languages: 
+        - bai
+        - Bamileke languages
+      banda languages: 
+        - bad
+        - Banda languages
+      bantu (other): 
+        - bnt
+        - Bantu (Other)
+      basa: 
+        - bas
+        - Basa
+      bashkir: 
+        - bak
+        - Bashkir
       basque: 
         - eus
         - Basque
+      batak languages: 
+        - btk
+        - Batak languages
+      beja: 
+        - bej
+        - Beja
+      belarusian: 
+        - bel
+        - Belarusian
+      bemba: 
+        - bem
+        - Bemba
+      bengali: 
+        - ben
+        - Bengali
+      berber languages: 
+        - ber
+        - Berber languages
+      bhojpuri: 
+        - bho
+        - Bhojpuri
+      bihari languages: 
+        - bih
+        - Bihari languages
+      bikol: 
+        - bik
+        - Bikol
+      bini: 
+        - bin
+        - Bini
+      bislama: 
+        - bis
+        - Bislama
+      blin: 
+        - byn
+        - Blin
+      blissymbols: 
+        - zbl
+        - Blissymbols
+      bokmal, norwegian: 
+        - nob
+        - Bokmal, Norwegian
+      bosnian: 
+        - bos
+        - Bosnian
+      braj: 
+        - bra
+        - Braj
+      breton: 
+        - bre
+        - Breton
+      buginese: 
+        - bug
+        - Buginese
+      bulgarian: 
+        - bul
+        - Bulgarian
+      buriat: 
+        - bua
+        - Buriat
       burmese: 
         - mya
         - Burmese
+      caddo: 
+        - cad
+        - Caddo
+      catalan: 
+        - cat
+        - Catalan
+      caucasian languages: 
+        - cau
+        - Caucasian languages
+      cebuano: 
+        - ceb
+        - Cebuano
+      celtic languages: 
+        - cel
+        - Celtic languages
+      central american indian languages: 
+        - cai
+        - Central American Indian languages
+      central khmer: 
+        - khm
+        - Central Khmer
+      chagatai: 
+        - chg
+        - Chagatai
+      chamic languages: 
+        - cmc
+        - Chamic languages
+      chamorro: 
+        - cha
+        - Chamorro
+      chechen: 
+        - che
+        - Chechen
+      cherokee: 
+        - chr
+        - Cherokee
+      cheyenne: 
+        - chy
+        - Cheyenne
+      chibcha: 
+        - chb
+        - Chibcha
+      chichewa: 
+        - nya
+        - Chichewa
       chinese: 
         - zho
         - Chinese
+      chinook jargon: 
+        - chn
+        - Chinook jargon
+      chipewyan: 
+        - chp
+        - Chipewyan
+      choctaw: 
+        - cho
+        - Choctaw
+      church slavic: 
+        - chu
+        - Church Slavic
+      chuukese: 
+        - chk
+        - Chuukese
+      chuvash: 
+        - chv
+        - Chuvash
+      classical newari: 
+        - nwc
+        - Classical Newari
+      classical syriac: 
+        - syc
+        - Classical Syriac
+      coptic: 
+        - cop
+        - Coptic
+      cornish: 
+        - cor
+        - Cornish
+      corsican: 
+        - cos
+        - Corsican
+      cree: 
+        - cre
+        - Cree
+      creek: 
+        - mus
+        - Creek
+      "creoles and pidgins ": 
+        - crp
+        - "Creoles and pidgins "
+      creoles and pidgins, english based: 
+        - cpe
+        - Creoles and pidgins, English based
+      "creoles and pidgins, french-based ": 
+        - cpf
+        - "Creoles and pidgins, French-based "
+      "creoles and pidgins, portuguese-based ": 
+        - cpp
+        - "Creoles and pidgins, Portuguese-based "
+      crimean tatar: 
+        - crh
+        - Crimean Tatar
+      croatian: 
+        - hrv
+        - Croatian
+      cushitic languages: 
+        - cus
+        - Cushitic languages
       czech: 
         - ces
         - Czech
+      dakota: 
+        - dak
+        - Dakota
+      danish: 
+        - dan
+        - Danish
+      dargwa: 
+        - dar
+        - Dargwa
+      delaware: 
+        - del
+        - Delaware
+      dinka: 
+        - din
+        - Dinka
+      divehi: 
+        - div
+        - Divehi
+      dogri: 
+        - doi
+        - Dogri
+      dogrib: 
+        - dgr
+        - Dogrib
+      dravidian languages: 
+        - dra
+        - Dravidian languages
+      duala: 
+        - dua
+        - Duala
       dutch: 
         - nld
         - Dutch
+      dutch, middle (ca.1050-1350): 
+        - dum
+        - Dutch, Middle (ca.1050-1350)
+      dyula: 
+        - dyu
+        - Dyula
+      dzongkha: 
+        - dzo
+        - Dzongkha
+      eastern frisian: 
+        - frs
+        - Eastern Frisian
+      efik: 
+        - efi
+        - Efik
+      egyptian (ancient): 
+        - egy
+        - Egyptian (Ancient)
+      ekajuk: 
+        - eka
+        - Ekajuk
+      elamite: 
+        - elx
+        - Elamite
+      english: 
+        - eng
+        - English
+      english, middle (1100-1500): 
+        - enm
+        - English, Middle (1100-1500)
+      english, old (ca.450-1100): 
+        - ang
+        - English, Old (ca.450-1100)
+      erzya: 
+        - myv
+        - Erzya
+      esperanto: 
+        - epo
+        - Esperanto
+      estonian: 
+        - est
+        - Estonian
+      ewe: 
+        - ewe
+        - Ewe
+      ewondo: 
+        - ewo
+        - Ewondo
+      fang: 
+        - fan
+        - Fang
+      fanti: 
+        - fat
+        - Fanti
+      faroese: 
+        - fao
+        - Faroese
+      fijian: 
+        - fij
+        - Fijian
+      filipino: 
+        - fil
+        - Filipino
+      finnish: 
+        - fin
+        - Finnish
+      finno-ugrian languages: 
+        - fiu
+        - Finno-Ugrian languages
+      fon: 
+        - fon
+        - Fon
       french: 
         - fra
         - French
+      french, middle (ca.1400-1600): 
+        - frm
+        - French, Middle (ca.1400-1600)
+      french, old (842-ca.1400): 
+        - fro
+        - French, Old (842-ca.1400)
+      friulian: 
+        - fur
+        - Friulian
+      fulah: 
+        - ful
+        - Fulah
+      ga: 
+        - gaa
+        - Ga
+      gaelic: 
+        - gla
+        - Gaelic
+      galibi carib: 
+        - car
+        - Galibi Carib
+      galician: 
+        - glg
+        - Galician
+      ganda: 
+        - lug
+        - Ganda
+      gayo: 
+        - gay
+        - Gayo
+      gbaya: 
+        - gba
+        - Gbaya
+      geez: 
+        - gez
+        - Geez
       georgian: 
         - kat
         - Georgian
       german: 
         - deu
         - German
+      german, middle high (ca.1050-1500): 
+        - gmh
+        - German, Middle High (ca.1050-1500)
+      german, old high (ca.750-1050): 
+        - goh
+        - German, Old High (ca.750-1050)
+      germanic languages: 
+        - gem
+        - Germanic languages
+      gilbertese: 
+        - gil
+        - Gilbertese
+      gondi: 
+        - gon
+        - Gondi
+      gorontalo: 
+        - gor
+        - Gorontalo
+      gothic: 
+        - got
+        - Gothic
+      grebo: 
+        - grb
+        - Grebo
+      greek, ancient (to 1453): 
+        - grc
+        - Greek, Ancient (to 1453)
       greek, modern (1453-): 
         - ell
         - Greek, Modern (1453-)
+      guarani: 
+        - grn
+        - Guarani
+      gujarati: 
+        - guj
+        - Gujarati
+      gwich'in: 
+        - gwi
+        - Gwich'in
+      haida: 
+        - hai
+        - Haida
+      haitian: 
+        - hat
+        - Haitian
+      hausa: 
+        - hau
+        - Hausa
+      hawaiian: 
+        - haw
+        - Hawaiian
+      hebrew: 
+        - heb
+        - Hebrew
+      herero: 
+        - her
+        - Herero
+      hiligaynon: 
+        - hil
+        - Hiligaynon
+      himachali languages: 
+        - him
+        - Himachali languages
+      hindi: 
+        - hin
+        - Hindi
+      hiri motu: 
+        - hmo
+        - Hiri Motu
+      hittite: 
+        - hit
+        - Hittite
+      hmong: 
+        - hmn
+        - Hmong
+      hungarian: 
+        - hun
+        - Hungarian
+      hupa: 
+        - hup
+        - Hupa
+      iban: 
+        - iba
+        - Iban
       icelandic: 
         - isl
         - Icelandic
+      ido: 
+        - ido
+        - Ido
+      igbo: 
+        - ibo
+        - Igbo
+      ijo languages: 
+        - ijo
+        - Ijo languages
+      iloko: 
+        - ilo
+        - Iloko
+      inari sami: 
+        - smn
+        - Inari Sami
+      indic languages: 
+        - inc
+        - Indic languages
+      indo-european languages: 
+        - ine
+        - Indo-European languages
+      indonesian: 
+        - ind
+        - Indonesian
+      ingush: 
+        - inh
+        - Ingush
+      interlingua (international auxiliary language association): 
+        - ina
+        - Interlingua (International Auxiliary Language Association)
+      interlingue: 
+        - ile
+        - Interlingue
+      inuktitut: 
+        - iku
+        - Inuktitut
+      inupiaq: 
+        - ipk
+        - Inupiaq
+      iranian languages: 
+        - ira
+        - Iranian languages
+      irish: 
+        - gle
+        - Irish
+      irish, middle (900-1200): 
+        - mga
+        - Irish, Middle (900-1200)
+      irish, old (to 900): 
+        - sga
+        - Irish, Old (to 900)
+      iroquoian languages: 
+        - iro
+        - Iroquoian languages
+      italian: 
+        - ita
+        - Italian
+      japanese: 
+        - jpn
+        - Japanese
+      javanese: 
+        - jav
+        - Javanese
+      judeo-arabic: 
+        - jrb
+        - Judeo-Arabic
+      judeo-persian: 
+        - jpr
+        - Judeo-Persian
+      kabardian: 
+        - kbd
+        - Kabardian
+      kabyle: 
+        - kab
+        - Kabyle
+      kachin: 
+        - kac
+        - Kachin
+      kalaallisut: 
+        - kal
+        - Kalaallisut
+      kalmyk: 
+        - xal
+        - Kalmyk
+      kamba: 
+        - kam
+        - Kamba
+      kannada: 
+        - kan
+        - Kannada
+      kanuri: 
+        - kau
+        - Kanuri
+      kara-kalpak: 
+        - kaa
+        - Kara-Kalpak
+      karachay-balkar: 
+        - krc
+        - Karachay-Balkar
+      karelian: 
+        - krl
+        - Karelian
+      karen languages: 
+        - kar
+        - Karen languages
+      kashmiri: 
+        - kas
+        - Kashmiri
+      kashubian: 
+        - csb
+        - Kashubian
+      kawi: 
+        - kaw
+        - Kawi
+      kazakh: 
+        - kaz
+        - Kazakh
+      khasi: 
+        - kha
+        - Khasi
+      khoisan languages: 
+        - khi
+        - Khoisan languages
+      khotanese: 
+        - kho
+        - Khotanese
+      kikuyu: 
+        - kik
+        - Kikuyu
+      kimbundu: 
+        - kmb
+        - Kimbundu
+      kinyarwanda: 
+        - kin
+        - Kinyarwanda
+      kirghiz: 
+        - kir
+        - Kirghiz
+      klingon: 
+        - tlh
+        - Klingon
+      komi: 
+        - kom
+        - Komi
+      kongo: 
+        - kon
+        - Kongo
+      konkani: 
+        - kok
+        - Konkani
+      korean: 
+        - kor
+        - Korean
+      kosraean: 
+        - kos
+        - Kosraean
+      kpelle: 
+        - kpe
+        - Kpelle
+      kru languages: 
+        - kro
+        - Kru languages
+      kuanyama: 
+        - kua
+        - Kuanyama
+      kumyk: 
+        - kum
+        - Kumyk
+      kurdish: 
+        - kur
+        - Kurdish
+      kurukh: 
+        - kru
+        - Kurukh
+      kutenai: 
+        - kut
+        - Kutenai
+      ladino: 
+        - lad
+        - Ladino
+      lahnda: 
+        - lah
+        - Lahnda
+      lamba: 
+        - lam
+        - Lamba
+      land dayak languages: 
+        - day
+        - Land Dayak languages
+      lao: 
+        - lao
+        - Lao
+      latin: 
+        - lat
+        - Latin
+      latvian: 
+        - lav
+        - Latvian
+      lezghian: 
+        - lez
+        - Lezghian
+      limburgan: 
+        - lim
+        - Limburgan
+      lingala: 
+        - lin
+        - Lingala
+      lithuanian: 
+        - lit
+        - Lithuanian
+      lojban: 
+        - jbo
+        - Lojban
+      low german: 
+        - nds
+        - Low German
+      lower sorbian: 
+        - dsb
+        - Lower Sorbian
+      lozi: 
+        - loz
+        - Lozi
+      luba-katanga: 
+        - lub
+        - Luba-Katanga
+      luba-lulua: 
+        - lua
+        - Luba-Lulua
+      luiseno: 
+        - lui
+        - Luiseno
+      lule sami: 
+        - smj
+        - Lule Sami
+      lunda: 
+        - lun
+        - Lunda
+      luo (kenya and tanzania): 
+        - luo
+        - Luo (Kenya and Tanzania)
+      lushai: 
+        - lus
+        - Lushai
+      luxembourgish: 
+        - ltz
+        - Luxembourgish
       macedonian: 
         - mkd
         - Macedonian
+      madurese: 
+        - mad
+        - Madurese
+      magahi: 
+        - mag
+        - Magahi
+      maithili: 
+        - mai
+        - Maithili
+      makasar: 
+        - mak
+        - Makasar
+      malagasy: 
+        - mlg
+        - Malagasy
       malay: 
         - msa
         - Malay
+      malayalam: 
+        - mal
+        - Malayalam
+      maltese: 
+        - mlt
+        - Maltese
+      manchu: 
+        - mnc
+        - Manchu
+      mandar: 
+        - mdr
+        - Mandar
+      mandingo: 
+        - man
+        - Mandingo
+      manipuri: 
+        - mni
+        - Manipuri
+      manobo languages: 
+        - mno
+        - Manobo languages
+      manx: 
+        - glv
+        - Manx
       maori: 
         - mri
         - Maori
+      mapudungun: 
+        - arn
+        - Mapudungun
+      marathi: 
+        - mar
+        - Marathi
+      mari: 
+        - chm
+        - Mari
+      marshallese: 
+        - mah
+        - Marshallese
+      marwari: 
+        - mwr
+        - Marwari
+      masai: 
+        - mas
+        - Masai
+      mayan languages: 
+        - myn
+        - Mayan languages
+      mende: 
+        - men
+        - Mende
+      mi'kmaq: 
+        - mic
+        - Mi'kmaq
+      minangkabau: 
+        - min
+        - Minangkabau
+      mirandese: 
+        - mwl
+        - Mirandese
+      mohawk: 
+        - moh
+        - Mohawk
+      moksha: 
+        - mdf
+        - Moksha
+      mon-khmer languages: 
+        - mkh
+        - Mon-Khmer languages
+      mongo: 
+        - lol
+        - Mongo
+      mongolian: 
+        - mon
+        - Mongolian
+      mossi: 
+        - mos
+        - Mossi
+      multiple languages: 
+        - mul
+        - Multiple languages
+      munda languages: 
+        - mun
+        - Munda languages
+      n'ko: 
+        - nqo
+        - N'Ko
+      nahuatl languages: 
+        - nah
+        - Nahuatl languages
+      nauru: 
+        - nau
+        - Nauru
+      navajo: 
+        - nav
+        - Navajo
+      ndebele, north: 
+        - nde
+        - Ndebele, North
+      ndebele, south: 
+        - nbl
+        - Ndebele, South
+      ndonga: 
+        - ndo
+        - Ndonga
+      neapolitan: 
+        - nap
+        - Neapolitan
+      nepal bhasa: 
+        - new
+        - Nepal Bhasa
+      nepali: 
+        - nep
+        - Nepali
+      nias: 
+        - nia
+        - Nias
+      niger-kordofanian languages: 
+        - nic
+        - Niger-Kordofanian languages
+      nilo-saharan languages: 
+        - ssa
+        - Nilo-Saharan languages
+      niuean: 
+        - niu
+        - Niuean
+      no linguistic content: 
+        - zxx
+        - No linguistic content
+      nogai: 
+        - nog
+        - Nogai
+      norse, old: 
+        - non
+        - Norse, Old
+      north american indian languages: 
+        - nai
+        - North American Indian languages
+      northern frisian: 
+        - frr
+        - Northern Frisian
+      northern sami: 
+        - sme
+        - Northern Sami
+      norwegian: 
+        - nor
+        - Norwegian
+      norwegian nynorsk: 
+        - nno
+        - Norwegian Nynorsk
+      nubian languages: 
+        - nub
+        - Nubian languages
+      nyamwezi: 
+        - nym
+        - Nyamwezi
+      nyankole: 
+        - nyn
+        - Nyankole
+      nyoro: 
+        - nyo
+        - Nyoro
+      nzima: 
+        - nzi
+        - Nzima
+      occitan (post 1500): 
+        - oci
+        - Occitan (post 1500)
+      official aramaic (700-300 bce): 
+        - arc
+        - Official Aramaic (700-300 BCE)
+      ojibwa: 
+        - oji
+        - Ojibwa
+      oriya: 
+        - ori
+        - Oriya
+      oromo: 
+        - orm
+        - Oromo
+      osage: 
+        - osa
+        - Osage
+      ossetian: 
+        - oss
+        - Ossetian
+      otomian languages: 
+        - oto
+        - Otomian languages
+      pahlavi: 
+        - pal
+        - Pahlavi
+      palauan: 
+        - pau
+        - Palauan
+      pali: 
+        - pli
+        - Pali
+      pampanga: 
+        - pam
+        - Pampanga
+      pangasinan: 
+        - pag
+        - Pangasinan
+      panjabi: 
+        - pan
+        - Panjabi
+      papiamento: 
+        - pap
+        - Papiamento
+      papuan languages: 
+        - paa
+        - Papuan languages
+      pedi: 
+        - nso
+        - Pedi
       persian: 
         - fas
         - Persian
+      persian, old (ca.600-400 b.c.): 
+        - peo
+        - Persian, Old (ca.600-400 B.C.)
+      philippine languages: 
+        - phi
+        - Philippine languages
+      phoenician: 
+        - phn
+        - Phoenician
+      pohnpeian: 
+        - pon
+        - Pohnpeian
+      polish: 
+        - pol
+        - Polish
+      portuguese: 
+        - por
+        - Portuguese
+      prakrit languages: 
+        - pra
+        - Prakrit languages
+      provencal, old (to 1500): 
+        - pro
+        - Provencal, Old (to 1500)
+      pushto: 
+        - pus
+        - Pushto
+      quechua: 
+        - que
+        - Quechua
+      rajasthani: 
+        - raj
+        - Rajasthani
+      rapanui: 
+        - rap
+        - Rapanui
+      rarotongan: 
+        - rar
+        - Rarotongan
+      reserved for local use: 
+        - qtz
+        - Reserved for local use
+      romance languages: 
+        - roa
+        - Romance languages
       romanian: 
         - ron
         - Romanian
+      romansh: 
+        - roh
+        - Romansh
+      romany: 
+        - rom
+        - Romany
+      rundi: 
+        - run
+        - Rundi
+      russian: 
+        - rus
+        - Russian
+      salishan languages: 
+        - sal
+        - Salishan languages
+      samaritan aramaic: 
+        - sam
+        - Samaritan Aramaic
+      sami languages: 
+        - smi
+        - Sami languages
+      samoan: 
+        - smo
+        - Samoan
+      sandawe: 
+        - sad
+        - Sandawe
+      sango: 
+        - sag
+        - Sango
+      sanskrit: 
+        - san
+        - Sanskrit
+      santali: 
+        - sat
+        - Santali
+      sardinian: 
+        - srd
+        - Sardinian
+      sasak: 
+        - sas
+        - Sasak
+      scots: 
+        - sco
+        - Scots
+      selkup: 
+        - sel
+        - Selkup
+      semitic languages: 
+        - sem
+        - Semitic languages
+      serbian: 
+        - srp
+        - Serbian
+      serer: 
+        - srr
+        - Serer
+      shan: 
+        - shn
+        - Shan
+      shona: 
+        - sna
+        - Shona
+      sichuan yi: 
+        - iii
+        - Sichuan Yi
+      sicilian: 
+        - scn
+        - Sicilian
+      sidamo: 
+        - sid
+        - Sidamo
+      sign languages: 
+        - sgn
+        - Sign Languages
+      siksika: 
+        - bla
+        - Siksika
+      sindhi: 
+        - snd
+        - Sindhi
+      sinhala: 
+        - sin
+        - Sinhala
+      sino-tibetan languages: 
+        - sit
+        - Sino-Tibetan languages
+      siouan languages: 
+        - sio
+        - Siouan languages
+      skolt sami: 
+        - sms
+        - Skolt Sami
+      slave (athapascan): 
+        - den
+        - Slave (Athapascan)
+      slavic languages: 
+        - sla
+        - Slavic languages
       slovak: 
         - slk
         - Slovak
+      slovenian: 
+        - slv
+        - Slovenian
+      sogdian: 
+        - sog
+        - Sogdian
+      somali: 
+        - som
+        - Somali
+      songhai languages: 
+        - son
+        - Songhai languages
+      soninke: 
+        - snk
+        - Soninke
+      sorbian languages: 
+        - wen
+        - Sorbian languages
+      sotho, southern: 
+        - sot
+        - Sotho, Southern
+      south american indian (other): 
+        - sai
+        - South American Indian (Other)
+      southern altai: 
+        - alt
+        - Southern Altai
+      southern sami: 
+        - sma
+        - Southern Sami
+      spanish: 
+        - spa
+        - Spanish
+      sranan tongo: 
+        - srn
+        - Sranan Tongo
+      standard moroccan tamazight: 
+        - zgh
+        - Standard Moroccan Tamazight
+      sukuma: 
+        - suk
+        - Sukuma
+      sumerian: 
+        - sux
+        - Sumerian
+      sundanese: 
+        - sun
+        - Sundanese
+      susu: 
+        - sus
+        - Susu
+      swahili: 
+        - swa
+        - Swahili
+      swati: 
+        - ssw
+        - Swati
+      swedish: 
+        - swe
+        - Swedish
+      swiss german: 
+        - gsw
+        - Swiss German
+      syriac: 
+        - syr
+        - Syriac
+      tagalog: 
+        - tgl
+        - Tagalog
+      tahitian: 
+        - tah
+        - Tahitian
+      tai languages: 
+        - tai
+        - Tai languages
+      tajik: 
+        - tgk
+        - Tajik
+      tamashek: 
+        - tmh
+        - Tamashek
+      tamil: 
+        - tam
+        - Tamil
+      tatar: 
+        - tat
+        - Tatar
+      telugu: 
+        - tel
+        - Telugu
+      tereno: 
+        - ter
+        - Tereno
+      tetum: 
+        - tet
+        - Tetum
+      thai: 
+        - tha
+        - Thai
       tibetan: 
         - bod
         - Tibetan
+      tigre: 
+        - tig
+        - Tigre
+      tigrinya: 
+        - tir
+        - Tigrinya
+      timne: 
+        - tem
+        - Timne
+      tiv: 
+        - tiv
+        - Tiv
+      tlingit: 
+        - tli
+        - Tlingit
+      tok pisin: 
+        - tpi
+        - Tok Pisin
+      tokelau: 
+        - tkl
+        - Tokelau
+      tonga (nyasa): 
+        - tog
+        - Tonga (Nyasa)
+      tonga (tonga islands): 
+        - ton
+        - Tonga (Tonga Islands)
+      tsimshian: 
+        - tsi
+        - Tsimshian
+      tsonga: 
+        - tso
+        - Tsonga
+      tswana: 
+        - tsn
+        - Tswana
+      tumbuka: 
+        - tum
+        - Tumbuka
+      tupi languages: 
+        - tup
+        - Tupi languages
+      turkish: 
+        - tur
+        - Turkish
+      turkish, ottoman (1500-1928): 
+        - ota
+        - Turkish, Ottoman (1500-1928)
+      turkmen: 
+        - tuk
+        - Turkmen
+      tuvalu: 
+        - tvl
+        - Tuvalu
+      tuvinian: 
+        - tyv
+        - Tuvinian
+      twi: 
+        - twi
+        - Twi
+      udmurt: 
+        - udm
+        - Udmurt
+      ugaritic: 
+        - uga
+        - Ugaritic
+      uighur: 
+        - uig
+        - Uighur
+      ukrainian: 
+        - ukr
+        - Ukrainian
+      umbundu: 
+        - umb
+        - Umbundu
+      uncoded languages: 
+        - mis
+        - Uncoded languages
+      undetermined: 
+        - und
+        - Undetermined
+      upper sorbian: 
+        - hsb
+        - Upper Sorbian
+      urdu: 
+        - urd
+        - Urdu
+      uzbek: 
+        - uzb
+        - Uzbek
+      vai: 
+        - vai
+        - Vai
+      venda: 
+        - ven
+        - Venda
+      vietnamese: 
+        - vie
+        - Vietnamese
+      volapuk: 
+        - vol
+        - Volapuk
+      votic: 
+        - vot
+        - Votic
+      wakashan languages: 
+        - wak
+        - Wakashan languages
+      walamo: 
+        - wal
+        - Walamo
+      walloon: 
+        - wln
+        - Walloon
+      waray: 
+        - war
+        - Waray
+      washo: 
+        - was
+        - Washo
       welsh: 
         - cym
         - Welsh
+      western frisian: 
+        - fry
+        - Western Frisian
+      wolof: 
+        - wol
+        - Wolof
+      xhosa: 
+        - xho
+        - Xhosa
+      yakut: 
+        - sah
+        - Yakut
+      yao: 
+        - yao
+        - Yao
+      yapese: 
+        - yap
+        - Yapese
+      yiddish: 
+        - yid
+        - Yiddish
+      yoruba: 
+        - yor
+        - Yoruba
+      yupik languages: 
+        - ypk
+        - Yupik languages
+      zande languages: 
+        - znd
+        - Zande languages
+      zapotec: 
+        - zap
+        - Zapotec
+      zaza: 
+        - zza
+        - Zaza
+      zenaga: 
+        - zen
+        - Zenaga
+      zhuang: 
+        - zha
+        - Zhuang
+      zulu: 
+        - zul
+        - Zulu
+      zuni: 
+        - zun
+        - Zuni
 langvar: 
   alpha: 
     code: 
@@ -39398,10 +41262,12 @@ langvar:
 script: 
   alpha: 
     code: 
+      Adlm: Adlam
       Afak: Afaka
       Aghb: Caucasian Albanian
       Ahom: Ahom
       Arab: Arabic
+      Aran: Arabic (Nastaliq variant)
       Armi: Imperial Aramaic
       Armn: Armenian
       Avst: Avestan
@@ -39464,6 +41330,8 @@ script:
       Khar: Kharoshthi
       Khmr: Khmer
       Khoj: Khojki
+      Kitl: Khitan large script
+      Kits: Khitan small script
       Knda: Kannada
       Kore: Korean (alias for Hangul + Han)
       Kpel: Kpelle
@@ -39484,6 +41352,7 @@ script:
       Mahj: Mahajani
       Mand: Mandaic
       Mani: Manichaean
+      Marc: Marchen
       Maya: Mayan hieroglyphs
       Mend: Mende Kikakui
       Merc: Meroitic Cursive
@@ -39505,6 +41374,7 @@ script:
       Olck: Ol Chiki
       Orkh: Old Turkic
       Orya: Oriya
+      Osge: Osage
       Osma: Osmanya
       Palm: Palmyrene
       Pauc: Pau Cin Hau
@@ -39565,6 +41435,9 @@ script:
       Zmth: Mathematical notation
       Zsym: Symbols
     name: 
+      adlam: 
+        - Adlm
+        - Adlam
       afaka: 
         - Afak
         - Afaka
@@ -39577,6 +41450,9 @@ script:
       arabic: 
         - Arab
         - Arabic
+      arabic (nastaliq variant): 
+        - Aran
+        - Arabic (Nastaliq variant)
       armenian: 
         - Armn
         - Armenian
@@ -39760,6 +41636,12 @@ script:
       kharoshthi: 
         - Khar
         - Kharoshthi
+      khitan large script: 
+        - Kitl
+        - Khitan large script
+      khitan small script: 
+        - Kits
+        - Khitan small script
       khmer: 
         - Khmr
         - Khmer
@@ -39826,6 +41708,9 @@ script:
       manichaean: 
         - Mani
         - Manichaean
+      marchen: 
+        - Marc
+        - Marchen
       mathematical notation: 
         - Zmth
         - Mathematical notation
@@ -39848,7 +41733,7 @@ script:
         - Plrd
         - Miao
       modi: 
-        - Mult
+        - Modi
         - Modi
       mongolian: 
         - Mong
@@ -39910,6 +41795,9 @@ script:
       oriya: 
         - Orya
         - Oriya
+      osage: 
+        - Osge
+        - Osage
       osmanya: 
         - Osma
         - Osmanya
@@ -40100,7 +41988,9 @@ script:
       145: Mongolian
       159: Nabataean
       160: Arabic
+      161: Arabic (Nastaliq variant)
       165: N'Ko
+      166: Adlam
       170: Thaana
       175: Old Turkic, Orkhon Runic
       176: Old Hungarian (Hungarian Runic)
@@ -40117,6 +42007,7 @@ script:
       216: Latin (Gaelic variant)
       217: Latin (Fraktur variant)
       218: Moon (Moon code, Moon script, Moon type)
+      219: Osage
       220: Cyrillic
       221: Cyrillic (Old Church Slavonic variant)
       225: Glagolitic
@@ -40138,6 +42029,7 @@ script:
       285: Bopomofo
       286: Hangul (Hangul, Hangeul)
       287: Korean (alias for Hangul + Han)
+      288: Khitan small script
       290: Tengwar
       291: Cirth
       292: Sarati
@@ -40154,12 +42046,14 @@ script:
       320: Gujarati
       321: Takri, Takri, Tankri
       322: Khojki
-      323: " Multani"
+      323: Multani
+      324: Modi, Modi
       325: Bengali
       326: Tirhuta
       327: Oriya
       330: Tibetan
       331: Phags-pa
+      332: Marchen
       335: Lepcha (Rong)
       336: Limbu
       337: Meitei Mayek (Meithei, Meetei)
@@ -40218,6 +42112,7 @@ script:
       500: Han (Hanzi, Kanji, Hanja)
       501: Han (Simplified variant)
       502: Han (Traditional variant)
+      505: Khitan large script
       510: Jurchen
       520: Tangut
       550: Blissymbols
@@ -40231,9 +42126,9 @@ script:
       995: Mathematical notation
       996: Symbols
     name: 
-      " multani": 
-        - 323
-        - " Multani"
+      adlam: 
+        - 166
+        - Adlam
       afaka: 
         - 439
         - Afaka
@@ -40246,6 +42141,9 @@ script:
       arabic: 
         - 160
         - Arabic
+      arabic (nastaliq variant): 
+        - 161
+        - Arabic (Nastaliq variant)
       armenian: 
         - 230
         - Armenian
@@ -40432,6 +42330,12 @@ script:
       kharoshthi: 
         - 305
         - Kharoshthi
+      khitan large script: 
+        - 505
+        - Khitan large script
+      khitan small script: 
+        - 288
+        - Khitan small script
       khmer: 
         - 355
         - Khmer
@@ -40498,6 +42402,9 @@ script:
       manichaean: 
         - 139
         - Manichaean
+      marchen: 
+        - 332
+        - Marchen
       mathematical notation: 
         - 995
         - Mathematical notation
@@ -40519,6 +42426,9 @@ script:
       miao (pollard): 
         - 282
         - Miao (Pollard)
+      modi, modi: 
+        - 324
+        - Modi, Modi
       mongolian: 
         - 145
         - Mongolian
@@ -40528,6 +42438,9 @@ script:
       mro, mru: 
         - 199
         - Mro, Mru
+      multani: 
+        - 323
+        - Multani
       myanmar (burmese): 
         - 350
         - Myanmar (Burmese)
@@ -40576,6 +42489,9 @@ script:
       oriya: 
         - 327
         - Oriya
+      osage: 
+        - 219
+        - Osage
       osmanya: 
         - 260
         - Osmanya

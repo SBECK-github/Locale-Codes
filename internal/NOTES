@@ -168,6 +168,7 @@ Create the patch (NOTE: fix the version numbers):
 
    git commit -a -m "Bump Locale-Codes from $old to $new"
    git format-patch origin
+   gzip 0001*
    mv 0001* /tmp
 
 Modify the patch to include the correct email address at the top

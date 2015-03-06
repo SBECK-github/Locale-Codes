@@ -30,7 +30,7 @@ country:
       bl: Saint Barthelemy
       bm: Bermuda
       bn: Brunei Darussalam
-      bo: Bolivia, Plurinational State of
+      bo: Bolivia (Plurinational State of)
       bq: Bonaire, Sint Eustatius and Saba
       br: Brazil
       bs: Bahamas
@@ -74,11 +74,11 @@ country:
       fi: Finland
       fj: Fiji
       fk: Falkland Islands (The) [Malvinas]
-      fm: Micronesia, The Federated States of
+      fm: Micronesia (Federated States of)
       fo: Faroe Islands
       fr: France
       ga: Gabon
-      gb: United Kingdom
+      gb: United Kingdom of Great Britain and Northern Ireland
       gd: Grenada
       ge: Georgia
       gf: French Guiana
@@ -109,7 +109,7 @@ country:
       in: India
       io: British Indian Ocean Territory
       iq: Iraq
-      ir: Iran, The Islamic Republic of
+      ir: Iran (Islamic Republic of)
       is: Iceland
       it: Italy
       je: Jersey
@@ -234,12 +234,12 @@ country:
       ua: Ukraine
       ug: Uganda
       um: United States Minor Outlying Islands
-      us: United States
+      us: United States of America
       uy: Uruguay
       uz: Uzbekistan
-      va: Holy See (The) [Vatican City State]
+      va: Holy See
       vc: Saint Vincent and the Grenadines
-      ve: "Venezuela, Bolivarian Republic of "
+      ve: Venezuela (Bolivarian Republic of)
       vg: Virgin Islands (British)
       vi: Virgin Islands (U.S.)
       vn: Viet Nam
@@ -330,9 +330,9 @@ country:
       bhutan: 
         - bt
         - Bhutan
-      bolivia, plurinational state of: 
+      bolivia (plurinational state of): 
         - bo
-        - Bolivia, Plurinational State of
+        - Bolivia (Plurinational State of)
       bonaire, sint eustatius and saba: 
         - bq
         - Bonaire, Sint Eustatius and Saba
@@ -543,9 +543,9 @@ country:
       heard island and mcdonald islands: 
         - hm
         - Heard Island and McDonald Islands
-      holy see (the) [vatican city state]: 
+      holy see: 
         - va
-        - Holy See (The) [Vatican City State]
+        - Holy See
       honduras: 
         - hn
         - Honduras
@@ -564,9 +564,9 @@ country:
       indonesia: 
         - id
         - Indonesia
-      iran, the islamic republic of: 
+      iran (islamic republic of): 
         - ir
-        - Iran, The Islamic Republic of
+        - Iran (Islamic Republic of)
       iraq: 
         - iq
         - Iraq
@@ -684,9 +684,9 @@ country:
       mexico: 
         - mx
         - Mexico
-      micronesia, the federated states of: 
+      micronesia (federated states of): 
         - fm
-        - Micronesia, The Federated States of
+        - Micronesia (Federated States of)
       moldova, the republic of: 
         - md
         - Moldova, The Republic of
@@ -954,15 +954,15 @@ country:
       united arab emirates: 
         - ae
         - United Arab Emirates
-      united kingdom: 
+      united kingdom of great britain and northern ireland: 
         - gb
-        - United Kingdom
-      united states: 
-        - us
-        - United States
+        - United Kingdom of Great Britain and Northern Ireland
       united states minor outlying islands: 
         - um
         - United States Minor Outlying Islands
+      united states of america: 
+        - us
+        - United States of America
       uruguay: 
         - uy
         - Uruguay
@@ -972,9 +972,9 @@ country:
       vanuatu: 
         - vu
         - Vanuatu
-      "venezuela, bolivarian republic of ": 
+      venezuela (bolivarian republic of): 
         - ve
-        - "Venezuela, Bolivarian Republic of "
+        - Venezuela (Bolivarian Republic of)
       viet nam: 
         - vn
         - Viet Nam
@@ -1032,7 +1032,7 @@ country:
       blr: Belarus
       blz: Belize
       bmu: Bermuda
-      bol: Bolivia, Plurinational State of
+      bol: Bolivia (Plurinational State of)
       bra: Brazil
       brb: Barbados
       brn: Brunei Darussalam
@@ -1078,9 +1078,9 @@ country:
       flk: Falkland Islands (The) [Malvinas]
       fra: France
       fro: Faroe Islands
-      fsm: Micronesia, The Federated States of
+      fsm: Micronesia (Federated States of)
       gab: Gabon
-      gbr: United Kingdom
+      gbr: United Kingdom of Great Britain and Northern Ireland
       geo: Georgia
       ggy: Guernsey
       gha: Ghana
@@ -1108,7 +1108,7 @@ country:
       ind: India
       iot: British Indian Ocean Territory
       irl: Ireland
-      irn: Iran, The Islamic Republic of
+      irn: Iran (Islamic Republic of)
       irq: Iraq
       isl: Iceland
       isr: Israel
@@ -1235,11 +1235,11 @@ country:
       ukr: Ukraine
       umi: United States Minor Outlying Islands
       ury: Uruguay
-      usa: United States
+      usa: United States of America
       uzb: Uzbekistan
-      vat: Holy See (The) [Vatican City State]
+      vat: Holy See
       vct: Saint Vincent and the Grenadines
-      ven: "Venezuela, Bolivarian Republic of "
+      ven: Venezuela (Bolivarian Republic of)
       vgb: Virgin Islands (British)
       vir: Virgin Islands (U.S.)
       vnm: Viet Nam
@@ -1329,9 +1329,9 @@ country:
       bhutan: 
         - btn
         - Bhutan
-      bolivia, plurinational state of: 
+      bolivia (plurinational state of): 
         - bol
-        - Bolivia, Plurinational State of
+        - Bolivia (Plurinational State of)
       bonaire, sint eustatius and saba: 
         - bes
         - Bonaire, Sint Eustatius and Saba
@@ -1542,9 +1542,9 @@ country:
       heard island and mcdonald islands: 
         - hmd
         - Heard Island and McDonald Islands
-      holy see (the) [vatican city state]: 
+      holy see: 
         - vat
-        - Holy See (The) [Vatican City State]
+        - Holy See
       honduras: 
         - hnd
         - Honduras
@@ -1563,9 +1563,9 @@ country:
       indonesia: 
         - idn
         - Indonesia
-      iran, the islamic republic of: 
+      iran (islamic republic of): 
         - irn
-        - Iran, The Islamic Republic of
+        - Iran (Islamic Republic of)
       iraq: 
         - irq
         - Iraq
@@ -1683,9 +1683,9 @@ country:
       mexico: 
         - mex
         - Mexico
-      micronesia, the federated states of: 
+      micronesia (federated states of): 
         - fsm
-        - Micronesia, The Federated States of
+        - Micronesia (Federated States of)
       moldova, the republic of: 
         - mda
         - Moldova, The Republic of
@@ -1953,15 +1953,15 @@ country:
       united arab emirates: 
         - are
         - United Arab Emirates
-      united kingdom: 
+      united kingdom of great britain and northern ireland: 
         - gbr
-        - United Kingdom
-      united states: 
-        - usa
-        - United States
+        - United Kingdom of Great Britain and Northern Ireland
       united states minor outlying islands: 
         - umi
         - United States Minor Outlying Islands
+      united states of america: 
+        - usa
+        - United States of America
       uruguay: 
         - ury
         - Uruguay
@@ -1971,9 +1971,9 @@ country:
       vanuatu: 
         - vut
         - Vanuatu
-      "venezuela, bolivarian republic of ": 
+      venezuela (bolivarian republic of): 
         - ven
-        - "Venezuela, Bolivarian Republic of "
+        - Venezuela (Bolivarian Republic of)
       viet nam: 
         - vnm
         - Viet Nam
@@ -2028,7 +2028,7 @@ country:
       bl: Saint Barthelemy
       bm: Bermuda
       bn: Brunei Darussalam
-      bo: Bolivia, Plurinational State of
+      bo: Bolivia (Plurinational State of)
       bq: Bonaire, Sint Eustatius and Saba
       br: Brazil
       bs: Bahamas
@@ -2072,11 +2072,11 @@ country:
       fi: Finland
       fj: Fiji
       fk: Falkland Islands (The) [Malvinas]
-      fm: Micronesia, The Federated States of
+      fm: Micronesia (Federated States of)
       fo: Faroe Islands
       fr: France
       ga: Gabon
-      gb: United Kingdom
+      gb: United Kingdom of Great Britain and Northern Ireland
       gd: Grenada
       ge: Georgia
       gf: French Guiana
@@ -2107,7 +2107,7 @@ country:
       in: India
       io: British Indian Ocean Territory
       iq: Iraq
-      ir: Iran, The Islamic Republic of
+      ir: Iran (Islamic Republic of)
       is: Iceland
       it: Italy
       je: Jersey
@@ -2232,12 +2232,12 @@ country:
       ua: Ukraine
       ug: Uganda
       um: United States Minor Outlying Islands
-      us: United States
+      us: United States of America
       uy: Uruguay
       uz: Uzbekistan
-      va: Holy See (The) [Vatican City State]
+      va: Holy See
       vc: Saint Vincent and the Grenadines
-      ve: "Venezuela, Bolivarian Republic of "
+      ve: Venezuela (Bolivarian Republic of)
       vg: Virgin Islands (British)
       vi: Virgin Islands (U.S.)
       vn: Viet Nam
@@ -2328,9 +2328,9 @@ country:
       bhutan: 
         - bt
         - Bhutan
-      bolivia, plurinational state of: 
+      bolivia (plurinational state of): 
         - bo
-        - Bolivia, Plurinational State of
+        - Bolivia (Plurinational State of)
       bonaire, sint eustatius and saba: 
         - bq
         - Bonaire, Sint Eustatius and Saba
@@ -2541,9 +2541,9 @@ country:
       heard island and mcdonald islands: 
         - hm
         - Heard Island and McDonald Islands
-      holy see (the) [vatican city state]: 
+      holy see: 
         - va
-        - Holy See (The) [Vatican City State]
+        - Holy See
       honduras: 
         - hn
         - Honduras
@@ -2562,9 +2562,9 @@ country:
       indonesia: 
         - id
         - Indonesia
-      iran, the islamic republic of: 
+      iran (islamic republic of): 
         - ir
-        - Iran, The Islamic Republic of
+        - Iran (Islamic Republic of)
       iraq: 
         - iq
         - Iraq
@@ -2682,9 +2682,9 @@ country:
       mexico: 
         - mx
         - Mexico
-      micronesia, the federated states of: 
+      micronesia (federated states of): 
         - fm
-        - Micronesia, The Federated States of
+        - Micronesia (Federated States of)
       moldova, the republic of: 
         - md
         - Moldova, The Republic of
@@ -2952,15 +2952,15 @@ country:
       united arab emirates: 
         - ae
         - United Arab Emirates
-      united kingdom: 
+      united kingdom of great britain and northern ireland: 
         - gb
-        - United Kingdom
-      united states: 
-        - us
-        - United States
+        - United Kingdom of Great Britain and Northern Ireland
       united states minor outlying islands: 
         - um
         - United States Minor Outlying Islands
+      united states of america: 
+        - us
+        - United States of America
       uruguay: 
         - uy
         - Uruguay
@@ -2970,9 +2970,9 @@ country:
       vanuatu: 
         - vu
         - Vanuatu
-      "venezuela, bolivarian republic of ": 
+      venezuela (bolivarian republic of): 
         - ve
-        - "Venezuela, Bolivarian Republic of "
+        - Venezuela (Bolivarian Republic of)
       viet nam: 
         - vn
         - Viet Nam
@@ -3019,7 +3019,7 @@ country:
       "056": Belgium
       "060": Bermuda
       "064": Bhutan
-      "068": Bolivia, Plurinational State of
+      "068": Bolivia (Plurinational State of)
       "070": Bosnia and Herzegovina
       "072": Botswana
       "074": Bouvet Island
@@ -3096,14 +3096,14 @@ country:
       328: Guyana
       332: Haiti
       334: Heard Island and McDonald Islands
-      336: Holy See (The) [Vatican City State]
+      336: Holy See
       340: Honduras
       344: Hong Kong
       348: Hungary
       352: Iceland
       356: India
       360: Indonesia
-      364: Iran, The Islamic Republic of
+      364: Iran (Islamic Republic of)
       368: Iraq
       372: Ireland
       376: Israel
@@ -3165,7 +3165,7 @@ country:
       578: Norway
       580: Northern Mariana Islands
       581: United States Minor Outlying Islands
-      583: Micronesia, The Federated States of
+      583: Micronesia (Federated States of)
       584: Marshall Islands
       585: Palau
       586: Pakistan
@@ -3233,17 +3233,17 @@ country:
       804: Ukraine
       807: Macedonia, The former Yugoslav Republic of
       818: Egypt
-      826: United Kingdom
+      826: United Kingdom of Great Britain and Northern Ireland
       831: Guernsey
       832: Jersey
       833: Isle of Man
       834: Tanzania, United Republic of
-      840: United States
+      840: United States of America
       850: Virgin Islands (U.S.)
       854: Burkina Faso
       858: Uruguay
       860: Uzbekistan
-      862: "Venezuela, Bolivarian Republic of "
+      862: Venezuela (Bolivarian Republic of)
       876: Wallis and Futuna
       882: Samoa
       887: Yemen
@@ -3327,9 +3327,9 @@ country:
       bhutan: 
         - '064'
         - Bhutan
-      bolivia, plurinational state of: 
+      bolivia (plurinational state of): 
         - '068'
-        - Bolivia, Plurinational State of
+        - Bolivia (Plurinational State of)
       bonaire, sint eustatius and saba: 
         - 535
         - Bonaire, Sint Eustatius and Saba
@@ -3540,9 +3540,9 @@ country:
       heard island and mcdonald islands: 
         - 334
         - Heard Island and McDonald Islands
-      holy see (the) [vatican city state]: 
+      holy see: 
         - 336
-        - Holy See (The) [Vatican City State]
+        - Holy See
       honduras: 
         - 340
         - Honduras
@@ -3561,9 +3561,9 @@ country:
       indonesia: 
         - 360
         - Indonesia
-      iran, the islamic republic of: 
+      iran (islamic republic of): 
         - 364
-        - Iran, The Islamic Republic of
+        - Iran (Islamic Republic of)
       iraq: 
         - 368
         - Iraq
@@ -3681,9 +3681,9 @@ country:
       mexico: 
         - 484
         - Mexico
-      micronesia, the federated states of: 
+      micronesia (federated states of): 
         - 583
-        - Micronesia, The Federated States of
+        - Micronesia (Federated States of)
       moldova, the republic of: 
         - 498
         - Moldova, The Republic of
@@ -3951,15 +3951,15 @@ country:
       united arab emirates: 
         - 784
         - United Arab Emirates
-      united kingdom: 
+      united kingdom of great britain and northern ireland: 
         - 826
-        - United Kingdom
-      united states: 
-        - 840
-        - United States
+        - United Kingdom of Great Britain and Northern Ireland
       united states minor outlying islands: 
         - 581
         - United States Minor Outlying Islands
+      united states of america: 
+        - 840
+        - United States of America
       uruguay: 
         - 858
         - Uruguay
@@ -3969,9 +3969,9 @@ country:
       vanuatu: 
         - 548
         - Vanuatu
-      "venezuela, bolivarian republic of ": 
+      venezuela (bolivarian republic of): 
         - 862
-        - "Venezuela, Bolivarian Republic of "
+        - Venezuela (Bolivarian Republic of)
       viet nam: 
         - 704
         - Viet Nam
@@ -4086,7 +4086,6 @@ currency:
       LKR: Sri Lanka Rupee
       LRD: Liberian Dollar
       LSL: Loti
-      LTL: Lithuanian Litas
       LYD: Libyan Dinar
       MAD: Moroccan Dirham
       MDL: Moldovan Leu
@@ -4438,9 +4437,6 @@ currency:
       lilangeni: 
         - SZL
         - Lilangeni
-      lithuanian litas: 
-        - LTL
-        - Lithuanian Litas
       loti: 
         - LSL
         - Loti
@@ -4778,7 +4774,6 @@ currency:
       426: Loti
       430: Liberian Dollar
       434: Libyan Dinar
-      440: Lithuanian Litas
       446: Pataca
       454: Kwacha
       458: Malaysian Ringgit
@@ -5149,9 +5144,6 @@ currency:
       lilangeni: 
         - 748
         - Lilangeni
-      lithuanian litas: 
-        - 440
-        - Lithuanian Litas
       loti: 
         - 426
         - Loti
@@ -5519,6 +5511,7 @@ langext:
       hsl: Hausa Sign Language
       hsn: Xiang Chinese
       icl: Icelandic Sign Language
+      iks: Inuit Sign Language
       ils: International Sign
       inl: Indonesian Sign Language
       ins: Indian Sign Language
@@ -5641,7 +5634,6 @@ langext:
       xml: Malaysian Sign Language
       xmm: Manado Malay
       xms: Moroccan Sign Language
-      yds: Yiddish Sign Language
       ygs: Yolnu Sign Language
       ysl: Yugoslavian Sign Language
       yue: Yue Chinese
@@ -5903,6 +5895,9 @@ langext:
       international sign: 
         - ils
         - International Sign
+      inuit sign language: 
+        - iks
+        - Inuit Sign Language
       irish sign language: 
         - isg
         - Irish Sign Language
@@ -6314,9 +6309,6 @@ langext:
       xiang chinese: 
         - hsn
         - Xiang Chinese
-      yiddish sign language: 
-        - yds
-        - Yiddish Sign Language
       yolnu sign language: 
         - ygs
         - Yolnu Sign Language
@@ -7092,7 +7084,6 @@ language:
       aai: Arifama-Miniafia
       aak: Ankave
       aal: Afade
-      aam: Aramanik
       aan: Anambe
       aao: Algerian Saharan Arabic
       aap: Para Arara
@@ -7165,7 +7156,6 @@ language:
       adl: Galo
       adn: Adang
       ado: Abu
-      adp: Adap
       adq: Adangbe
       adr: Adonara
       ads: Adamorobe Sign Language
@@ -7179,7 +7169,7 @@ language:
       aeb: Tunisian Arabic
       aec: Saidi Arabic
       aed: Argentine Sign Language
-      aee: Northeast Pashayi
+      aee: Northeast Pashai
       aek: Haeke
       ael: Ambele
       aem: Arem
@@ -7396,7 +7386,7 @@ language:
       aon: Bumbita Arapesh
       aor: Aore
       aos: Taikat
-      aot: A'tong
+      aot: Atong
       aou: A'ou
       aox: Atorada
       aoz: Uab Meto
@@ -7517,7 +7507,6 @@ language:
       aub: Alugu
       auc: Waorani
       aud: Anuta
-      aue: =/Kx'au//'ein
       auf: Arauan languages
       aug: Aguna
       auh: Aushi
@@ -7937,7 +7926,6 @@ language:
       bmv: Bum
       bmw: Bomwali
       bmx: Baimak
-      bmy: Bemba (Democratic Republic of Congo)
       bmz: Baramu
       bna: Bonerate
       bnb: Bookan
@@ -8209,7 +8197,6 @@ language:
       bxu: China Buriat
       bxv: Berakou
       bxw: Bankagooma
-      bxx: Borna (Democratic Republic of Congo)
       bxz: Binahari
       bya: Batak
       byb: Bikya
@@ -8234,7 +8221,6 @@ language:
       byv: Medumba
       byw: Belhariya
       byx: Qaqet
-      byy: Buya
       byz: Banaro
       bza: Bandi
       bzb: Andio
@@ -8301,6 +8287,7 @@ language:
       cbl: Bualkhaw Chin
       cbn: Nyahkur
       cbo: Izora
+      cbq: Tsucuba
       cbr: Cashibo-Cacataibo
       cbs: Cashinahua
       cbt: Chayahuita
@@ -8887,7 +8874,6 @@ language:
       dyu: Dyula
       dyy: Dyaabugay
       dza: Tunzu
-      dzd: Daza
       dze: Djiwarli
       dzg: Dazaga
       dzl: Dzalakha
@@ -9209,7 +9195,6 @@ language:
       gez: Geez
       gfk: Patpatar
       gft: Gafat
-      gfx: Mangetti Dune !Xung
       gga: Gao
       ggb: Gbii
       ggd: Gugadj
@@ -9262,12 +9247,13 @@ language:
       gkn: Gokana
       gko: Kok-Nar
       gkp: Guinea Kpelle
+      gku: Ungkue
       gla: Gaelic
       glc: Bon Gula
       gld: Nanai
       gle: Irish
       glg: Galician
-      glh: Northwest Pashayi
+      glh: Northwest Pashai
       gli: Guliguli
       glj: Gula Iro
       glk: Gilaki
@@ -9379,7 +9365,6 @@ language:
       gss: Greek Sign Language
       gsw: Swiss German
       gta: Guato
-      gti: Gbati-ri
       gtu: Aghu-Tharnggala
       gua: Shiki
       gub: Guajajara
@@ -9713,6 +9698,7 @@ language:
       iko: Olulumo-Ikom
       ikp: Ikpeshi
       ikr: Ikaranggal
+      iks: Inuit Sign Language
       ikt: Inuinnaqtun
       iku: Inuktitut
       ikv: Iku-Gora-Ankwa
@@ -9731,7 +9717,6 @@ language:
       ilu: Ili'uun
       ilv: Ilue
       ima: Mala Malasar
-      ime: Imeraguen
       imi: Anamgura
       iml: Miluk
       imn: Imonda
@@ -9889,6 +9874,7 @@ language:
       jiu: Youle Jinuo
       jiv: Shuar
       jiy: Buyuan Jinuo
+      jje: Jejueo
       jjr: Bankal
       jkm: Mobwa Karen
       jko: Kubo
@@ -9985,7 +9971,6 @@ language:
       kbc: Kadiweu
       kbd: Kabardian
       kbe: Kanju
-      kbf: Kakauhua
       kbg: Khamba
       kbh: Camsa
       kbi: Kaptiau
@@ -10204,6 +10189,7 @@ language:
       kjs: East Kewa
       kjt: Phrae Pwo Karen
       kju: Kashaya
+      kjv: Kaikavian Literary Language
       kjx: Ramopa
       kjy: Erave
       kjz: Bumthangkha
@@ -10318,7 +10304,6 @@ language:
       kog: Cogui
       koh: Koyo
       koi: Komi-Permyak
-      koj: Sara Dunjo
       kok: Konkani (macrolanguage)
       kol: Kol (Papua New Guinea)
       kom: Komi
@@ -10466,7 +10451,7 @@ language:
       kub: Kutep
       kuc: Kwinsu
       kud: "'Auhelawa"
-      kue: Kuman
+      kue: Kuman (Papua New Guinea)
       kuf: Western Katu
       kug: Kupa
       kuh: Kushi
@@ -10530,7 +10515,6 @@ language:
       kwn: Kwangali
       kwo: Kwomtari
       kwp: Kodia
-      kwq: Kwak
       kwr: Kwer
       kws: Kwese
       kwt: Kwesten
@@ -10544,7 +10528,6 @@ language:
       kxb: Krobu
       kxc: Konso
       kxd: Brunei
-      kxe: Kakihum
       kxf: Manumanaw Karen
       kxh: Karo (Ethiopia)
       kxi: Keningau Murut
@@ -10748,7 +10731,6 @@ language:
       lif: Limbu
       lig: Ligbi
       lih: Lihir
-      lii: Lingkhim
       lij: Ligurian
       lik: Lika
       lil: Lillooet
@@ -11510,7 +11492,6 @@ language:
       mwg: Aiklep
       mwh: Mouk-Aria
       mwi: Labo
-      mwj: Maligo
       mwk: Kita Maninkakan
       mwl: Mirandese
       mwm: Sar
@@ -11617,10 +11598,10 @@ language:
       "nan": Min Nan Chinese
       nao: Naaba
       nap: Neapolitan
-      naq: Nama (Namibia)
+      naq: Khoekhoe
       nar: Iguta
       nas: Naasioi
-      nat: Hungworo
+      nat: Cahungwarya
       nau: Nauru
       nav: Navajo
       naw: Nawuri
@@ -11908,7 +11889,6 @@ language:
       nnu: Dwang
       nnv: Nugunu (Australia)
       nnw: Southern Nuni
-      nnx: Ngong
       nny: Nyangga
       nnz: Nda'nda'
       noa: Woun Meu
@@ -11957,6 +11937,7 @@ language:
       nrb: Nara
       nrc: Noric
       nre: Southern Rengma Naga
+      nrf: Jerriais
       nrg: Narango
       nri: Chokri Naga
       nrk: Ngarla
@@ -12057,6 +12038,7 @@ language:
       nxl: South Nuaulu
       nxm: Numidian
       nxn: Ngawun
+      nxo: Ndambomo
       nxq: Naxi
       nxr: Ninggerum
       nxu: Narau
@@ -12259,7 +12241,6 @@ language:
       oue: Oune
       oui: Old Uighur
       oum: Ouma
-      oun: "!O!ung"
       owi: Owiniga
       owl: Old Welsh
       oyb: Oy
@@ -12308,7 +12289,7 @@ language:
       pbt: Southern Pashto
       pbu: Northern Pashto
       pbv: Pnar
-      pby: Pyu
+      pby: Pyu (Papua New Guinea)
       pca: Santa Ines Ahuatempan Popoloca
       pcb: Pear
       pcc: Bouyei
@@ -12357,6 +12338,7 @@ language:
       pfe: Peere
       pfl: Pfaelzisch
       pga: Sudanese Creole Arabic
+      pgd: Gandhari
       pgg: Pangwali
       pgi: Pagi
       pgk: Rerep
@@ -12434,7 +12416,7 @@ language:
       plp: Palpa
       plq: Palaic
       plr: Palaka Senoufo
-      pls: San Marcos Tlalcoyalco Popoloca
+      pls: San Marcos Tlacoyalco Popoloca
       plt: Plateau Malagasy
       plu: Palikur
       plv: Southwest Palawano
@@ -12459,7 +12441,6 @@ language:
       pmr: Paynamar
       pms: Piemontese
       pmt: Tuamotuan
-      pmu: Mirpur Panjabi
       pmw: Plains Miwok
       pmx: Poumei Naga
       pmy: Papuan Malay
@@ -12556,8 +12537,8 @@ language:
       psd: Plains Indian Sign Language
       pse: Central Malay
       psg: Penang Sign Language
-      psh: Southwest Pashayi
-      psi: Southeast Pashayi
+      psh: Southwest Pashai
+      psi: Southeast Pashai
       psl: Puerto Rican Sign Language
       psm: Pauserna
       psn: Panasuan
@@ -12812,6 +12793,7 @@ language:
       rtc: Rungtu Chin
       rth: Ratahan
       rtm: Rotuman
+      rts: Yurats
       rtw: Rathawi
       rub: Gungu
       ruc: Ruuli
@@ -12871,7 +12853,7 @@ language:
       sbc: Kele (Papua New Guinea)
       sbd: Southern Samo
       sbe: Saliba
-      sbf: Shabo
+      sbf: Chabu
       sbg: Seget
       sbh: Sori-Harengan
       sbi: Seti
@@ -12972,7 +12954,6 @@ language:
       sgk: Sangkong
       sgm: Singa
       sgn: Sign Languages
-      sgo: Songa
       sgp: Singpho
       sgr: Sangisari
       sgs: Samogitian
@@ -13064,7 +13045,7 @@ language:
       sko: Seko Tengah
       skp: Sekapan
       skq: Sininkere
-      skr: Seraiki
+      skr: Saraiki
       sks: Maia
       skt: Sakata
       sku: Sakao
@@ -13357,6 +13338,7 @@ language:
       syr: Syriac
       sys: Sinyar
       syw: Kagate
+      syx: Samay
       syy: Al-Sayyid Bedouin Sign Language
       sza: Semelai
       szb: Ngalum
@@ -13538,7 +13520,6 @@ language:
       thu: Thuri
       thv: Tahaggart Tamahaq
       thw: Thudam
-      thx: The
       thy: Tha
       thz: Tayart Tamajeq
       tia: Tidikelt Tamazight
@@ -13754,7 +13735,6 @@ language:
       tsc: Tswa
       tsd: Tsakonian
       tse: Tunisian Sign Language
-      tsf: Southwestern Tamang
       tsg: Tausug
       tsh: Tsuvan
       tsi: Tsimshian
@@ -13867,6 +13847,7 @@ language:
       txg: Tangut
       txh: Thracian
       txi: Ikpeng
+      txj: Tarjumo
       txm: Tomini
       txn: West Tarangan
       txo: Toto
@@ -13978,7 +13959,6 @@ language:
       unu: Unubahe
       unx: Munda
       unz: Unde Kaili
-      uok: Uokha
       upi: Umeda
       upv: Uripiv-Wala-Rano-Atchin
       ura: Urarina
@@ -14034,7 +14014,7 @@ language:
       vag: Vagla
       vah: Varhadi-Nagpuri
       vai: Vai
-      vaj: Vasekela Bushman
+      vaj: Sekele
       val: Vehes
       vam: Vanimo
       van: Valman
@@ -14573,7 +14553,6 @@ language:
       xse: Sempan
       xsh: Shamang
       xsi: Sio
-      xsj: Subi
       xsl: South Slavey
       xsm: Kasem
       xsn: Sanga (Nigeria)
@@ -14701,7 +14680,6 @@ language:
       yde: Yangum Dey
       ydg: Yidgha
       ydk: Yoidik
-      yds: Yiddish Sign Language
       yea: Ravula
       yec: Yeniche
       yee: Yimas
@@ -14786,14 +14764,12 @@ language:
       ymq: Qila Muji
       ymr: Malasar
       yms: Mysian
-      ymt: Mator-Taygi-Karagas
       ymx: Northern Muji
       ymz: Muzi
       yna: Aluo
       ynd: Yandruwandha
       yne: Lang'e
       yng: Yango
-      ynh: Yangho
       ynk: Naukan Yupik
       ynl: Yangulam
       ynn: Yana
@@ -15077,9 +15053,6 @@ language:
       zza: Zaza
       zzj: Zuojiang Zhuang
     name: 
-      "!o!ung": 
-        - oun
-        - "!O!ung"
       "!xoo": 
         - nmn
         - "!Xoo"
@@ -15107,15 +15080,9 @@ language:
       =/hua: 
         - huc
         - =/Hua
-      =/kx'au//'ein: 
-        - aue
-        - =/Kx'au//'ein
       a'ou: 
         - aou
         - A'ou
-      a'tong: 
-        - aot
-        - A'tong
       a-pucikwar: 
         - apq
         - A-Pucikwar
@@ -15254,9 +15221,6 @@ language:
       adangme: 
         - ada
         - Adangme
-      adap: 
-        - adp
-        - Adap
       adara: 
         - kad
         - Adara
@@ -16121,9 +16085,6 @@ language:
       aralle-tabulahan: 
         - atq
         - Aralle-Tabulahan
-      aramanik: 
-        - aam
-        - Aramanik
       arammba: 
         - stk
         - Arammba
@@ -17426,9 +17387,6 @@ language:
       bellari: 
         - brw
         - Bellari
-      bemba (democratic republic of congo): 
-        - bmy
-        - Bemba (Democratic Republic of Congo)
       bemba (zambia): 
         - bem
         - Bemba (Zambia)
@@ -18053,9 +18011,6 @@ language:
       borgu fulfulde: 
         - fue
         - Borgu Fulfulde
-      borna (democratic republic of congo): 
-        - bxx
-        - Borna (Democratic Republic of Congo)
       boro (ethiopia): 
         - bwo
         - Boro (Ethiopia)
@@ -18437,9 +18392,6 @@ language:
       buwal: 
         - bhs
         - Buwal
-      buya: 
-        - byy
-        - Buya
       buyu: 
         - byi
         - Buyu
@@ -18518,6 +18470,9 @@ language:
       cahuilla: 
         - chl
         - Cahuilla
+      cahungwarya: 
+        - nat
+        - Cahungwarya
       cajamarca quechua: 
         - qvc
         - Cajamarca Quechua
@@ -18845,6 +18800,9 @@ language:
       cerma: 
         - cme
         - Cerma
+      chabu: 
+        - sbf
+        - Chabu
       chachapoyas quechua: 
         - quk
         - Chachapoyas Quechua
@@ -19745,9 +19703,6 @@ language:
       dayi: 
         - dax
         - Dayi
-      daza: 
-        - dzd
-        - Daza
       dazaga: 
         - dzg
         - Dazaga
@@ -21293,6 +21248,9 @@ language:
       ganda: 
         - lug
         - Ganda
+      gandhari: 
+        - pgd
+        - Gandhari
       gane: 
         - gzn
         - Gane
@@ -21392,9 +21350,6 @@ language:
       gbari: 
         - gby
         - Gbari
-      gbati-ri: 
-        - gti
-        - Gbati-ri
       gbaya (central african republic): 
         - gba
         - Gbaya (Central African Republic)
@@ -22565,9 +22520,6 @@ language:
       hungarian sign language: 
         - hsh
         - Hungarian Sign Language
-      hungworo: 
-        - nat
-        - Hungworo
       hunjara-kaina ke: 
         - hkk
         - Hunjara-Kaina Ke
@@ -22820,9 +22772,6 @@ language:
       imbongu: 
         - imo
         - Imbongu
-      imeraguen: 
-        - ime
-        - Imeraguen
       imonda: 
         - imn
         - Imonda
@@ -22922,6 +22871,9 @@ language:
       inuinnaqtun: 
         - ikt
         - Inuinnaqtun
+      inuit sign language: 
+        - iks
+        - Inuit Sign Language
       inuktitut: 
         - iku
         - Inuktitut
@@ -23282,6 +23234,9 @@ language:
       jehai: 
         - jhi
         - Jehai
+      jejueo: 
+        - jje
+        - Jejueo
       jemez: 
         - tow
         - Jemez
@@ -23300,6 +23255,9 @@ language:
       jeri kuo: 
         - jek
         - Jeri Kuo
+      jerriais: 
+        - nrf
+        - Jerriais
       jerung: 
         - jee
         - Jerung
@@ -23621,6 +23579,9 @@ language:
       kaikadi: 
         - kep
         - Kaikadi
+      kaikavian literary language: 
+        - kjv
+        - Kaikavian Literary Language
       kaike: 
         - kzq
         - Kaike
@@ -23675,15 +23636,9 @@ language:
       kakanda: 
         - kka
         - Kakanda
-      kakauhua: 
-        - kbf
-        - Kakauhua
       kaki ae: 
         - tbd
         - Kaki Ae
-      kakihum: 
-        - kxe
-        - Kakihum
       kako: 
         - kkj
         - Kako
@@ -24593,6 +24548,9 @@ language:
       kho'ini: 
         - xkc
         - Kho'ini
+      khoekhoe: 
+        - naq
+        - Khoekhoe
       khoibu naga: 
         - nkb
         - Khoibu Naga
@@ -25448,9 +25406,9 @@ language:
       kumam: 
         - kdi
         - Kumam
-      kuman: 
+      kuman (papua new guinea): 
         - kue
-        - Kuman
+        - Kuman (Papua New Guinea)
       kuman (russia): 
         - qwm
         - Kuman (Russia)
@@ -25691,9 +25649,6 @@ language:
       kwaja: 
         - kdz
         - Kwaja
-      kwak: 
-        - kwq
-        - Kwak
       kwakiutl: 
         - kwk
         - Kwakiutl
@@ -26483,9 +26438,6 @@ language:
       lingarak: 
         - lgk
         - Lingarak
-      lingkhim: 
-        - lii
-        - Lingkhim
       lingua franca: 
         - pml
         - Lingua Franca
@@ -27323,9 +27275,6 @@ language:
       mali: 
         - gcc
         - Mali
-      maligo: 
-        - mwj
-        - Maligo
       malila: 
         - mgq
         - Malila
@@ -27521,9 +27470,6 @@ language:
       mangerr: 
         - zme
         - Mangerr
-      mangetti dune !xung: 
-        - gfx
-        - Mangetti Dune !Xung
       mangga buang: 
         - mmo
         - Mangga Buang
@@ -27911,9 +27857,6 @@ language:
       mator: 
         - mtm
         - Mator
-      mator-taygi-karagas: 
-        - ymt
-        - Mator-Taygi-Karagas
       matses: 
         - mcf
         - Matses
@@ -28532,9 +28475,6 @@ language:
       miriwung: 
         - mep
         - Miriwung
-      mirpur panjabi: 
-        - pmu
-        - Mirpur Panjabi
       miship: 
         - mjs
         - Miship
@@ -29357,9 +29297,6 @@ language:
       naluo yi: 
         - ylo
         - Naluo Yi
-      nama (namibia): 
-        - naq
-        - Nama (Namibia)
       nama (papua new guinea): 
         - nmx
         - Nama (Papua New Guinea)
@@ -29576,6 +29513,9 @@ language:
       ndamba: 
         - ndj
         - Ndamba
+      ndambomo: 
+        - nxo
+        - Ndambomo
       ndasa: 
         - nda
         - Ndasa
@@ -29936,9 +29876,6 @@ language:
       ngombe (democratic republic of congo): 
         - ngc
         - Ngombe (Democratic Republic of Congo)
-      ngong: 
-        - nnx
-        - Ngong
       ngongo: 
         - noq
         - Ngongo
@@ -30332,9 +30269,9 @@ language:
       northeast maidu: 
         - nmu
         - Northeast Maidu
-      northeast pashayi: 
+      northeast pashai: 
         - aee
-        - Northeast Pashayi
+        - Northeast Pashai
       northeastern dinka: 
         - dip
         - Northeastern Dinka
@@ -30539,9 +30476,9 @@ language:
       northwest oaxaca mixtec: 
         - mxa
         - Northwest Oaxaca Mixtec
-      northwest pashayi: 
+      northwest pashai: 
         - glh
-        - Northwest Pashayi
+        - Northwest Pashai
       northwestern dinka: 
         - diw
         - Northwestern Dinka
@@ -32408,12 +32345,12 @@ language:
       pyen: 
         - pyy
         - Pyen
-      pyu: 
-        - pby
-        - Pyu
       pyu (myanmar): 
         - pyx
         - Pyu (Myanmar)
+      pyu (papua new guinea): 
+        - pby
+        - Pyu (Papua New Guinea)
       q'anjob'al: 
         - kjb
         - Q'anjob'al
@@ -33068,6 +33005,9 @@ language:
       samatao: 
         - ysd
         - Samatao
+      samay: 
+        - syx
+        - Samay
       samba: 
         - smx
         - Samba
@@ -33164,9 +33104,9 @@ language:
       san luis temalacayuca popoloca: 
         - pps
         - San Luis Temalacayuca Popoloca
-      san marcos tlalcoyalco popoloca: 
+      san marcos tlacoyalco popoloca: 
         - pls
-        - San Marcos Tlalcoyalco Popoloca
+        - San Marcos Tlacoyalco Popoloca
       san martin itunyoso triqui: 
         - trq
         - San Martin Itunyoso Triqui
@@ -33335,9 +33275,6 @@ language:
       sara: 
         - sre
         - Sara
-      sara dunjo: 
-        - koj
-        - Sara Dunjo
       sara kaba: 
         - sbz
         - Sara Kaba
@@ -33347,6 +33284,9 @@ language:
       sara kaba naa: 
         - kwv
         - Sara Kaba Naa
+      saraiki: 
+        - skr
+        - Saraiki
       saramaccan: 
         - srm
         - Saramaccan
@@ -33533,6 +33473,9 @@ language:
       seke (vanuatu): 
         - ske
         - Seke (Vanuatu)
+      sekele: 
+        - vaj
+        - Sekele
       seki: 
         - syi
         - Seki
@@ -33659,9 +33602,6 @@ language:
       sera: 
         - sry
         - Sera
-      seraiki: 
-        - skr
-        - Seraiki
       serbian: 
         - srp
         - Serbian
@@ -33725,9 +33665,6 @@ language:
       shabak: 
         - sdb
         - Shabak
-      shabo: 
-        - sbf
-        - Shabo
       shahmirzadi: 
         - srz
         - Shahmirzadi
@@ -34256,9 +34193,6 @@ language:
       sonde: 
         - shc
         - Sonde
-      songa: 
-        - sgo
-        - Songa
       songe: 
         - sop
         - Songe
@@ -34406,9 +34340,9 @@ language:
       southeast ijo: 
         - ijs
         - Southeast Ijo
-      southeast pashayi: 
+      southeast pashai: 
         - psi
-        - Southeast Pashayi
+        - Southeast Pashai
       southeastern dinka: 
         - dks
         - Southeastern Dinka
@@ -34643,9 +34577,9 @@ language:
       southwest palawano: 
         - plv
         - Southwest Palawano
-      southwest pashayi: 
+      southwest pashai: 
         - psh
-        - Southwest Pashayi
+        - Southwest Pashai
       southwest tanna: 
         - nwi
         - Southwest Tanna
@@ -34667,9 +34601,6 @@ language:
       southwestern nisu: 
         - nsv
         - Southwestern Nisu
-      southwestern tamang: 
-        - tsf
-        - Southwestern Tamang
       southwestern tarahumara: 
         - twr
         - Southwestern Tarahumara
@@ -34760,9 +34691,6 @@ language:
       suba-simbiti: 
         - ssc
         - Suba-Simbiti
-      subi: 
-        - xsj
-        - Subi
       subiya: 
         - sbs
         - Subiya
@@ -35369,6 +35297,9 @@ language:
       tarifit: 
         - rif
         - Tarifit
+      tarjumo: 
+        - txj
+        - Tarjumo
       tarok: 
         - yer
         - Tarok
@@ -35801,9 +35732,6 @@ language:
       thaypan: 
         - typ
         - Thaypan
-      the: 
-        - thx
-        - The
       thiin: 
         - iin
         - Thiin
@@ -36374,6 +36302,9 @@ language:
       tsou: 
         - tsu
         - Tsou
+      tsucuba: 
+        - cbq
+        - Tsucuba
       tsum: 
         - ttz
         - Tsum
@@ -36857,6 +36788,9 @@ language:
       unggumi: 
         - xgu
         - Unggumi
+      ungkue: 
+        - gku
+        - Ungkue
       unserdeutsch: 
         - uln
         - Unserdeutsch
@@ -36866,9 +36800,6 @@ language:
       unubahe: 
         - unu
         - Unubahe
-      uokha: 
-        - uok
-        - Uokha
       upper chehalis: 
         - cjh
         - Upper Chehalis
@@ -37124,9 +37055,6 @@ language:
       vasavi: 
         - vas
         - Vasavi
-      vasekela bushman: 
-        - vaj
-        - Vasekela Bushman
       veddah: 
         - ved
         - Veddah
@@ -38411,9 +38339,6 @@ language:
       yangben: 
         - yav
         - Yangben
-      yangho: 
-        - ynh
-        - Yangho
       yangkam: 
         - bsx
         - Yangkam
@@ -38627,9 +38552,6 @@ language:
       yiddish: 
         - yid
         - Yiddish
-      yiddish sign language: 
-        - yds
-        - Yiddish Sign Language
       yidgha: 
         - ydg
         - Yidgha
@@ -38834,6 +38756,9 @@ language:
       yuracare: 
         - yuz
         - Yuracare
+      yurats: 
+        - rts
+        - Yurats
       yurok: 
         - yur
         - Yurok
@@ -41025,6 +40950,7 @@ langvar:
       jauer: Jauer dialect of Romansh
       jyutping: Jyutping Cantonese Romanization
       kkcor: Common Cornish orthography of Revived Cornish
+      kociewie: The Kociewie dialect of Polish
       kscor: Standard Cornish orthography of Revived Cornish
       laukika: Classical Sanskrit
       lipaw: The Lipovaz dialect of Resian
@@ -41199,6 +41125,9 @@ langvar:
       the gniva dialect of resian: 
         - njiva
         - The Gniva dialect of Resian
+      the kociewie dialect of polish: 
+        - kociewie
+        - The Kociewie dialect of Polish
       the lipovaz dialect of resian: 
         - lipaw
         - The Lipovaz dialect of Resian
