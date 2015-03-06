@@ -22,7 +22,7 @@ use Text::Iconv;
 use lib "./internal";
 
 our $VERSION;
-$VERSION='3.34';
+$VERSION='3.35';
 
 # Some required executables
 my @exe     = qw( wget xls2csv );
@@ -1470,7 +1470,7 @@ use warnings;
 use utf8;
 
 our(\$VERSION);
-\$VERSION='3.34';
+\$VERSION='3.35';
 
 \$Locale::Codes::Data{'$type'}{'id'} = '$ID';
 
