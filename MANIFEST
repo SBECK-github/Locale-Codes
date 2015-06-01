@@ -29,7 +29,6 @@ lib/Locale/Codes.pod
 lib/Locale/Codes/API.pod
 lib/Locale/Codes/Changes.pod
 lib/Locale/Codes/Constants.pm
-lib/Locale/Codes/Constants.pod
 lib/Locale/Codes/Country.pm
 lib/Locale/Codes/Country.pod
 lib/Locale/Codes/Country_Codes.pm

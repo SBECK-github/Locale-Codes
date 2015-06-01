@@ -53,10 +53,10 @@ DESCRIPTION
     Each module can support an arbitrary number of code sets, and it is not
     required that the relationship between these code sets be one-to-one.
     For example, the Locale::Codes::Country module supports code sets from
-    ISO-3166 and the IANA standard, and they do not break the world down
-    into exactly the same sets of countries. This does not cause any problem
-    (though converting codes from ISO-3166 to IANA or back will not work
-    except for countries that are one-to-one).
+    ISO-3166 and the IANA standard, and those two standards do not break the
+    world down into exactly the same sets of countries. This does not cause
+    any problem (though converting codes from ISO-3166 to IANA or back will
+    not work except for countries that are one-to-one).
 
     All data in all of these modules comes directly from the original
     standards (or as close to direct as possible), so it should be
@@ -81,7 +81,9 @@ DESCRIPTION
     Locale::Codes::LangFam_codes
 
     These modules are not intended to be used by programmers. They contain
-    functions or data that are used by the modules listed above.
+    functions or data that are used by the modules listed above. No support
+    of any kind is offered for using these modules directly. They may be
+    modified at any time.
 
 NEW CODE SETS
     I'm always open to suggestions for new code sets.
@@ -144,7 +146,7 @@ COMMON ALIASES
     for "United States" is "us", so:
 
        country2code('United States');
-          => "us"
+         => "us"
 
     Now the following will also return 'us':
 
@@ -165,10 +167,10 @@ COMMON ALIASES
     On the other hand, a request to add Zaire as an alias for "Congo, The
     Democratic Republic of" will not be honored. The country's official name
     is no longer Zaire, so adding it as an alias violates the standard.
-    Zaire was kept as an alias in versions prior to 3.00, but it has been
-    removed. Other aliases (if any) which no longer appear in any standard
-    (and which are not common variations of the name in the standards) have
-    also been removed.
+    Zaire was kept as an alias in versions of this module prior to 3.00, but
+    it has been removed. Other aliases (if any) which no longer appear in
+    any standard (and which are not common variations of the name in the
+    standards) have also been removed.
 
 DEPRECATED CODES
     Occasionally, a code is deprecated, but it may still be desirable to
@@ -231,7 +233,7 @@ AUTHOR
     there. Alternately, problems can be reported using the perl problem
     tracker at:
 
-       https://rt.cpan.org/Dist/Display.html?Queue=Locale-Codes
+       L<https://rt.cpan.org/Dist/Display.html?Queue=Locale-Codes>
 
 COPYRIGHT
        Copyright (c) 1997-2001 Canon Research Centre Europe (CRE).

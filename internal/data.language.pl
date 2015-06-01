@@ -488,6 +488,17 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Nyelâyu"                                       => "Nyelayu",
    "Yolŋu Sign Language"                           => "Yolnu Sign Language",
    "ǂUngkue"                                       => "Ungkue",
+   "ǁGana"                                         => "Gana",
+   "ǀGwi"                                          => "Gwi",
+   "Haiǁom"                                        => "Haiom",
+   "ǁAni"                                          => "Ani",
+   "ǂHua"                                          => "Hua",
+   "Juǀʼhoan"                                       => "Juhoan",
+   "Nǀu"                                           => "Nu",
+   "ǃXóõ"                                          => "Xoo",
+   "ǀXam"                                          => "Xam",
+   "ǁXegwi"                                        => "Xegwi",
+   "Yan-nhaŋu Sign Language"                       => "Yan-nhanu Sign Language",
 };
 
 $Data{'language'}{'iana'}{'ignore'} = {

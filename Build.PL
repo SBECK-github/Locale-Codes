@@ -7,6 +7,11 @@ use warnings;
 use 5.006;
 use Module::Build 0.21;
 
+my %IsWin32 = map { $_ => 1 } qw( MSWin32 NetWare symbian );
+my $IsWin32 = 1   if ($IsWin32{ $^O });
+my $Pvers   = $];
+my $ConvVers= $Module::Build::VERSION;
+
 my %module_prereq = (
    'perl'                     => '5.006',
    'Carp'                     => '0',

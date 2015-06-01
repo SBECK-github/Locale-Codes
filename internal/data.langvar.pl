@@ -22,6 +22,12 @@ $Data{'langvar'}{'iana'}{'orig'}{'name'} = {
    "Original Volapük"                  => "Original Volapuk",
    "Classic Volapük"                   => "Classic Volapuk",
    "Slovene in Bohorič alphabet"       => "Slovene in Bohoric alphabet",
+   "Orthographic formulation of 1943 - Official in Brazil (Formulário Ortográfico de 1943 - Oficial no Brasil)" =>
+   "Orthographic formulation of 1943 - Official in Brazil (Formulario Ortografico de 1943 - Oficial no Brasil)",
+   "Portugese Language Orthographic Agreement of 1990 (Acordo Ortográfico da Língua Portuguesa de 1990)" =>
+   "Portugese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)",
+   "Portuguese-Brazilian Orthographic Convention of 1945 (Convenção Ortográfica Luso-Brasileira de 1945)" =>
+   "Portuguese-Brazilian Orthographic Convention of 1945 (Convencao Ortografica Luso-Brasileira de 1945)",
 };
 
 $Data{'langvar'}{'iana'}{'ignore'} = {

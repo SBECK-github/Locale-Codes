@@ -708,10 +708,20 @@ sub _iana_entry {
 
       # Read an entire entry (starting with '%%' and ending
       # just before the next '%%'.
+      #
+      # Long lines may be split (and all lines but the first
+      # are indented)
 
+      my $oldkey;
       shift(@$in);
       while (@$in  &&  $$in[0] ne '%%') {
          my $line      = shift(@$in);
+         while (@$in  &&
+                $$in[0] =~ /^\s+/) {
+            $$in[0]    =~ s/^\s+//;
+            $line     .= " $$in[0]";
+            shift(@$in);
+         }
          $line         =~ /^(.*?):\s*(.*)$/;
          my($key,$val) = ($1,$2);
          if ($key eq 'Description') {
