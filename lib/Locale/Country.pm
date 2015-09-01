@@ -26,8 +26,6 @@ eval "require $backend; $backend->import(); return 1;";
 
 unshift (@ISA, $backend);
 
-sub alias_code                { Locale::Codes::Country::alias_code(@_) }
-
 sub rename_country            { Locale::Codes::Country::rename_country(@_) }
 sub add_country               { Locale::Codes::Country::add_country(@_) }
 sub delete_country            { Locale::Codes::Country::delete_country(@_) }

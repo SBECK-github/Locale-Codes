@@ -4060,7 +4060,7 @@ currency:
       GYD: Guyana Dollar
       HKD: Hong Kong Dollar
       HNL: Lempira
-      HRK: Croatian Kuna
+      HRK: Kuna
       HTG: Gourde
       HUF: Forint
       IDR: Rupiah
@@ -4117,7 +4117,7 @@ currency:
       PLN: Zloty
       PYG: Guarani
       QAR: Qatari Rial
-      RON: New Romanian Leu
+      RON: Romanian Leu
       RSD: Serbian Dinar
       RUB: Russian Ruble
       RWF: Rwanda Franc
@@ -4293,9 +4293,6 @@ currency:
       costa rican colon: 
         - CRC
         - Costa Rican Colon
-      croatian kuna: 
-        - HRK
-        - Croatian Kuna
       cuban peso: 
         - CUP
         - Cuban Peso
@@ -4401,6 +4398,9 @@ currency:
       kip: 
         - LAK
         - Kip
+      kuna: 
+        - HRK
+        - Kuna
       kuwaiti dinar: 
         - KWD
         - Kuwaiti Dinar
@@ -4485,9 +4485,6 @@ currency:
       new israeli sheqel: 
         - ILS
         - New Israeli Sheqel
-      new romanian leu: 
-        - RON
-        - New Romanian Leu
       new taiwan dollar: 
         - TWD
         - New Taiwan Dollar
@@ -4554,6 +4551,9 @@ currency:
       riel: 
         - KHR
         - Riel
+      romanian leu: 
+        - RON
+        - Romanian Leu
       rufiyaa: 
         - MVR
         - Rufiyaa
@@ -4734,7 +4734,7 @@ currency:
       170: Colombian Peso
       174: Comoro Franc
       188: Costa Rican Colon
-      191: Croatian Kuna
+      191: Kuna
       192: Cuban Peso
       203: Czech Koruna
       208: Danish Krone
@@ -4843,7 +4843,7 @@ currency:
       941: Serbian Dinar
       943: Mozambique Metical
       944: Azerbaijanian Manat
-      946: New Romanian Leu
+      946: Romanian Leu
       947: WIR Euro
       948: WIR Franc
       949: Turkish Lira
@@ -5000,9 +5000,6 @@ currency:
       costa rican colon: 
         - 188
         - Costa Rican Colon
-      croatian kuna: 
-        - 191
-        - Croatian Kuna
       cuban peso: 
         - 192
         - Cuban Peso
@@ -5108,6 +5105,9 @@ currency:
       kip: 
         - 418
         - Kip
+      kuna: 
+        - 191
+        - Kuna
       kuwaiti dinar: 
         - 414
         - Kuwaiti Dinar
@@ -5192,9 +5192,6 @@ currency:
       new israeli sheqel: 
         - 376
         - New Israeli Sheqel
-      new romanian leu: 
-        - 946
-        - New Romanian Leu
       new taiwan dollar: 
         - 901
         - New Taiwan Dollar
@@ -5261,6 +5258,9 @@ currency:
       riel: 
         - 116
         - Riel
+      romanian leu: 
+        - 946
+        - Romanian Leu
       rufiyaa: 
         - 462
         - Rufiyaa
@@ -7390,7 +7390,7 @@ language:
       aon: Bumbita Arapesh
       aor: Aore
       aos: Taikat
-      aot: Atong
+      aot: Atong (India)
       aou: A'ou
       aox: Atorada
       aoz: Uab Meto
@@ -7495,7 +7495,7 @@ language:
       atl: Mt. Iraya Agta
       atm: Ata
       atn: Ashtiani
-      ato: Atong
+      ato: Atong (Cameroon)
       atp: Pudtol Atta
       atq: Aralle-Tabulahan
       atr: Waimiri-Atroari
@@ -9907,6 +9907,7 @@ language:
       jns: Jaunsari
       job: Joba
       jod: Wojenaka
+      jog: Jogi
       jor: Jora
       jos: Jordanian Sign Language
       jow: Jowulu
@@ -16372,9 +16373,12 @@ language:
       atohwaim: 
         - aqm
         - Atohwaim
-      atong: 
+      atong (cameroon): 
         - ato
-        - Atong
+        - Atong (Cameroon)
+      atong (india): 
+        - aot
+        - Atong (India)
       atorada: 
         - aox
         - Atorada
@@ -23332,6 +23336,9 @@ language:
       jofotek-bromnya: 
         - jbr
         - Jofotek-Bromnya
+      jogi: 
+        - jog
+        - Jogi
       jola-fonyi: 
         - dyo
         - Jola-Fonyi
@@ -40936,7 +40943,7 @@ langvar:
       abl1943: Orthographic formulation of 1943 - Official in Brazil (Formulario Ortografico de 1943 - Oficial no Brasil)
       alalc97: ALA-LC Romanization, 1997 edition
       aluku: Aluku dialect
-      ao1990: Portugese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)
+      ao1990: Portuguese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)
       arevela: Eastern Armenian
       arevmda: Western Armenian
       baku1926: Unified Turkic Latin Alphabet (Historical)
@@ -41086,9 +41093,9 @@ langvar:
       polytonic greek: 
         - polyton
         - Polytonic Greek
-      portugese language orthographic agreement of 1990 (acordo ortografico da lingua portuguesa de 1990): 
+      portuguese language orthographic agreement of 1990 (acordo ortografico da lingua portuguesa de 1990): 
         - ao1990
-        - Portugese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)
+        - Portuguese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)
       portuguese-brazilian orthographic convention of 1945 (convencao ortografica luso-brasileira de 1945): 
         - colb1945
         - Portuguese-Brazilian Orthographic Convention of 1945 (Convencao Ortografica Luso-Brasileira de 1945)
@@ -41229,6 +41236,7 @@ script:
       Bass: Bassa Vah
       Batk: Batak
       Beng: Bengali
+      Bhks: Bhaiksuki
       Blis: Blissymbols
       Bopo: Bopomofo
       Brah: Brahmi
@@ -41294,6 +41302,7 @@ script:
       Latf: Latin (Fraktur variant)
       Latg: Latin (Gaelic variant)
       Latn: Latin
+      Leke: Leke
       Lepc: Lepcha
       Limb: Limbu
       Lina: Linear A
@@ -41427,6 +41436,9 @@ script:
       bengali: 
         - Beng
         - Bengali
+      bhaiksuki: 
+        - Bhks
+        - Bhaiksuki
       blissymbols: 
         - Blis
         - Blissymbols
@@ -41625,6 +41637,9 @@ script:
       latin (gaelic variant): 
         - Latg
         - Latin (Gaelic variant)
+      leke: 
+        - Leke
+        - Leke
       lepcha: 
         - Lepc
         - Lepcha
@@ -42007,6 +42022,7 @@ script:
       330: Tibetan
       331: Phags-pa
       332: Marchen
+      334: Bhaiksuki
       335: Lepcha (Rong)
       336: Limbu
       337: Meitei Mayek (Meithei, Meetei)
@@ -42033,6 +42049,7 @@ script:
       361: Javanese
       362: Sundanese
       363: Rejang (Redjang, Kaganga)
+      364: Leke
       365: Batak
       367: Buginese
       370: Tagalog (Baybayin, Alibata)
@@ -42118,6 +42135,9 @@ script:
       bengali: 
         - 325
         - Bengali
+      bhaiksuki: 
+        - 334
+        - Bhaiksuki
       blissymbols: 
         - 550
         - Blissymbols
@@ -42319,6 +42339,9 @@ script:
       latin (gaelic variant): 
         - 216
         - Latin (Gaelic variant)
+      leke: 
+        - 364
+        - Leke
       lepcha (rong): 
         - 335
         - Lepcha (Rong)

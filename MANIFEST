@@ -71,8 +71,6 @@ MANIFEST			This list of files
 META.json
 README
 README.first
-t/alias_code.t
-t/alias_code_old.t
 t/code2country.t
 t/code2country_old.t
 t/code2currency.t

@@ -48,26 +48,6 @@ Update the copyright
    done
 
 #########################################################################
-Set the release version
-
-   v=`pwd | sed -e 's,^.*-,,'`
-   for i in \
-       Makefile.PL \
-       Build.PL \
-       internal/deprecate_codes \
-       internal/harvest_data \
-       `find lib -name \*.pm` \
-   ;do
-      sed -e "s,VERSION *=.*;,VERSION='$v';," $i > z
-      mv z $i
-   done
-   chmod +x internal/deprecate_codes \
-            internal/dump_curr \
-            internal/harvest_and_check \
-            internal/harvest_data \
-            internal/print_curr_data
-
-#########################################################################
 Before every release, spellcheck the documents:
 
    for i in `find lib -type f -name \*.pod` ;do
@@ -91,6 +71,8 @@ Update the Change file with the date
 #########################################################################
 Regenerate the MANIFEST, Build.PL, Makefile.PL
 Run the kwalitee tests
+
+find . -name \*.swp
 
 #########################################################################
 To create a patch for perl:

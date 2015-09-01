@@ -5635,6 +5635,7 @@ langext:
       xmm: Manado Malay
       xms: Moroccan Sign Language
       ygs: Yolnu Sign Language
+      yhs: Yan-nhanu Sign Language
       ysl: Yugoslavian Sign Language
       yue: Yue Chinese
       zib: Zimbabwe Sign Language
@@ -6309,6 +6310,9 @@ langext:
       xiang chinese: 
         - hsn
         - Xiang Chinese
+      yan-nhanu sign language: 
+        - yhs
+        - Yan-nhanu Sign Language
       yolnu sign language: 
         - ygs
         - Yolnu Sign Language
@@ -14704,6 +14708,7 @@ language:
       yha: Baha Buyang
       yhd: Judeo-Iraqi Arabic
       yhl: Hlepho Phowa
+      yhs: Yan-nhanu Sign Language
       yia: Yinggarda
       yid: Yiddish
       yif: Ache
@@ -15066,7 +15071,7 @@ language:
         - hnh
         - //Ani
       //gana: 
-        - gnk
+        - gnq
         - //Gana
       //xegwi: 
         - xeg
@@ -38312,6 +38317,9 @@ language:
       yan-nhangu: 
         - jay
         - Yan-nhangu
+      yan-nhanu sign language: 
+        - yhs
+        - Yan-nhanu Sign Language
       yana: 
         - ynn
         - Yana
@@ -40922,11 +40930,13 @@ langvar:
       1606nict: Late Middle French (to 1606)
       1694acad: Early Modern French
       1901: Traditional German orthography
-      1959acad: "\"Academic\" (\"governmental\") variant of Belarusian as"
+      1959acad: "\"Academic\" (\"governmental\") variant of Belarusian as codified in 1959"
       1994: Standardized Resian orthography
       1996: German orthography of 1996
+      abl1943: Orthographic formulation of 1943 - Official in Brazil (Formulario Ortografico de 1943 - Oficial no Brasil)
       alalc97: ALA-LC Romanization, 1997 edition
       aluku: Aluku dialect
+      ao1990: Portugese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)
       arevela: Eastern Armenian
       arevmda: Western Armenian
       baku1926: Unified Turkic Latin Alphabet (Historical)
@@ -40937,6 +40947,7 @@ langvar:
       biske: The San Giorgio dialect of Resian
       bohoric: Slovene in Bohoric alphabet
       boont: Boontling
+      colb1945: Portuguese-Brazilian Orthographic Convention of 1945 (Convencao Ortografica Luso-Brasileira de 1945)
       dajnko: Slovene in Dajnko alphabet
       ekavsk: Serbian with Ekavian pronunciation
       emodeng: Early Modern English (1500-1700)
@@ -40962,6 +40973,7 @@ langvar:
       njiva: The Gniva dialect of Resian
       nulik: Volapuk nulik
       osojs: The Oseacco dialect of Resian
+      oxendict: Oxford English Dictionary spelling
       pamaka: Pamaka dialect
       petr1708: Petrine orthography
       pinyin: Pinyin romanization
@@ -40987,9 +40999,9 @@ langvar:
       vallader: Vallader idiom of Romansh
       wadegile: Wade-Giles romanization
     name: 
-      "\"academic\" (\"governmental\") variant of belarusian as": 
+      "\"academic\" (\"governmental\") variant of belarusian as codified in 1959": 
         - 1959acad
-        - "\"Academic\" (\"governmental\") variant of Belarusian as"
+        - "\"Academic\" (\"governmental\") variant of Belarusian as codified in 1959"
       ala-lc romanization, 1997 edition: 
         - alalc97
         - ALA-LC Romanization, 1997 edition
@@ -41056,6 +41068,12 @@ langvar:
       norwegian in hognorsk (high norwegian) orthography: 
         - hognorsk
         - Norwegian in Hognorsk (High Norwegian) orthography
+      orthographic formulation of 1943 - official in brazil (formulario ortografico de 1943 - oficial no brasil): 
+        - abl1943
+        - Orthographic formulation of 1943 - Official in Brazil (Formulario Ortografico de 1943 - Oficial no Brasil)
+      oxford english dictionary spelling: 
+        - oxendict
+        - Oxford English Dictionary spelling
       pamaka dialect: 
         - pamaka
         - Pamaka dialect
@@ -41068,6 +41086,12 @@ langvar:
       polytonic greek: 
         - polyton
         - Polytonic Greek
+      portugese language orthographic agreement of 1990 (acordo ortografico da lingua portuguesa de 1990): 
+        - ao1990
+        - Portugese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)
+      portuguese-brazilian orthographic convention of 1945 (convencao ortografica luso-brasileira de 1945): 
+        - colb1945
+        - Portuguese-Brazilian Orthographic Convention of 1945 (Convencao Ortografica Luso-Brasileira de 1945)
       post-1917 russian orthography: 
         - luna1918
         - Post-1917 Russian orthography

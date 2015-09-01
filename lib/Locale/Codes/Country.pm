@@ -87,19 +87,6 @@ sub delete_country_code_alias {
    return Locale::Codes::_delete_code_alias('country',@_);
 }
 
-#=======================================================================
-#
-# Old function for backward compatibility
-#
-#=======================================================================
-
-sub alias_code {
-   my($alias,$code,@args) = @_;
-   my $success = rename_country_code($code,$alias,@args);
-   return 0  if (! $success);
-   return $alias;
-}
-
 1;
 # Local Variables:
 # mode: cperl

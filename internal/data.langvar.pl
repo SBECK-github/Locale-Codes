@@ -28,6 +28,8 @@ $Data{'langvar'}{'iana'}{'orig'}{'name'} = {
    "Portugese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)",
    "Portuguese-Brazilian Orthographic Convention of 1945 (Convenção Ortográfica Luso-Brasileira de 1945)" =>
    "Portuguese-Brazilian Orthographic Convention of 1945 (Convencao Ortografica Luso-Brasileira de 1945)",
+   "Portuguese Language Orthographic Agreement of 1990 (Acordo Ortográfico da Língua Portuguesa de 1990)" =>
+   "Portuguese Language Orthographic Agreement of 1990 (Acordo Ortografico da Lingua Portuguesa de 1990)",
 };
 
 $Data{'langvar'}{'iana'}{'ignore'} = {

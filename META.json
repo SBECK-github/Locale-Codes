@@ -101,5 +101,6 @@
          "url" : "https://github.com/SBECK-github/Locale-Codes"
       }
    },
-   "version" : "3.36"
+   "version" : "3.36",
+   "x_serialization_backend" : "JSON::PP version 2.27203"
 }

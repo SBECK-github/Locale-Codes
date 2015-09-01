@@ -1,5 +1,3 @@
-perl -I../lib alias_code.t 1
-perl -I../lib alias_code_old.t 1
 perl -I../lib code2country.t 1
 perl -I../lib code2country_old.t 1
 perl -I../lib code2currency.t 1

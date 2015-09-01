@@ -107,7 +107,7 @@ require "data.language.pl";
 ########################################
 # CURRENCY
 
-our $currency_iso_url    = "http://www.currency-iso.org/dam/downloads/table_a1.xls";
+our $currency_iso_url    = "http://www.currency-iso.org/dam/downloads/lists/list_one.xls";
 
 require "data.currency.pl";
 
@@ -293,10 +293,10 @@ countries fit on a single page, do it in multiple steps.
 
    sub _read_country_iso {
       while (@$in) {
-         my $name   = shift(@$in);
-         shift(@$in);
-         my $alpha2 = lc(shift(@$in));
-         my $alpha3 = lc(shift(@$in));
+         my $name   = shift(@$in);       shift(@$in);
+         shift(@$in);                    shift(@$in);
+         my $alpha2 = lc(shift(@$in));   shift(@$in);
+         my $alpha3 = lc(shift(@$in));   shift(@$in);
          my $num    = shift(@$in);
          $name      =~ s/\(the/\(The/;
          return($alpha2,$alpha3,$num,_country_name($name));
@@ -772,7 +772,7 @@ sub do_currency {
 
    sub _init_currency_iso {
       $in = _read_file('url'       => $currency_iso_url,
-                       'head'      => 'ENTITY',
+                       'head'      => 'Entity',
                        'as_list'   => 1,
                        'type'      => 'xls',
                        'join'      => 1,
@@ -787,9 +787,9 @@ sub do_currency {
          next  if (! $ele);
 
          my $currency = $$ele{'Currency'};
-         my $alpha    = $$ele{'Alphabetic Code'};
-         my $num      = $$ele{'Numeric Code'};
-         $num         = ""  if (! defined($num)  ||  $num eq "Nil");
+         my $alpha    = $$ele{'Alphabetic code'};
+         my $num      = $$ele{'Numeric code'};
+         $num         = ""  if (! defined($num));
          $currency    = ""  if (! defined($currency));
          $alpha       = ""  if (! defined($alpha));
          $currency    =~ s/\s+$//;
