@@ -40977,6 +40977,7 @@ langvar:
       monoton: Monotonic Greek
       ndyuka: Ndyuka dialect
       nedis: Natisone dialect
+      newfound: Newfoundland English
       njiva: The Gniva dialect of Resian
       nulik: Volapuk nulik
       osojs: The Oseacco dialect of Resian
@@ -41072,6 +41073,9 @@ langvar:
       ndyuka dialect: 
         - ndyuka
         - Ndyuka dialect
+      newfoundland english: 
+        - newfound
+        - Newfoundland English
       norwegian in hognorsk (high norwegian) orthography: 
         - hognorsk
         - Norwegian in Hognorsk (High Norwegian) orthography

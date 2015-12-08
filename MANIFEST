@@ -68,7 +68,6 @@ lib/Locale/Script.pod
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
-META.json
 README
 README.first
 t/code2country.t
@@ -101,4 +100,5 @@ t/runtests.bat
 t/script2code.t
 t/script2code_old.t
 t/testfunc.pl
-META.yml
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

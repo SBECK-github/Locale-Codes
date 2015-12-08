@@ -1,10 +1,10 @@
 {
    "abstract" : "a distribution of modules to handle locale codes",
    "author" : [
-      "Sullivan Beck <sbeck@cpan.org>"
+      "Sullivan Beck (sbeck@cpan.org)"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4205",
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -13,15 +13,21 @@
       "version" : "2"
    },
    "name" : "Locale-Codes",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Module::Build" : "0.21"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.21"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -40,65 +46,120 @@
    },
    "provides" : {
       "Locale::Codes" : {
-         "file" : "lib/Locale/Codes.pm",
+         "file" : "Codes.pm",
          "version" : "3.37"
       },
       "Locale::Codes::Constants" : {
-         "file" : "lib/Locale/Codes/Constants.pm",
+         "file" : "Constants.pm",
          "version" : "3.37"
       },
       "Locale::Codes::Country" : {
-         "file" : "lib/Locale/Codes/Country.pm",
+         "file" : "Country.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Country_Codes" : {
+         "file" : "Country_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Country_Retired" : {
+         "file" : "Country_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Codes::Currency" : {
-         "file" : "lib/Locale/Codes/Currency.pm",
+         "file" : "Currency.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Currency_Codes" : {
+         "file" : "Currency_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Currency_Retired" : {
+         "file" : "Currency_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Codes::LangExt" : {
-         "file" : "lib/Locale/Codes/LangExt.pm",
+         "file" : "LangExt.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::LangExt_Codes" : {
+         "file" : "LangExt_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::LangExt_Retired" : {
+         "file" : "LangExt_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Codes::LangFam" : {
-         "file" : "lib/Locale/Codes/LangFam.pm",
+         "file" : "LangFam.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::LangFam_Codes" : {
+         "file" : "LangFam_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::LangFam_Retired" : {
+         "file" : "LangFam_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Codes::LangVar" : {
-         "file" : "lib/Locale/Codes/LangVar.pm",
+         "file" : "LangVar.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::LangVar_Codes" : {
+         "file" : "LangVar_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::LangVar_Retired" : {
+         "file" : "LangVar_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Codes::Language" : {
-         "file" : "lib/Locale/Codes/Language.pm",
+         "file" : "Language.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Language_Codes" : {
+         "file" : "Language_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Language_Retired" : {
+         "file" : "Language_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Codes::Script" : {
-         "file" : "lib/Locale/Codes/Script.pm",
+         "file" : "Script.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Script_Codes" : {
+         "file" : "Script_Codes.pm",
+         "version" : "3.37"
+      },
+      "Locale::Codes::Script_Retired" : {
+         "file" : "Script_Retired.pm",
          "version" : "3.37"
       },
       "Locale::Country" : {
-         "file" : "lib/Locale/Country.pm",
+         "file" : "Country.pm",
          "version" : "3.37"
       },
       "Locale::Currency" : {
-         "file" : "lib/Locale/Currency.pm",
+         "file" : "Currency.pm",
          "version" : "3.37"
       },
       "Locale::Language" : {
-         "file" : "lib/Locale/Language.pm",
+         "file" : "Language.pm",
          "version" : "3.37"
       },
       "Locale::Script" : {
-         "file" : "lib/Locale/Script.pm",
+         "file" : "Script.pm",
          "version" : "3.37"
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
       "repository" : {
-         "url" : "https://github.com/SBECK-github/Locale-Codes"
+         "type" : "git",
+         "url" : "git://github.com/SBECK-github/Locale-Codes.git",
+         "web" : "https://github.com/SBECK-github/Locale-Codes"
       }
    },
    "version" : "3.37",

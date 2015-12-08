@@ -1,4 +1,7 @@
 language: perl
+sudo: false
+os:
+  - linux
 perl:
   - "5.20"
   - "5.18"
