@@ -6,8 +6,8 @@ require 5.002;
 
 my($runtests,$dir,$tdir);
 $::type          = '';
-$::generic_tests = '';
 $::module        = '';
+$::tests         = '';
 
 $::type   = 'langfam';
 $::module = 'Locale::Codes::LangFam';
@@ -16,11 +16,13 @@ $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
   require "t/vals.pl";
+  require "t/vals_langfam.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
   require "vals.pl";
+  require "vals_langfam.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -29,40 +31,8 @@ if ( -f "t/testfunc.pl" ) {
 
 unshift(@INC,$dir);
 
-my $tests = "
-
-2code
-Apache languages
-   ~
-   apa
-
-2name
-apa
-   Apache languages
-
-_code2code
-apa
-alpha
-alpha
-   apa
-
-all_codes
-2
-   ~
-   aav
-   afa
-
-all_names
-2
-   ~
-   Afro-Asiatic languages
-   Alacalufan languages
-
-$::generic_tests
-";
-
 print "langfam...\n";
-test_Func(\&test,$tests,$runtests);
+test_Func(\&test,$::tests,$runtests);
 
 1;
 # Local Variables:

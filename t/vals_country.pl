@@ -12,6 +12,18 @@ $::tests = "
 ##################
 # code2country
 
+all_names
+2
+   ~
+   Afghanistan
+   Aland Islands
+
+all_codes
+2
+   ~
+   ad
+   ae
+
 2name
 zz
    _undef_

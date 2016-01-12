@@ -90,7 +90,10 @@ t/testfunc.pl
 t/vals.pl
 t/vals_country.pl
 t/vals_currency.pl
+t/vals_langext.pl
+t/vals_langfam.pl
 t/vals_language.pl
+t/vals_langvar.pl
 t/vals_script.pl
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)

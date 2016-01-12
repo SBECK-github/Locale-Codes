@@ -10,6 +10,18 @@ $::tests = $::generic_tests;
 
 $::tests = "
 
+all_names
+2
+   ~
+   Abkhazian
+   Afar
+
+all_codes
+2
+   ~
+   aa
+   ab
+
 2name
 zu
    Zulu
@@ -277,6 +289,11 @@ yi
 za
    Zhuang
 
+_code2code
+zu
+alpha-2
+alpha-3
+   zul
 
 
 $::generic_tests

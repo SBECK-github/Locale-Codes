@@ -6,8 +6,8 @@ require 5.002;
 
 my($runtests,$dir,$tdir);
 $::type          = '';
-$::generic_tests = '';
 $::module        = '';
+$::tests         = '';
 
 $::type   = 'langext';
 $::module = 'Locale::Codes::LangExt';
@@ -16,11 +16,13 @@ $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
   require "t/vals.pl";
+  require "t/vals_langext.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
   require "vals.pl";
+  require "vals_langext.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -29,39 +31,8 @@ if ( -f "t/testfunc.pl" ) {
 
 unshift(@INC,$dir);
 
-my $tests = "
-
-2code
-Mesopotamian Arabic
-   acm
-
-2name
-acm
-   Mesopotamian Arabic
-
-_code2code
-ACM
-alpha
-alpha
-   acm
-
-all_codes
-2
-   ~
-   aao
-   abh
-
-all_names
-2
-   ~
-   Adamorobe Sign Language
-   Afghan Sign Language
-
-$::generic_tests
-";
-
 print "langext...\n";
-test_Func(\&test,$tests,$runtests);
+test_Func(\&test,$::tests,$runtests);
 
 1;
 # Local Variables:

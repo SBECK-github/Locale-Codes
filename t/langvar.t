@@ -6,8 +6,8 @@ require 5.002;
 
 my($runtests,$dir,$tdir);
 $::type          = '';
-$::generic_tests = '';
 $::module        = '';
+$::tests         = '';
 
 $::type   = 'langvar';
 $::module = 'Locale::Codes::LangVar';
@@ -16,11 +16,13 @@ $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
   require "t/vals.pl";
+  require "t/vals_langvar.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
   require "vals.pl";
+  require "vals_langvar.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -29,39 +31,8 @@ if ( -f "t/testfunc.pl" ) {
 
 unshift(@INC,$dir);
 
-my $tests = "
-
-2code
-Eastern Armenian
-   arevela
-
-2name
-arevela
-   Eastern Armenian
-
-_code2code
-arevela
-alpha
-alpha
-   arevela
-
-all_codes
-2
-   ~
-   1606nict
-   1694acad
-
-all_names
-2
-   ~
-   \"Academic\" (\"governmental\") variant of Belarusian as codified in 1959
-   ALA-LC Romanization, 1997 edition
-
-$::generic_tests
-";
-
 print "langvar...\n";
-test_Func(\&test,$tests,$runtests);
+test_Func(\&test,$::tests,$runtests);
 
 1;
 # Local Variables:
