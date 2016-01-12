@@ -1,14 +1,28 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
+use warnings;
+use strict;
 require 5.002;
+
+my($runtests,$dir,$tdir);
+$::type          = '';
+$::module        = '';
+$::tests         = '';
+
+$::type   = 'currency';
+$::module = 'Locale::Currency';
 
 $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
+  require "t/vals.pl";
+  require "t/vals_currency.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
+  require "vals.pl";
+  require "vals_currency.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -16,33 +30,9 @@ if ( -f "t/testfunc.pl" ) {
 }
 
 unshift(@INC,$dir);
-use Locale::Codes::Script;
 
-%type = ( "LOCALE_SCRIPT_ALPHA"   => LOCALE_SCRIPT_ALPHA,
-          "LOCALE_SCRIPT_NUMERIC" => LOCALE_SCRIPT_NUMERIC,
-        );
-
-sub test {
-   my(@test) = @_;
-   $test[1]  = $type{$test[1]}
-     if (@test == 2  &&  $test[1]  &&  exists $type{$test[1]});
-   return code2script(@test);
-}
-
-$tests = "
-
-~ _undef_
-
-Phnx ~ Phoenician
-
-phnx ~ Phoenician
-
-115 LOCALE_SCRIPT_NUMERIC ~ Phoenician
-
-";
-
-print "code2script...\n";
-test_Func(\&test,$tests,$runtests);
+print "currency (old)...\n";
+test_Func(\&test,$::tests,$runtests);
 
 1;
 # Local Variables:

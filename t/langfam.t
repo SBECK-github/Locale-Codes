@@ -1,14 +1,26 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
+use warnings;
+use strict;
 require 5.002;
+
+my($runtests,$dir,$tdir);
+$::type          = '';
+$::generic_tests = '';
+$::module        = '';
+
+$::type   = 'langfam';
+$::module = 'Locale::Codes::LangFam';
 
 $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
+  require "t/vals.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
+  require "vals.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -16,53 +28,40 @@ if ( -f "t/testfunc.pl" ) {
 }
 
 unshift(@INC,$dir);
-use Locale::Currency;
 
-%type = ( "LOCALE_CURR_ALPHA"    => LOCALE_CURR_ALPHA,
-          "LOCALE_CURR_NUMERIC"  => LOCALE_CURR_NUMERIC,
-        );
+my $tests = "
 
-sub test {
-   my(@test) = @_;
-   $test[1]  = $type{$test[1]}
-     if (@test == 2  &&  $test[1]  &&  exists $type{$test[1]});
-   return currency2code(@test);
-}
-
-$tests = "
-
-_blank_ ~ _undef_
-
-Banana ~ _undef_
-
-~ _undef_
-
-_undef_ ~ _undef_
-
-
-Canadian Dollar
+2code
+Apache languages
    ~
-   CAD
+   apa
 
-Belize Dollar
+2name
+apa
+   Apache languages
+
+_code2code
+apa
+alpha
+alpha
+   apa
+
+all_codes
+2
    ~
-   BZD
+   aav
+   afa
 
-PULA
+all_names
+2
    ~
-   BWP
+   Afro-Asiatic languages
+   Alacalufan languages
 
-Riel
-   ~
-   KHR
-
-Zimbabwe Dollar
-   ~
-   ZWL
-
+$::generic_tests
 ";
 
-print "currency2code (old)...\n";
+print "langfam...\n";
 test_Func(\&test,$tests,$runtests);
 
 1;

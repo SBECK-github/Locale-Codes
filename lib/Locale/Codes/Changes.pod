@@ -30,6 +30,14 @@ codes, I will add them to the module and release a new version.
 
 =head1 VERSION 3.38  (planned 2016-03-01; sbeck)
 
+=over 4
+
+=item B<Tests reworked>
+
+Improved test suite based on Devel::Cover
+
+=back
+
 =head1 VERSION 3.37  (2015-12-01; sbeck)
 
 NEW CODE(s)

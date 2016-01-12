@@ -660,7 +660,7 @@ sub _add_code_alias {
 
 #=======================================================================
 #
-# _delete_code_alias ( TYPE,CODE,CODESET )
+# _delete_code_alias ( TYPE,ALIAS,CODESET )
 #
 # Deletes an alias for the code.
 #

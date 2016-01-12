@@ -1,14 +1,28 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
+use warnings;
+use strict;
 require 5.002;
+
+my($runtests,$dir,$tdir);
+$::type          = '';
+$::module        = '';
+$::tests         = '';
+
+$::type   = 'script';
+$::module = 'Locale::Codes::Script';
 
 $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
+  require "t/vals.pl";
+  require "t/vals_script.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
+  require "vals.pl";
+  require "vals_script.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -16,30 +30,9 @@ if ( -f "t/testfunc.pl" ) {
 }
 
 unshift(@INC,$dir);
-use Locale::Codes::LangFam;
 
-%type = ( "LOCALE_LANGFAM_ALPHA"    => LOCALE_LANGFAM_ALPHA,
-        );
-
-sub test {
-   my(@test) = @_;
-   $test[1]  = $type{$test[1]}
-     if (@test == 2  &&  $test[1]  &&  exists $type{$test[1]});
-   return code2langfam(@test);
-}
-
-$tests = "
-
-zzz ~ _undef_
-
-apa
-   ~
-   Apache languages
-
-";
-
-print "code2langfam...\n";
-test_Func(\&test,$tests,$runtests);
+print "script...\n";
+test_Func(\&test,$::tests,$runtests);
 
 1;
 # Local Variables:

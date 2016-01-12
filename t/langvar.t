@@ -1,14 +1,26 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
+use warnings;
+use strict;
 require 5.002;
+
+my($runtests,$dir,$tdir);
+$::type          = '';
+$::generic_tests = '';
+$::module        = '';
+
+$::type   = 'langvar';
+$::module = 'Locale::Codes::LangVar';
 
 $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
+  require "t/vals.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
+  require "vals.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -16,29 +28,39 @@ if ( -f "t/testfunc.pl" ) {
 }
 
 unshift(@INC,$dir);
-use Locale::Codes::LangExt;
 
-%type = ( "LOCALE_LANGEXT_ALPHA"    => LOCALE_LANGEXT_ALPHA,
-        );
+my $tests = "
 
-sub test {
-   my(@test) = @_;
-   $test[1]  = $type{$test[1]}
-     if (@test == 2  &&  $test[1]  &&  exists $type{$test[1]});
-   return langext2code(@test);
-}
+2code
+Eastern Armenian
+   arevela
 
-$tests = "
+2name
+arevela
+   Eastern Armenian
 
-_blank_ ~ _undef_
+_code2code
+arevela
+alpha
+alpha
+   arevela
 
-Mesopotamian Arabic
+all_codes
+2
    ~
-   acm
+   1606nict
+   1694acad
 
+all_names
+2
+   ~
+   \"Academic\" (\"governmental\") variant of Belarusian as codified in 1959
+   ALA-LC Romanization, 1997 edition
+
+$::generic_tests
 ";
 
-print "langext2code...\n";
+print "langvar...\n";
 test_Func(\&test,$tests,$runtests);
 
 1;

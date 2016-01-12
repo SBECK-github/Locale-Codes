@@ -188,6 +188,7 @@ WriteMakefile(
     : ()),
 
 
+
    INSTALLDIRS      => (($] >= 5.007003) ? 'perl' : 'site'),
 
 );

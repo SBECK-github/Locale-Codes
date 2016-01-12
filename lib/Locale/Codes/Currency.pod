@@ -83,7 +83,7 @@ This is the set of three-digit numeric codes from ISO 4217.
 
 =item B<Locale::Codes::Currency::add_currency_code_alias(CODE ,NEW_CODE [,CODESET])>
 
-=item B<Locale::Codes::Currency::delete_currency_code_alias( ODE [,CODESET])>
+=item B<Locale::Codes::Currency::delete_currency_code_alias( CODE [,CODESET])>
 
 These routines are all documented in the L<Locale::Codes::API> man page.
 

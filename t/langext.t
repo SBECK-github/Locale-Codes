@@ -1,14 +1,26 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
+use warnings;
+use strict;
 require 5.002;
+
+my($runtests,$dir,$tdir);
+$::type          = '';
+$::generic_tests = '';
+$::module        = '';
+
+$::type   = 'langext';
+$::module = 'Locale::Codes::LangExt';
 
 $runtests=shift(@ARGV);
 if ( -f "t/testfunc.pl" ) {
   require "t/testfunc.pl";
+  require "t/vals.pl";
   $dir="./lib";
   $tdir="t";
 } elsif ( -f "testfunc.pl" ) {
   require "testfunc.pl";
+  require "vals.pl";
   $dir="../lib";
   $tdir=".";
 } else {
@@ -16,29 +28,39 @@ if ( -f "t/testfunc.pl" ) {
 }
 
 unshift(@INC,$dir);
-use Locale::Codes::LangExt;
 
-%type = ( "LOCALE_LANGEXT_ALPHA"    => LOCALE_LANGEXT_ALPHA,
-        );
+my $tests = "
 
-sub test {
-   my(@test) = @_;
-   $test[1]  = $type{$test[1]}
-     if (@test == 2  &&  $test[1]  &&  exists $type{$test[1]});
-   return code2langext(@test);
-}
+2code
+Mesopotamian Arabic
+   acm
 
-$tests = "
-
-zzz ~ _undef_
-
+2name
 acm
-   ~
    Mesopotamian Arabic
 
+_code2code
+ACM
+alpha
+alpha
+   acm
+
+all_codes
+2
+   ~
+   aao
+   abh
+
+all_names
+2
+   ~
+   Adamorobe Sign Language
+   Afghan Sign Language
+
+$::generic_tests
 ";
 
-print "code2langext...\n";
+print "langext...\n";
 test_Func(\&test,$tests,$runtests);
 
 1;
