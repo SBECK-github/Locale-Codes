@@ -24,6 +24,30 @@ all_codes
    ad
    ae
 
+all_names
+retired
+2
+   ~
+   Afghanistan
+   Aland Islands
+
+all_codes
+retired
+2
+   ~
+   ad
+   ae
+
+all_names
+foo
+2
+   ~
+
+all_codes
+foo
+2
+   ~
+
 2name
 zz
    _undef_
@@ -203,6 +227,12 @@ alpha-2
 retired
    Japan
 
+2name
+z0
+alpha-2
+retired
+   _undef_
+
 ##################
 # country2code
 
@@ -360,6 +390,22 @@ Zimbabwe
 dom
    zw
 
+2code
+Zimbabwe
+dom
+   zw
+
+2code
+Zimbabwe
+foo
+   _undef_
+
+2code
+Zipper
+dom
+retired
+   _undef_
+
 ##################
 # country_code2code
 
@@ -440,6 +486,14 @@ tr
 alpha-2
 numeric
    792
+
+_code2code
+tr
+alpha-2
+   _undef_
+
+_code2code
+   _undef_
 
 ###################################
 # Test rename_country
@@ -522,6 +576,24 @@ Xxxxx
 xx
    Xxxxx
 
+add
+xx
+Xxxxx
+foo
+   0
+
+add
+xy
+New Country
+alpha-2
+   1
+
+add
+xyy
+New Country
+alpha-3
+   1
+
 ###################################
 # Test add_alias
 
@@ -575,6 +647,102 @@ delete_alias
 Angola
    0
 
+# Complicated example
+
+add
+z1
+NameA1
+alpha-2
+   1
+
+add_alias
+NameA1
+NameA2
+alpha-2
+   1
+
+add
+zz1
+NameA2
+alpha-3
+   1
+
+2name
+z1
+   NameA1
+
+2name
+zz1
+alpha-3
+   NameA2
+
+_code2code
+z1
+alpha-2
+alpha-3
+   zz1
+
+delete_alias
+NameA2
+   1
+
+2name
+z1
+   NameA1
+
+2name
+zz1
+alpha-3
+   NameA1
+
+# Complicated example
+
+add
+z2
+NameB1
+alpha-2
+   1
+
+add_alias
+NameB1
+NameB2
+alpha-2
+   1
+
+add
+zz2
+NameB2
+alpha-3
+   1
+
+2name
+z2
+   NameB1
+
+2name
+zz2
+alpha-3
+   NameB2
+
+_code2code
+z2
+alpha-2
+alpha-3
+   zz2
+
+delete_alias
+NameB1
+   1
+
+2name
+z2
+   NameB2
+
+2name
+zz2
+alpha-3
+   NameB2
+
 ###################################
 # Test delete
 
@@ -599,6 +767,15 @@ Angola
 Angola
 alpha-3
    ago
+
+delete
+ago
+foo
+   0
+
+delete
+zz
+   0
 
 ###################################
 # Test rename_code
@@ -658,6 +835,18 @@ ar
 2code
 Argentina
    ar
+
+rename_code
+ar
+z2
+foo
+   0
+
+rename_code
+ar
+z2
+alpha-3
+   0
 
 ###################################
 # Test add_code_alias and
@@ -726,7 +915,44 @@ yy
 Bermuda
    bm
 
+add_code_alias
+bm
+yy
+   1
 
+2name
+yy
+   Bermuda
+
+add
+yy
+Foo
+   0
+
+delete
+bm
+   1
+
+2name
+bm
+   _undef_
+
+add_code_alias
+bm
+y2
+foo
+   0
+
+add_code_alias
+bm
+y2
+alpha-3
+   0
+
+delete_code_alias
+bm
+foo
+   0
 
 $::generic_tests
 ";
@@ -740,6 +966,6 @@ $::generic_tests
 # cperl-continued-brace-offset: 0
 # cperl-brace-offset: 0
 # cperl-brace-imaginary-offset: 0
-# cperl-label-offset: -2
+# cperl-label-offset: 0
 # End:
 

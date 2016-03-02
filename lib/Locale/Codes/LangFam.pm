@@ -1,5 +1,5 @@
 package Locale::Codes::LangFam;
-# Copyright (c) 2011-2015 Sullivan Beck
+# Copyright (c) 2011-2016 Sullivan Beck
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -91,5 +91,5 @@ sub delete_langfam_code_alias {
 # cperl-continued-brace-offset: 0
 # cperl-brace-offset: 0
 # cperl-brace-imaginary-offset: 0
-# cperl-label-offset: -2
+# cperl-label-offset: 0
 # End:

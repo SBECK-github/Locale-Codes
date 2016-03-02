@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# Copyright (c) 2010-2015 Sullivan Beck.  All rights reserved.
+# Copyright (c) 2010-2016 Sullivan Beck.  All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -25,6 +25,7 @@ $Data{'script'}{'iso'}{'orig'}{'name'} =
    "Sharada, Śāradā"                  => "Sharada, Sarada",
    "Takri, Ṭākrī, Ṭāṅkrī"              => "Takri, Takri, Tankri",
    "Siddham, Siddhaṃ, Siddhamātṛkā"   => "Siddham, Siddham, Siddhamatrka",
+   "Newa, Newar, Newari, Nepāla lipi" => "Newa, Newar, Newari, Nepala lipi",
 };
 
 $Data{'script'}{'iso'}{'ignore'} = {
@@ -54,6 +55,7 @@ $Data{'script'}{'iana'}{'orig'}{'name'} =
    "Róng"                => "Rong",
    "Siddhaṃ"            => "Siddham",
    "Siddhamātṛkā"        => "Siddhamatrka",
+   "Nepāla lipi"         => "Nepala lipi",
 };
 
 $Data{'script'}{'iana'}{'ignore'} = {
@@ -76,6 +78,5 @@ $Data{'script'}{'iana'}{'ignore'} = {
 # cperl-continued-brace-offset: 0
 # cperl-brace-offset: 0
 # cperl-brace-imaginary-offset: 0
-# cperl-label-offset: -2
+# cperl-label-offset: 0
 # End:
-

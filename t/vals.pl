@@ -21,20 +21,30 @@ sub test {
    } elsif ($op eq '2name') {
       return &{ "code2${::type}" }(@test)
    } elsif ($op eq '_code2code') {
-      my $code = &{ "${::type}_code2code" }(@test);
+      my $code = &{ "${::type}_code2code" }(@test,"nowarn");
       return ($code ? lc($code) : $code);
 
    } elsif ($op eq 'all_codes') {
-      my @tmp = &{ "all_${::type}_codes" }();
-      if (@test) {
-         return @tmp[0..($test[0]-1)];
+      my $n;
+      if ($test[$#test] =~ /^\d+$/) {
+         $n = pop(@test);
+      }
+
+      my @tmp = &{ "all_${::type}_codes" }(@test);
+      if ($n  &&  @tmp > $n) {
+         return @tmp[0..($n-1)];
       } else {
          return @tmp;
       }
    } elsif ($op eq 'all_names') {
-      my @tmp = &{ "all_${::type}_names" }();
-      if (@test) {
-         return @tmp[0..($test[0]-1)];
+      my $n;
+      if ($test[$#test] =~ /^\d+$/) {
+         $n = pop(@test);
+      }
+
+      my @tmp = &{ "all_${::type}_names" }(@test);
+      if ($n  &&  @tmp > $n) {
+         return @tmp[0..($n-1)];
       } else {
          return @tmp;
       }
@@ -62,6 +72,13 @@ $::generic_tests = "
 #################
 
 2code
+_undef_
+   _undef_
+
+2code
+   _undef_
+
+2code
 _blank_
    _undef_
 
@@ -74,6 +91,13 @@ UnusedName
 
 2code
 _undef_
+   _undef_
+
+2name
+_undef
+   _undef_
+
+2name
    _undef_
 
 ###
@@ -183,6 +207,6 @@ CCC
 # cperl-continued-brace-offset: 0
 # cperl-brace-offset: 0
 # cperl-brace-imaginary-offset: 0
-# cperl-label-offset: -2
+# cperl-label-offset: 0
 # End:
 

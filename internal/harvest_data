@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# Copyright (c) 2010-2015 Sullivan Beck.  All rights reserved.
+# Copyright (c) 2010-2016 Sullivan Beck.  All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -772,7 +772,7 @@ sub do_currency {
 
    sub _init_currency_iso {
       $in = _read_file('url'       => $currency_iso_url,
-                       'head'      => 'Entity',
+                       'head'      => 'ENTITY',
                        'as_list'   => 1,
                        'type'      => 'xls',
                        'join'      => 1,
@@ -787,8 +787,8 @@ sub do_currency {
          next  if (! $ele);
 
          my $currency = $$ele{'Currency'};
-         my $alpha    = $$ele{'Alphabetic code'};
-         my $num      = $$ele{'Numeric code'};
+         my $alpha    = $$ele{'Alphabetic Code'};
+         my $num      = $$ele{'Numeric Code'};
          $num         = ""  if (! defined($num));
          $currency    = ""  if (! defined($currency));
          $alpha       = ""  if (! defined($alpha));
@@ -1395,18 +1395,6 @@ sub _get_ID_new {
    }
 
    return(0,$id,$subid);
-}
-
-########################################
-
-sub _ascii {
-   my($type,$val) = @_;
-
-   if ($val !~ /^[[:ascii:]]*$/) {
-      my $tmp = $val;
-      $tmp =~ s/[[:ascii:]]//g;
-      print "NON-ASCII [$type]: '$val' [$tmp]\n";
-   }
 }
 
 ############################################################################

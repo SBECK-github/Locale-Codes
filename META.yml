@@ -108,4 +108,4 @@ requires:
 resources:
   repository: git://github.com/SBECK-github/Locale-Codes.git
 version: '3.38'
-x_serialization_backend: 'CPAN::Meta::YAML version 0.012'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
