@@ -145,11 +145,10 @@ Modify the MANIFEST file if any files are added/removed.
 
 Create the patch (NOTE: fix the version numbers):
 
-   git config --global user.name "Sullivan Beck"
-   git config --global user.email 'sbeck@cpan.org'
-
-   git commit -a -m "Bump Locale-Codes from $old to $new"
-   git format-patch origin
+   git -c user.name="Sullivan Beck" -c user.email='sbeck@cpan.org' \
+       commit -a -m "Bump Locale-Codes from $old to $new"
+   git -c user.name="Sullivan Beck" -c user.email='sbeck@cpan.org' \
+       format-patch origin
    gzip 0001*
    mv 0001* /tmp
 

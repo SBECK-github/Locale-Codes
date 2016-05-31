@@ -3,7 +3,7 @@ Locale::Codes::Currency_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Wed Mar  2 09:20:52 EST 2016
+#    Generated on: Tue May 24 14:46:57 EDT 2016
 
 use strict;
 require 5.006;

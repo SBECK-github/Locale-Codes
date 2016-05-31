@@ -4023,7 +4023,7 @@ currency:
       BSD: Bahamian Dollar
       BTN: Ngultrum
       BWP: Pula
-      BYR: Belarussian Ruble
+      BYR: Belarusian Ruble
       BZD: Belize Dollar
       CAD: Canadian Dollar
       CDF: Congolese Franc
@@ -4097,7 +4097,7 @@ currency:
       MRO: Ouguiya
       MUR: Mauritius Rupee
       MVR: Rufiyaa
-      MWK: Kwacha
+      MWK: Malawi Kwacha
       MXN: Mexican Peso
       MXV: Mexican Unidad de Inversion (UDI)
       MYR: Malaysian Ringgit
@@ -4110,7 +4110,7 @@ currency:
       NZD: New Zealand Dollar
       OMR: Rial Omani
       PAB: Balboa
-      PEN: Nuevo Sol
+      PEN: Sol
       PGK: Kina
       PHP: Philippine Peso
       PKR: Pakistan Rupee
@@ -4215,9 +4215,9 @@ currency:
       barbados dollar: 
         - BBD
         - Barbados Dollar
-      belarussian ruble: 
+      belarusian ruble: 
         - BYR
-        - Belarussian Ruble
+        - Belarusian Ruble
       belize dollar: 
         - BZD
         - Belize Dollar
@@ -4404,9 +4404,6 @@ currency:
       kuwaiti dinar: 
         - KWD
         - Kuwaiti Dinar
-      kwacha: 
-        - MWK
-        - Kwacha
       kwanza: 
         - AOA
         - Kwanza
@@ -4443,6 +4440,9 @@ currency:
       malagasy ariary: 
         - MGA
         - Malagasy Ariary
+      malawi kwacha: 
+        - MWK
+        - Malawi Kwacha
       malaysian ringgit: 
         - MYR
         - Malaysian Ringgit
@@ -4500,9 +4500,6 @@ currency:
       norwegian krone: 
         - NOK
         - Norwegian Krone
-      nuevo sol: 
-        - PEN
-        - Nuevo Sol
       ouguiya: 
         - MRO
         - Ouguiya
@@ -4587,6 +4584,9 @@ currency:
       singapore dollar: 
         - SGD
         - Singapore Dollar
+      sol: 
+        - PEN
+        - Sol
       solomon islands dollar: 
         - SBD
         - Solomon Islands Dollar
@@ -4775,7 +4775,7 @@ currency:
       430: Liberian Dollar
       434: Libyan Dinar
       446: Pataca
-      454: Kwacha
+      454: Malawi Kwacha
       458: Malaysian Ringgit
       462: Rufiyaa
       478: Ouguiya
@@ -4798,7 +4798,7 @@ currency:
       590: Balboa
       598: Kina
       600: Guarani
-      604: Nuevo Sol
+      604: Sol
       608: Philippine Peso
       634: Qatari Rial
       643: Russian Ruble
@@ -4868,7 +4868,7 @@ currency:
       971: Afghani
       972: Somoni
       973: Kwanza
-      974: Belarussian Ruble
+      974: Belarusian Ruble
       975: Bulgarian Lev
       976: Congolese Franc
       977: Convertible Mark
@@ -4922,9 +4922,9 @@ currency:
       barbados dollar: 
         - '052'
         - Barbados Dollar
-      belarussian ruble: 
+      belarusian ruble: 
         - 974
-        - Belarussian Ruble
+        - Belarusian Ruble
       belize dollar: 
         - '084'
         - Belize Dollar
@@ -5111,9 +5111,6 @@ currency:
       kuwaiti dinar: 
         - 414
         - Kuwaiti Dinar
-      kwacha: 
-        - 454
-        - Kwacha
       kwanza: 
         - 973
         - Kwanza
@@ -5150,6 +5147,9 @@ currency:
       malagasy ariary: 
         - 969
         - Malagasy Ariary
+      malawi kwacha: 
+        - 454
+        - Malawi Kwacha
       malaysian ringgit: 
         - 458
         - Malaysian Ringgit
@@ -5207,9 +5207,6 @@ currency:
       norwegian krone: 
         - 578
         - Norwegian Krone
-      nuevo sol: 
-        - 604
-        - Nuevo Sol
       ouguiya: 
         - 478
         - Ouguiya
@@ -5294,6 +5291,9 @@ currency:
       singapore dollar: 
         - 702
         - Singapore Dollar
+      sol: 
+        - 604
+        - Sol
       solomon islands dollar: 
         - '090'
         - Solomon Islands Dollar
@@ -40949,12 +40949,14 @@ langvar:
       baku1926: Unified Turkic Latin Alphabet (Historical)
       balanka: The Balanka dialect of Anii
       barla: The Barlavento dialect group of Kabuverdianu
+      basiceng: Basic English
       bauddha: Buddhist Hybrid Sanskrit
       biscayan: Biscayan dialect of Basque
       biske: The San Giorgio dialect of Resian
       bohoric: Slovene in Bohoric alphabet
       boont: Boontling
       colb1945: Portuguese-Brazilian Orthographic Convention of 1945 (Convencao Ortografica Luso-Brasileira de 1945)
+      cornu: Cornu-English
       dajnko: Slovene in Dajnko alphabet
       ekavsk: Serbian with Ekavian pronunciation
       emodeng: Early Modern English (1500-1700)
@@ -40992,6 +40994,7 @@ langvar:
       rumgr: Rumantsch Grischun
       scotland: Scottish Standard English
       scouse: Scouse
+      simple: Simplified form
       solba: The Stolvizza dialect of Resian
       sotav: The Sotavento dialect group of Kabuverdianu
       surmiran: Surmiran idiom of Romansh
@@ -41016,6 +41019,9 @@ langvar:
       aluku dialect: 
         - aluku
         - Aluku dialect
+      basic english: 
+        - basiceng
+        - Basic English
       belarusian in taraskievica orthography: 
         - tarask
         - Belarusian in Taraskievica orthography
@@ -41034,6 +41040,9 @@ langvar:
       common cornish orthography of revived cornish: 
         - kkcor
         - Common Cornish orthography of Revived Cornish
+      cornu-english: 
+        - cornu
+        - Cornu-English
       early modern english (1500-1700): 
         - emodeng
         - Early Modern English (1500-1700)
@@ -41127,6 +41136,9 @@ langvar:
       serbian with ijekavian pronunciation: 
         - ijekavsk
         - Serbian with Ijekavian pronunciation
+      simplified form: 
+        - simple
+        - Simplified form
       slovene in bohoric alphabet: 
         - bohoric
         - Slovene in Bohoric alphabet
@@ -41273,6 +41285,7 @@ script:
       Grek: Greek
       Gujr: Gujarati
       Guru: Gurmukhi
+      Hanb: Han with Bopomofo (alias for Han + Bopomofo)
       Hang: Hangul
       Hani: Han
       Hano: Hanunoo
@@ -41287,6 +41300,7 @@ script:
       Hung: Old Hungarian
       Inds: Indus
       Ital: Old Italic (Etruscan, Oscan, etc.)
+      Jamo: Jamo (alias for Jamo subset of Hangul)
       Java: Javanese
       Jpan: Japanese (alias for Han + Hiragana + Katakana)
       Jurc: Jurchen
@@ -41333,6 +41347,7 @@ script:
       Mymr: Myanmar
       Narb: Old North Arabian
       Nbat: Nabataean
+      Newa: Newa
       Nkgb: Nakhi Geba
       Nkoo: N'Ko
       Nshu: Nushu
@@ -41350,6 +41365,7 @@ script:
       Phlp: Psalter Pahlavi
       Phlv: Book Pahlavi
       Phnx: Phoenician
+      Piqd: Klingon (KLI pIqaD)
       Plrd: Miao
       Prti: Inscriptional Parthian
       Qaaa: Reserved for private use (start)
@@ -41399,6 +41415,7 @@ script:
       Yiii: Yi
       Zinh: Code for inherited script
       Zmth: Mathematical notation
+      Zsye: Symbols (Emoji variant)
       Zsym: Symbols
     name: 
       adlam: 
@@ -41551,6 +41568,9 @@ script:
       han (traditional variant): 
         - Hant
         - Han (Traditional variant)
+      han with bopomofo (alias for han + bopomofo): 
+        - Hanb
+        - Han with Bopomofo (alias for Han + Bopomofo)
       hangul: 
         - Hang
         - Hangul
@@ -41578,6 +41598,9 @@ script:
       inscriptional parthian: 
         - Prti
         - Inscriptional Parthian
+      jamo (alias for jamo subset of hangul): 
+        - Jamo
+        - Jamo (alias for Jamo subset of Hangul)
       japanese (alias for han + hiragana + katakana): 
         - Jpan
         - Japanese (alias for Han + Hiragana + Katakana)
@@ -41623,6 +41646,9 @@ script:
       khutsuri (asomtavruli and nuskhuri): 
         - Geok
         - Khutsuri (Asomtavruli and Nuskhuri)
+      klingon (kli piqad): 
+        - Piqd
+        - Klingon (KLI pIqaD)
       korean (alias for hangul + han): 
         - Kore
         - Korean (alias for Hangul + Han)
@@ -41734,6 +41760,9 @@ script:
       new tai lue: 
         - Talu
         - New Tai Lue
+      newa: 
+        - Newa
+        - Newa
       nushu: 
         - Nshu
         - Nushu
@@ -41845,6 +41874,9 @@ script:
       symbols: 
         - Zsym
         - Symbols
+      symbols (emoji variant): 
+        - Zsye
+        - Symbols (Emoji variant)
       syriac: 
         - Syrc
         - Syriac
@@ -41998,6 +42030,7 @@ script:
       280: Visible Speech
       281: Shavian (Shaw)
       282: Miao (Pollard)
+      284: Jamo (alias for Jamo subset of Hangul)
       285: Bopomofo
       286: Hangul (Hangul, Hangeul)
       287: Korean (alias for Hangul + Han)
@@ -42005,6 +42038,7 @@ script:
       290: Tengwar
       291: Cirth
       292: Sarati
+      293: Klingon (KLI pIqaD)
       300: Brahmi
       302: Siddham, Siddham, Siddhamatrka
       305: Kharoshthi
@@ -42026,6 +42060,7 @@ script:
       330: Tibetan
       331: Phags-pa
       332: Marchen
+      333: Newa, Newar, Newari, Nepala lipi
       334: Bhaiksuki
       335: Lepcha (Rong)
       336: Limbu
@@ -42086,6 +42121,7 @@ script:
       500: Han (Hanzi, Kanji, Hanja)
       501: Han (Simplified variant)
       502: Han (Traditional variant)
+      503: Han with Bopomofo (alias for Han + Bopomofo)
       505: Khitan large script
       510: Jurchen
       520: Tangut
@@ -42096,6 +42132,7 @@ script:
       755: Duployan shorthand, Duployan stenography
       900: Reserved for private use (start)
       949: Reserved for private use (end)
+      993: Symbols (Emoji variant)
       994: Code for inherited script
       995: Mathematical notation
       996: Symbols
@@ -42253,6 +42290,9 @@ script:
       han (traditional variant): 
         - 502
         - Han (Traditional variant)
+      han with bopomofo (alias for han + bopomofo): 
+        - 503
+        - Han with Bopomofo (alias for Han + Bopomofo)
       hangul (hangul, hangeul): 
         - 286
         - Hangul (Hangul, Hangeul)
@@ -42280,6 +42320,9 @@ script:
       inscriptional parthian: 
         - 130
         - Inscriptional Parthian
+      jamo (alias for jamo subset of hangul): 
+        - 284
+        - Jamo (alias for Jamo subset of Hangul)
       japanese (alias for han + hiragana + katakana): 
         - 413
         - Japanese (alias for Han + Hiragana + Katakana)
@@ -42325,6 +42368,9 @@ script:
       khutsuri (asomtavruli and nuskhuri): 
         - 241
         - Khutsuri (Asomtavruli and Nuskhuri)
+      klingon (kli piqad): 
+        - 293
+        - Klingon (KLI pIqaD)
       korean (alias for hangul + han): 
         - 287
         - Korean (alias for Hangul + Han)
@@ -42436,6 +42482,9 @@ script:
       new tai lue: 
         - 354
         - New Tai Lue
+      newa, newar, newari, nepala lipi: 
+        - 333
+        - Newa, Newar, Newari, Nepala lipi
       nushu: 
         - 499
         - Nushu
@@ -42544,6 +42593,9 @@ script:
       symbols: 
         - 996
         - Symbols
+      symbols (emoji variant): 
+        - 993
+        - Symbols (Emoji variant)
       syriac: 
         - 135
         - Syriac

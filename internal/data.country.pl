@@ -227,6 +227,78 @@ $Data{'country'}{'iana'}{'new'} = {
    'Zimbabwe'                                => 1,
 };
 
+################################################################################
+# UN countries
+
+$Data{'country'}{'un'}{'orig'}{'name'} = {
+   "&Aring;land Islands"                     => "Aland Islands",
+   "C&ocirc;te d'Ivoire"                     => "Cote d'Ivoire",
+   "Cura&ccedil;ao"                          => "Curacao",
+   "R\xE9union"                              => "Reunion",
+   "Saint Barth&eacute;lemy"                 => "Saint Barthelemy",
+};
+
+$Data{'country'}{'un'}{'new'} = {
+   "Channel Islands"                         => 1,
+   "Sark"                                    => 1,
+};
+
+################################################################################
+# GENC countries
+
+$Data{'country'}{'genc'}{'orig'}{'name'} = {
+   "CÔTE D’IVOIRE"                           => "Cote d'Ivoire",
+   "CURAÇAO",                                => "Curacao",
+   "AKROTIRI"                                => "Akrotiri",
+   "ASHMORE AND CARTIER ISLANDS"             => "Ashmore and Cartier Islands",
+   "BAKER ISLAND"                            => "Baker Island",
+   "BASSAS DA INDIA"                         => "Bassas Da India",
+   "BONAIRE, SINT EUSTATIUS, AND SABA"       => "Bonaire, Sint Eustatius, and Saba",
+   "CLIPPERTON ISLAND"                       => "Clipperton Island",
+   "CORAL SEA ISLANDS"                       => "Coral Sea Islands",
+   "DHEKELIA"                                => "Dhekelia",
+   "DIEGO GARCIA"                            => "Diego Garcia",
+   "ENTITY 1"                                => "Entity 1",
+   "ENTITY 2"                                => "Entity 2",
+   "ENTITY 3"                                => "Entity 3",
+   "ENTITY 4"                                => "Entity 4",
+   "ENTITY 5"                                => "Entity 5",
+   "ENTITY 6"                                => "Entity 6",
+   "EUROPA ISLAND"                           => "Europa Island",
+   "GAZA STRIP"                              => "Gaza Strip",
+   "GLORIOSO ISLANDS"                        => "Glorioso Islands",
+   "GUANTANAMO BAY NAVAL BASE"               => "Guantanamo Bay Naval Base",
+   "HOWLAND ISLAND"                          => "Howland Island",
+   "JAN MAYEN"                               => "Jan Mayen",
+   "JARVIS ISLAND"                           => "Jarvis Island",
+   "JOHNSTON ATOLL"                          => "Johnston Atoll",
+   "JUAN DE NOVA ISLAND"                     => "Juan de Nova Island",
+   "KINGMAN REEF"                            => "Kingman Reef",
+   "KOREA, NORTH"                            => "Korea, North",
+   "KOREA, SOUTH"                            => "Korea, South",
+   "KOSOVO"                                  => "Kosovo",
+   "LAOS"                                    => "Laos",
+   "MIDWAY ISLANDS"                          => "Midway Islands",
+   "MOLDOVA"                                 => "Moldova",
+   "NAVASSA ISLAND"                          => "Navassa Island",
+   "PALMYRA ATOLL"                           => "Palmyra Atoll",
+   "PARACEL ISLANDS"                         => "Paracel Islands",
+   "RUSSIA"                                  => "Russia",
+   "SAINT HELENA, ASCENSION, AND TRISTAN DA CUNHA" => "Saint Helena, Ascension, and Tristan Da Cunha",
+   "SINT MAARTEN"                            => "Sint Maarten",
+   "SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS" => "South Georgia and South Sandwich Islands",
+   "SPRATLY ISLANDS"                         => "Spratly Islands",
+   "SVALBARD"                                => "Svalbard",
+   "TANZANIA"                                => "Tanzania",
+   "TROMELIN ISLAND"                         => "Tromelin Island",
+   "UNKNOWN"                                 => "Unknown",
+   "WAKE ISLAND"                             => "Wake Island",
+   "WEST BANK"                               => "West Bank",
+};
+
+$Data{'country'}{'genc'}{'new'} = {
+};
+
 1;
 
 # Local Variables:
