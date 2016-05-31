@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.39';
+$VERSION='3.40';
 
 $Locale::Codes::Data{'langext'}{'id'} = '0230';
 
