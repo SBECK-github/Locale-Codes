@@ -57,7 +57,7 @@ country:
       cw: Curacao
       cx: Christmas Island
       cy: Cyprus
-      cz: Czech Republic
+      cz: Czechia
       de: Germany
       dj: Djibouti
       dk: Denmark
@@ -429,9 +429,9 @@ country:
       cyprus: 
         - cy
         - Cyprus
-      czech republic: 
+      czechia: 
         - cz
-        - Czech Republic
+        - Czechia
       denmark: 
         - dk
         - Denmark
@@ -1059,7 +1059,7 @@ country:
       cxr: Christmas Island
       cym: Cayman Islands
       cyp: Cyprus
-      cze: Czech Republic
+      cze: Czechia
       deu: Germany
       dji: Djibouti
       dma: Dominica
@@ -1428,9 +1428,9 @@ country:
       cyprus: 
         - cyp
         - Cyprus
-      czech republic: 
+      czechia: 
         - cze
-        - Czech Republic
+        - Czechia
       denmark: 
         - dnk
         - Denmark
@@ -2055,7 +2055,7 @@ country:
       cw: Curacao
       cx: Christmas Island
       cy: Cyprus
-      cz: Czech Republic
+      cz: Czechia
       de: Germany
       dj: Djibouti
       dk: Denmark
@@ -2427,9 +2427,9 @@ country:
       cyprus: 
         - cy
         - Cyprus
-      czech republic: 
+      czechia: 
         - cz
-        - Czech Republic
+        - Czechia
       denmark: 
         - dk
         - Denmark
@@ -3057,7 +3057,7 @@ country:
       CW: Curacao
       CX: Christmas Island
       CY: Cyprus
-      CZ: Czech Republic
+      CZ: Czechia
       DE: Germany
       DG: Diego Garcia
       DJ: Djibouti
@@ -3468,9 +3468,9 @@ country:
       cyprus: 
         - CY
         - Cyprus
-      czech republic: 
+      czechia: 
         - CZ
-        - Czech Republic
+        - Czechia
       denmark: 
         - DK
         - Denmark
@@ -4167,7 +4167,7 @@ country:
       CXR: Christmas Island
       CYM: Cayman Islands
       CYP: Cyprus
-      CZE: Czech Republic
+      CZE: Czechia
       DEU: Germany
       DGA: Diego Garcia
       DJI: Djibouti
@@ -4579,9 +4579,9 @@ country:
       cyprus: 
         - CYP
         - Cyprus
-      czech republic: 
+      czechia: 
         - CZE
-        - Czech Republic
+        - Czechia
       denmark: 
         - DNK
         - Denmark
@@ -5286,7 +5286,7 @@ country:
       191: Croatia
       192: Cuba
       196: Cyprus
-      203: Czech Republic
+      203: Czechia
       204: Benin
       208: Denmark
       212: Dominica
@@ -5702,9 +5702,9 @@ country:
       cyprus: 
         - 196
         - Cyprus
-      czech republic: 
+      czechia: 
         - 203
-        - Czech Republic
+        - Czechia
       denmark: 
         - 208
         - Denmark
@@ -6409,7 +6409,7 @@ country:
       191: Croatia
       192: Cuba
       196: Cyprus
-      203: Czech Republic
+      203: Czechia
       204: Benin
       208: Denmark
       212: Dominica
@@ -6779,9 +6779,9 @@ country:
       cyprus: 
         - 196
         - Cyprus
-      czech republic: 
+      czechia: 
         - 203
-        - Czech Republic
+        - Czechia
       denmark: 
         - 208
         - Denmark
@@ -7402,7 +7402,7 @@ country:
       CUW: Curacao
       CYM: Cayman Islands
       CYP: Cyprus
-      CZE: Czech Republic
+      CZE: Czechia
       DEU: Germany
       DJI: Djibouti
       DMA: Dominica
@@ -7716,9 +7716,9 @@ country:
       cyprus: 
         - CYP
         - Cyprus
-      czech republic: 
+      czechia: 
         - CZE
-        - Czech Republic
+        - Czechia
       denmark: 
         - DNK
         - Denmark
@@ -8213,7 +8213,7 @@ country:
       191: Croatia
       192: Cuba
       196: Cyprus
-      203: Czech Republic
+      203: Czechia
       204: Benin
       208: Denmark
       212: Dominica
@@ -8532,9 +8532,9 @@ country:
       cyprus: 
         - 196
         - Cyprus
-      czech republic: 
+      czechia: 
         - 203
-        - Czech Republic
+        - Czechia
       denmark: 
         - 208
         - Denmark

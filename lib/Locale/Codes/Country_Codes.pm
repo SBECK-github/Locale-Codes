@@ -3,7 +3,7 @@ Locale::Codes::Country_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Wed Aug 24 13:25:34 EDT 2016
+#    Generated on: Fri Nov 18 09:18:07 EST 2016
 
 use strict;
 require 5.006;
@@ -239,10 +239,7 @@ $Locale::Codes::Data{'country'}{'id2names'} = {
       q(Cyprus),
       ],
    q(0060) => [
-      q(Czech Republic),
-      q(The Czech Republic),
-      q(Czech Republic, The),
-      q(Czech Republic (The)),
+      q(Czechia),
       ],
    q(0061) => [
       q(Denmark),
@@ -1498,17 +1495,9 @@ $Locale::Codes::Data{'country'}{'alias2id'} = {
       q(0059),
       q(0),
       ],
-   q(czech republic) => [
+   q(czechia) => [
       q(0060),
       q(0),
-      ],
-   q(czech republic (the)) => [
-      q(0060),
-      q(3),
-      ],
-   q(czech republic, the) => [
-      q(0060),
-      q(2),
       ],
    q(democratic people's republic of korea) => [
       q(0118),
@@ -2736,10 +2725,6 @@ $Locale::Codes::Data{'country'}{'alias2id'} = {
       ],
    q(the cook islands) => [
       q(0053),
-      q(1),
-      ],
-   q(the czech republic) => [
-      q(0060),
       q(1),
       ],
    q(the democratic people's republic of korea) => [

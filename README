@@ -214,6 +214,46 @@ SEE ALSO
     Locale::Codes::Changes
         A history of changes made to this distribution.
 
+BUGS AND QUESTIONS
+    If you find a bug in Locale::Codes, there are three ways to send it to
+    me. Any of them are fine, so use the method that is easiest for you.
+
+    Direct email
+        You are welcome to send it directly to me by email. The email
+        address to use is: sbeck@cpan.org.
+
+    CPAN Bug Tracking
+        You can submit it using the CPAN tracking too. This can be done at
+        the following URL:
+
+        <http://rt.cpan.org/Public/Dist/Display.html?Name=Locale-Codes>
+
+    GitHub
+        You can submit it as an issue on GitHub. This can be done at the
+        following URL:
+
+        <https://github.com/SBECK-github/Locale-Codes>
+
+    Please do not use other means to report bugs (such as Usenet newsgroups,
+    or forums for a specific OS or Linux distribution) as it is impossible
+    for me to keep up with all of them.
+
+    When filing a bug report, please include the following information:
+
+    Locale::Codes version
+        Please include the version of Locale::Codes you are using. You can
+        get this by using the script:
+
+           use Locale::Codes::Country;
+           print $Locale::Codes::VERSION,"\n";
+
+    If you want to report missing or incorrect codes, you must be running
+    the most recent version of Locale::Codes.
+
+    If you find any problems with the documentation (errors, typos, or items
+    that are not clear), please send them to me. I welcome any suggestions
+    that will allow me to improve the documentation.
+
 AUTHOR
     Locale::Country and Locale::Language were originally written by Neil
     Bowers at the Canon Research Centre Europe (CRE). They maintained the

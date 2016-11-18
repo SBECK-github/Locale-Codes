@@ -3,7 +3,7 @@ Locale::Codes::Language_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Wed Aug 24 13:28:54 EDT 2016
+#    Generated on: Fri Nov 18 09:18:19 EST 2016
 
 use strict;
 require 5.006;
