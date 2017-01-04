@@ -32,7 +32,7 @@ codes, I will add them to the module and release a new version.
 
 =over 4
 
-=item B<Rewrote as OO module>
+=item B<(*) Rewrote as OO module>
 
 The core module (Locale::Codes) is now an OO module that can be used
 directly.  All of the other modules (Locale::Codes::TYPE) are still
@@ -41,13 +41,14 @@ the functional interface and remain unchanged.
 =item B<Added some constants>
 
 Historically, the constant names used to identify the codesets have been
-named inconsistently.  Constants for codesets are:
+named inconsistently.  The original constants for codesets are:
 
    Type      Constants
 
    country   LOCALE_CODE_*
    currency  LOCALE_CURR_*
    language  LOCALE_LANG_*
+
    script    LOCALE_SCRIPT_*
    langfam   LOCALE_LANGFAM_*
    langvar   LOCALE_LANGVAR_*

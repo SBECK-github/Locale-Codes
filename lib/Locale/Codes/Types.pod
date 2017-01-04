@@ -58,7 +58,12 @@ the name or a constant can be used.
 In the lists below, a code set is specified in the list by including the
 name and the constant.  So, for example, the first country code set is
 named C<'alpha-2'> and has a perl constant C<LOCALE_COUNTRY_ALPHA_2>
-associated with it.
+associated with it.  When using the OO interface, the constants are only
+available if you import them by loading the module with:
+
+   use Locale::Codes ':constants';
+
+The constants are always available when using the traditional interfaces.
 
 Some of the older perl constants names were not consistent, and in those
 cases, two constants are available (a newer consistent name and the older

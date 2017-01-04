@@ -7,19 +7,19 @@ package Locale::Codes::Language;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Wed Jan  4 07:49:32 EST 2017
+#    Generated on: Wed Jan  4 15:33:19 EST 2017
 
 use strict;
 use warnings;
 require 5.006;
-require Exporter;
+use Exporter qw(import);
 
-our($VERSION,@ISA,@EXPORT);
+our($VERSION,@EXPORT);
 $VERSION   = '3.50';
-@ISA       = qw(Exporter);
 
 ################################################################################
 use Locale::Codes;
+use Locale::Codes::Constants;
 
 @EXPORT    = qw(
                 code2language
@@ -27,13 +27,8 @@ use Locale::Codes;
                 all_language_codes
                 all_language_names
                 language_code2code
-                LOCALE_LANGUAGE_ALPHA_2
-                LOCALE_LANGUAGE_ALPHA_3
-                LOCALE_LANGUAGE_TERM
-                LOCALE_LANG_ALPHA_2
-                LOCALE_LANG_ALPHA_3
-                LOCALE_LANG_TERM
                );
+push(@EXPORT,@Locale::Codes::Constants::CONSTANTS_LANGUAGE);
 
 our $obj = new Locale::Codes('language');
 

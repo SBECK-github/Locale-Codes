@@ -27,7 +27,6 @@ internal/print_curr_data
 internal/TODO
 lib/Locale/Codes.pm
 lib/Locale/Codes.pod
-lib/Locale/Codes/API.pod
 lib/Locale/Codes/Changes.pod
 lib/Locale/Codes/Constants.pm
 lib/Locale/Codes/Country.pm
@@ -58,6 +57,7 @@ lib/Locale/Codes/Script.pm
 lib/Locale/Codes/Script.pod
 lib/Locale/Codes/Script_Codes.pm
 lib/Locale/Codes/Script_Retired.pm
+lib/Locale/Codes/Types.pod
 lib/Locale/Country.pm
 lib/Locale/Country.pod
 lib/Locale/Currency.pm

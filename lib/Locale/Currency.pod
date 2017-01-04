@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Locale::Currency - Locale-Codes module for dealing with currency code sets
+Locale::Currency - module for dealing with currency code sets
 
 =head1 SYNOPSIS
 
@@ -16,10 +16,10 @@ Locale::Currency - Locale-Codes module for dealing with currency code sets
 
 =head1 DESCRIPTION
 
-This module provides access to standard codes of type currency.
+This module provides access to currency code sets.
 
 Please refer to the L<Locale::Codes::Types> document for a description
-of the code sets available for this type.
+of the code sets available.
 
 Most of the routines take an optional additional argument which
 specifies the code set to use. The code set can be specified using the
@@ -39,23 +39,23 @@ The following functions are exported automatically:
 
 =item B<code2currency(CODE [,CODESET] [,'retired'])>
 
-See B<code2name>
+See B<code2name> in L<Locale::Codes>
 
 =item B<currency2code(NAME [,CODESET] [,'retired'])>
 
-See B<name2code>
+See B<name2code> in L<Locale::Codes>
 
 =item B<currency_code2code(CODE ,CODESET ,CODESET2)>
 
-See B<code2code>
+See B<code2code> in L<Locale::Codes>
 
 =item B<all_currency_codes([CODESET] [,'retired'])>
 
-See B<all_codes>
+See B<all_codes> in L<Locale::Codes>
 
 =item B<all_currency_names([CODESET] [,'retired'])>
 
-See B<all_names>
+See B<all_names> in L<Locale::Codes>
 
 =back
 
@@ -66,35 +66,35 @@ qualified with the package name:
 
 =item B<Locale::Currency::rename_currency(CODE ,NEW_NAME [,CODESET])>
 
-See B<rename_code>
+See B<rename_code> in L<Locale::Codes>
 
 =item B<Locale::Currency::add_currency(CODE ,NAME [,CODESET])>
 
-See B<add_code>
+See B<add_code> in L<Locale::Codes>
 
 =item B<Locale::Currency::delete_currency(CODE [,CODESET])>
 
-See B<delete_code>
+See B<delete_code> in L<Locale::Codes>
 
 =item B<Locale::Currency::add_currency_alias(NAME ,NEW_NAME)>
 
-See B<add_alias>
+See B<add_alias> in L<Locale::Codes>
 
 =item B<Locale::Currency::delete_currency_alias(NAME)>
 
-See B<delete_alias>
+See B<delete_alias> in L<Locale::Codes>
 
 =item B<Locale::Currency::rename_currency_code(CODE ,NEW_CODE [,CODESET])>
 
-See B<replace_code>
+See B<replace_code> in L<Locale::Codes>
 
 =item B<Locale::Currency::add_currency_code_alias(CODE ,NEW_CODE [,CODESET])>
 
-See B<add_code_alias>
+See B<add_code_alias> in L<Locale::Codes>
 
 =item B<Locale::Currency::delete_currency_code_alias(CODE [,CODESET])>
 
-See B<delete_code_alias>
+See B<delete_code_alias> in L<Locale::Codes>
 
 =back
 

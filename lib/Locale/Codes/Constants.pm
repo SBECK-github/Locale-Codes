@@ -7,21 +7,20 @@ package Locale::Codes::Constants;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Wed Jan  4 07:49:32 EST 2017
+#    Generated on: Wed Jan  4 15:33:19 EST 2017
 
 use strict;
 use warnings;
 require 5.006;
-require Exporter;
+use Exporter qw(import);
 
-our($VERSION,@ISA,@EXPORT);
+our($VERSION,@EXPORT);
 $VERSION   = '3.50';
-@ISA       = qw(Exporter);
 
 ################################################################################
-our(%ALL_CODESETS);
+our(@CONSTANTS,%ALL_CODESETS);
 
-@EXPORT    = qw(
+our(@CONSTANTS_COUNTRY) = qw(
                 LOCALE_CODE_ALPHA_2
                 LOCALE_CODE_ALPHA_3
                 LOCALE_CODE_DOM
@@ -40,30 +39,52 @@ our(%ALL_CODESETS);
                 LOCALE_COUNTRY_NUMERIC
                 LOCALE_COUNTRY_UN_ALPHA_3
                 LOCALE_COUNTRY_UN_NUMERIC
+);
+push(@CONSTANTS,@CONSTANTS_COUNTRY);
 
+our(@CONSTANTS_CURRENCY) = qw(
                 LOCALE_CURRENCY_ALPHA
                 LOCALE_CURRENCY_NUMERIC
                 LOCALE_CURR_ALPHA
                 LOCALE_CURR_NUMERIC
+);
+push(@CONSTANTS,@CONSTANTS_CURRENCY);
 
+our(@CONSTANTS_LANGEXT) = qw(
                 LOCALE_LANGEXT_ALPHA
+);
+push(@CONSTANTS,@CONSTANTS_LANGEXT);
 
+our(@CONSTANTS_LANGFAM) = qw(
                 LOCALE_LANGFAM_ALPHA
+);
+push(@CONSTANTS,@CONSTANTS_LANGFAM);
 
+our(@CONSTANTS_LANGUAGE) = qw(
                 LOCALE_LANGUAGE_ALPHA_2
                 LOCALE_LANGUAGE_ALPHA_3
                 LOCALE_LANGUAGE_TERM
                 LOCALE_LANG_ALPHA_2
                 LOCALE_LANG_ALPHA_3
                 LOCALE_LANG_TERM
+);
+push(@CONSTANTS,@CONSTANTS_LANGUAGE);
 
+our(@CONSTANTS_LANGVAR) = qw(
                 LOCALE_LANGVAR_ALPHA
+);
+push(@CONSTANTS,@CONSTANTS_LANGVAR);
 
+our(@CONSTANTS_SCRIPT) = qw(
                 LOCALE_SCRIPT_ALPHA
                 LOCALE_SCRIPT_NUMERIC
+);
+push(@CONSTANTS,@CONSTANTS_SCRIPT);
 
+@EXPORT    = (@CONSTANTS,
+               qw(
                 %ALL_CODESETS
-               );
+               ));
 
 use constant LOCALE_CODE_ALPHA_2         => 'alpha-2';
 use constant LOCALE_CODE_ALPHA_3         => 'alpha-3';

@@ -7,19 +7,19 @@ package Locale::Currency;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Wed Jan  4 07:49:32 EST 2017
+#    Generated on: Wed Jan  4 15:33:19 EST 2017
 
 use strict;
 use warnings;
 require 5.006;
-require Exporter;
+use Exporter qw(import);
 
-our($VERSION,@ISA,@EXPORT);
+our($VERSION,@EXPORT);
 $VERSION   = '3.50';
-@ISA       = qw(Exporter);
 
 ################################################################################
 use Locale::Codes;
+use Locale::Codes::Constants;
 
 @EXPORT    = qw(
                 code2currency
@@ -27,11 +27,8 @@ use Locale::Codes;
                 all_currency_codes
                 all_currency_names
                 currency_code2code
-                LOCALE_CURRENCY_ALPHA
-                LOCALE_CURRENCY_NUMERIC
-                LOCALE_CURR_ALPHA
-                LOCALE_CURR_NUMERIC
                );
+push(@EXPORT,@Locale::Codes::Constants::CONSTANTS_CURRENCY);
 
 our $obj = new Locale::Codes('currency');
 

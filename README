@@ -5,15 +5,17 @@ DESCRIPTION
     Locale-Codes is a distribution containing a set of modules designed to
     work with sets of codes which uniquely identify something. For example,
     there are codes associated with different countries, different
-    currencies, different languages, etc. These code sets are typically
+    currencies, different languages, etc. These sets of codes are typically
     maintained in some standard.
 
     This distribution provides a way to work with these lists of codes.
-    Becuase the data is not available in any consistent manner, this
-    distribution is updated on a regular basis to include all known codes at
-    that point in time. The data is stored internally in the distribution,
-    so it is necessary to keep this distrbution up-to-date to keep up with
-    the various changes that are made in the various standards.
+    Because the data from the various standards is not available in any sort
+    of consistent API, access to the lists is not available in any direct
+    fashion. To compensate for this, the list of codes is stored internally
+    within this distribution, and the distribution is updated on a regular
+    basis to include all known codes at that point in time. This does mean
+    that it is necessary to keep this distribution up-to-date to keep up
+    with the various changes that are made in the various standards.
 
     Traditionally, a module has been created to work with each type of code
     sets. So, there is a module for working with country lists, one for
@@ -25,18 +27,19 @@ DESCRIPTION
     provide an object-oriented interface. All of the modules for working
     with individual types of code sets were reworked to use the improved OO
     module, so the traditional interfaces still work as they always have. As
-    an alternative, you can directly use the OO interface and bypass the
-    wrapper modules entirely.
+    a result, you are free to use the traditional functional (non-OO)
+    interfaces, or to use the OO interface and bypass the wrapper modules
+    entirely.
 
     Both methods will be supported in the future, so use the one that is
     best suited to your needs.
 
-    Within each type, any number of code sets are allowed. For example
-    country codes are maintained in ISO-3166, by the IANA, and by the United
-    Nations (and others). The lists of countries are similar, but not
-    identical. Multiple code sets are supported, though trying to convert
-    from one code set to another will not always work since the list of
-    countries is not one-to-one.
+    Within each type, any number of code sets are allowed. For example, sets
+    of country codes are maintained in several different locations including
+    the ISO-3166 standard, the IANA, and by the United Nations. The lists of
+    countries are similar, but not identical. Multiple code sets are
+    supported, though trying to convert from one code set to another will
+    not always work since the list of countries is not one-to-one.
 
     All data in all of these modules comes directly from the original
     standards (or as close to direct as possible), so it should be
@@ -49,15 +52,28 @@ DESCRIPTION
 
 SYNOPSIS (OBJECT-ORIENTED INTERFACE)
        use Locale::Codes;
+       or
+       use Locale::Codes ':constants';
+
        $obj = new Locale::Codes 'country';
 
 OBJECT-ORIENTED METHODS
     The following methods are available.
 
+    In all methods, when specifying a code set, the name (as a string) is
+    always available.
+
+    Traditionally, you could also use a perl constant to specify the code
+    set. In order to do so with the OO interface, you have to import the
+    constants. To do that, load the module with:
+
+       use Locale::Codes ':constants';
+
     new ( [TYPE [,CODESET]] )
            $obj = new Locale::Codes;
            $obj = new Locale::Codes 'country';
            $obj = new Locale::Codes 'country','alpha-3';
+           $obj = new Locale::Codes 'country',LOCALE_COUNTRY_ALPHA_3;
 
         This creates a new object that can access the data. If no type is
         specified (in the first argument), you must use the type method
@@ -67,6 +83,9 @@ OBJECT-ORIENTED METHODS
         The second argument is the default code set to use. This is
         optional, as each type has a default code set. The default code set
         can be set using the codeset method below.
+
+        The last example is only available if the constants were imported
+        when the module was loaded.
 
     show_errors ( FLAG )
            $obj->show_errors(1);
@@ -373,59 +392,6 @@ TRADITIONAL INTERFACES
     of any kind is offered for using these modules directly. They may be
     modified at any time.
 
-NEW CODE SETS
-    I'm always open to suggestions for new code sets.
-
-    In order for me to add a code set, I want the following criteria to be
-    met:
-
-    General-use code set
-        If a code set is not general use, I'm not likely to spend the time
-        to add and support it.
-
-    An official source of data
-        I require an official (or at least, a NEARLY official) source where
-        I can get the data on a regular basis.
-
-        Ideally, I'd only get data from an official source, but sometimes
-        that is not possible. For example the ISO standards are not
-        typically available for free, so I may have to get some of that data
-        from alternate sources that I'm confident are getting their data
-        from the official source. However, I will always be hesitant to
-        accept a non-official source.
-
-        As an example, I used to get some country data from the CIA World
-        Factbook. Given the nature of the source, I'm sure they're updating
-        data from the official sources and I consider it "nearly" official.
-        However, even in this case, I found that they were adding codes that
-        were not part of the standard, so I have stopped using them as a
-        source.
-
-        There are many 3rd party sites which maintain lists (many of which
-        are actually in a more convenient form than the official sites).
-        Unfortunately, I will reject most of them since I have no feel for
-        how "official" they are.
-
-    A free source of the data
-        Obviously, the data must be free-of-charge. I'm not interested in
-        paying for the data (and I'm not interested in the overhead of
-        having someone else pay for the data for me).
-
-    A reliable source of data
-        The source of data must come from a source that I can reasonably
-        expect to exist for the foreseeable future since I will be extremely
-        reluctant to drop support for a data set once it's included.
-
-        I am also reluctant to accept data sent to me by an individual.
-        Although I appreciate the offer, it is simply not practical to
-        consider an individual contribution as a reliable source of data.
-        The source should be an official agency of some sort.
-
-    These requirements are open to discussion. If you have a code set you'd
-    like to see added, but which may not meet all of the above requirements,
-    feel free to email me and we'll discuss it. Depending on circumstances,
-    I may be willing to waive some of these criteria.
-
 COMMON ALIASES
     As of version 2.00, the modules supported common variants of names.
 
@@ -473,33 +439,28 @@ RETIRED CODES
     name2code, all_codes, and all_names methods above.
 
 SEE ALSO
-    Locale::Codes::API
-        The list of functions available in each of the modules listed below.
-        The APIs for each module are exactly identical.
-
-    Locale::Codes::Country
-        Codes for identification of countries.
-
-    Locale::Codes::Language
-        Codes for identification of languages.
-
-    Locale::Codes::Script
-        Codes for identification of scripts.
-
-    Locale::Codes::Currency
-        Codes for identification of currencies and funds.
-
-    Locale::Codes::LangExt
-        Codes for identification of language extensions.
-
-    Locale::Codes::LangVar
-        Codes for identification of language variations.
-
-    Locale::Codes::LangFam
-        Codes for identification of language families.
+    Locale::Codes::Types
+        The list of all code sets available for each type.
 
     Locale::Codes::Changes
         A history of changes made to this distribution.
+
+KNOWN BUGS AND LIMITATIONS
+    Relationship between code sets
+        Because each code set uses a slightly different list of elements,
+        and they are not necessarily one-to-one, there may be some confusion
+        about the relationship between codes from different code sets.
+
+        For example, ISO 3166 assigns one code to the country "United States
+        Minor Outlying Islands", but the IANA codes give different codes to
+        different islands (Baker Island, Howland Island, etc.).
+
+        This may cause some confusion... I've done the best that I could do
+        to minimize it.
+
+    Non-ASCII characters not supported
+        Currently all names must be all ASCII. I plan on relaxing that
+        limitation in the future.
 
 BUGS AND QUESTIONS
     If you find a bug in Locale::Codes, there are three ways to send it to
@@ -531,7 +492,7 @@ BUGS AND QUESTIONS
         Please include the version of Locale::Codes you are using. You can
         get this by using the script:
 
-           use Locale::Codes::Country;
+           use Locale::Codes;
            print $Locale::Codes::VERSION,"\n";
 
     If you want to report missing or incorrect codes, you must be running
@@ -551,16 +512,13 @@ AUTHOR
 
     From 2001 to 2004, maintenance was continued by Neil Bowers. He modified
     Locale::Currency for inclusion in the distribution. He also added
-    Locale::Constants and Locale::Script.
+    Locale::Script.
 
     From 2004-2009, the module was unmaintained.
 
     In 2010, maintenance was taken over by Sullivan Beck (sbeck@cpan.org)
-    with Neil Bower's permission. All problems or comments should be sent
-    there. Alternately, problems can be reported using the perl problem
-    tracker at:
-
-       L<https://rt.cpan.org/Dist/Display.html?Queue=Locale-Codes>
+    with Neil Bower's permission. All problems or comments should be sent to
+    him using any of the methods listed above.
 
 COPYRIGHT
        Copyright (c) 1997-2001 Canon Research Centre Europe (CRE).

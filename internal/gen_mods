@@ -162,7 +162,7 @@ sub __gen_pod {
 
 =head1 NAME
 
-${parent}::${mod} - Locale-Codes module for dealing with ${type} code sets
+${parent}::${mod} - module for dealing with ${type} code sets
 
 =head1 SYNOPSIS
 
@@ -176,10 +176,10 @@ ${parent}::${mod} - Locale-Codes module for dealing with ${type} code sets
 
 =head1 DESCRIPTION
 
-This module provides access to standard codes of type ${type}.
+This module provides access to ${type} code sets.
 
 Please refer to the L<Locale::Codes::Types> document for a description
-of the code sets available for this type.
+of the code sets available.
 
 Most of the routines take an optional additional argument which
 specifies the code set to use. The code set can be specified using the
@@ -199,23 +199,23 @@ The following functions are exported automatically:
 
 =item B<code2${type}(CODE [,CODESET] [,'retired'])>
 
-See B<code2name>
+See B<code2name> in L<Locale::Codes>
 
 =item B<${type}2code(NAME [,CODESET] [,'retired'])>
 
-See B<name2code>
+See B<name2code> in L<Locale::Codes>
 
 =item B<${type}_code2code(CODE ,CODESET ,CODESET2)>
 
-See B<code2code>
+See B<code2code> in L<Locale::Codes>
 
 =item B<all_${type}_codes([CODESET] [,'retired'])>
 
-See B<all_codes>
+See B<all_codes> in L<Locale::Codes>
 
 =item B<all_${type}_names([CODESET] [,'retired'])>
 
-See B<all_names>
+See B<all_names> in L<Locale::Codes>
 
 =back
 
@@ -226,35 +226,35 @@ qualified with the package name:
 
 =item B<${parent}::${typelab}::rename_${type}(CODE ,NEW_NAME [,CODESET])>
 
-See B<rename_code>
+See B<rename_code> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::add_${type}(CODE ,NAME [,CODESET])>
 
-See B<add_code>
+See B<add_code> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::delete_${type}(CODE [,CODESET])>
 
-See B<delete_code>
+See B<delete_code> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::add_${type}_alias(NAME ,NEW_NAME)>
 
-See B<add_alias>
+See B<add_alias> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::delete_${type}_alias(NAME)>
 
-See B<delete_alias>
+See B<delete_alias> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::rename_${type}_code(CODE ,NEW_CODE [,CODESET])>
 
-See B<replace_code>
+See B<replace_code> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::add_${type}_code_alias(CODE ,NEW_CODE [,CODESET])>
 
-See B<add_code_alias>
+See B<add_code_alias> in L<Locale::Codes>
 
 =item B<${parent}::${typelab}::delete_${type}_code_alias(CODE [,CODESET])>
 
-See B<delete_code_alias>
+See B<delete_code_alias> in L<Locale::Codes>
 
 =back
 
@@ -287,9 +287,11 @@ EOS
 
 sub __gen_mod {
    my($o,$type,$mod) = @_;
+   my($TYPE)         = uc($type);
 
    print $o <<"EOS";
 use Locale::Codes;
+use Locale::Codes::Constants;
 
 \@EXPORT    = qw(
                 code2${type}
@@ -297,14 +299,8 @@ use Locale::Codes;
                 all_${type}_codes
                 all_${type}_names
                 ${type}_code2code
-EOS
-
-   foreach my $const (sort keys %{ $type{$type}{'const'} }) {
-      print $o "                $const\n";
-   }
-
-   print $o <<"EOS";
                );
+push(\@EXPORT,\@Locale::Codes::Constants::CONSTANTS_${TYPE});
 
 our \$obj = new Locale::Codes('$type');
 
@@ -422,21 +418,25 @@ sub _constants_defs {
    }
 
    print $o <<"EOS";
-our(\%ALL_CODESETS);
+our(\@CONSTANTS,\%ALL_CODESETS);
 
-\@EXPORT    = qw(
 EOS
 
    foreach my $type (sort keys %type) {
+      print $o "our(\@CONSTANTS_" . uc($type) . ") = qw(\n";
       foreach my $const (sort keys %{ $type{$type}{'const'} }) {
          print $o "                $const\n";
       }
+      print $o ");\n";
+      print $o "push(\@CONSTANTS,\@CONSTANTS_" . uc($type) . ");\n";
       print $o "\n";
    }
 
    print $o <<"EOS";
+\@EXPORT    = (\@CONSTANTS,
+               qw(
                 \%ALL_CODESETS
-               );
+               ));
 
 EOS
 
@@ -517,11 +517,10 @@ package ${parent}::$package;
 use strict;
 use warnings;
 require 5.006;
-require Exporter;
+use Exporter qw(import);
 
-our(\$VERSION,\@ISA,\@EXPORT);
+our(\$VERSION,\@EXPORT);
 \$VERSION   = '$VERSION';
-\@ISA       = qw(Exporter);
 
 ################################################################################
 EOS

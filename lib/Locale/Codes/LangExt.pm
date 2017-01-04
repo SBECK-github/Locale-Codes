@@ -7,19 +7,19 @@ package Locale::Codes::LangExt;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Wed Jan  4 07:49:32 EST 2017
+#    Generated on: Wed Jan  4 15:33:19 EST 2017
 
 use strict;
 use warnings;
 require 5.006;
-require Exporter;
+use Exporter qw(import);
 
-our($VERSION,@ISA,@EXPORT);
+our($VERSION,@EXPORT);
 $VERSION   = '3.50';
-@ISA       = qw(Exporter);
 
 ################################################################################
 use Locale::Codes;
+use Locale::Codes::Constants;
 
 @EXPORT    = qw(
                 code2langext
@@ -27,8 +27,8 @@ use Locale::Codes;
                 all_langext_codes
                 all_langext_names
                 langext_code2code
-                LOCALE_LANGEXT_ALPHA
                );
+push(@EXPORT,@Locale::Codes::Constants::CONSTANTS_LANGEXT);
 
 our $obj = new Locale::Codes('langext');
 

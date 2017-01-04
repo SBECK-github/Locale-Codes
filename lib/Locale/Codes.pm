@@ -17,6 +17,11 @@ use Locale::Codes::Constants;
 our($VERSION);
 $VERSION='3.50';
 
+use Exporter qw(import);
+our(@EXPORT_OK,%EXPORT_TAGS);
+@EXPORT_OK   = @Locale::Codes::Constants::CONSTANTS;
+%EXPORT_TAGS = ( 'constants' => [ @EXPORT_OK ] );
+
 ###############################################################################
 # GLOBAL DATA
 ###############################################################################

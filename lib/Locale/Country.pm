@@ -7,19 +7,19 @@ package Locale::Country;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Wed Jan  4 07:49:32 EST 2017
+#    Generated on: Wed Jan  4 15:33:19 EST 2017
 
 use strict;
 use warnings;
 require 5.006;
-require Exporter;
+use Exporter qw(import);
 
-our($VERSION,@ISA,@EXPORT);
+our($VERSION,@EXPORT);
 $VERSION   = '3.50';
-@ISA       = qw(Exporter);
 
 ################################################################################
 use Locale::Codes;
+use Locale::Codes::Constants;
 
 @EXPORT    = qw(
                 code2country
@@ -27,25 +27,8 @@ use Locale::Codes;
                 all_country_codes
                 all_country_names
                 country_code2code
-                LOCALE_CODE_ALPHA_2
-                LOCALE_CODE_ALPHA_3
-                LOCALE_CODE_DOM
-                LOCALE_CODE_GENC_ALPHA_2
-                LOCALE_CODE_GENC_ALPHA_3
-                LOCALE_CODE_GENC_NUMERIC
-                LOCALE_CODE_NUMERIC
-                LOCALE_CODE_UN_ALPHA_3
-                LOCALE_CODE_UN_NUMERIC
-                LOCALE_COUNTRY_ALPHA_2
-                LOCALE_COUNTRY_ALPHA_3
-                LOCALE_COUNTRY_DOM
-                LOCALE_COUNTRY_GENC_ALPHA_2
-                LOCALE_COUNTRY_GENC_ALPHA_3
-                LOCALE_COUNTRY_GENC_NUMERIC
-                LOCALE_COUNTRY_NUMERIC
-                LOCALE_COUNTRY_UN_ALPHA_3
-                LOCALE_COUNTRY_UN_NUMERIC
                );
+push(@EXPORT,@Locale::Codes::Constants::CONSTANTS_COUNTRY);
 
 our $obj = new Locale::Codes('country');
 

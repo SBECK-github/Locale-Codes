@@ -59,11 +59,23 @@ new release sooner, just email me and I'll get one out.
 =head1 SYNOPSIS (OBJECT-ORIENTED INTERFACE)
 
    use Locale::Codes;
+   or
+   use Locale::Codes ':constants';
+
    $obj = new Locale::Codes 'country';
 
 =head1 OBJECT-ORIENTED METHODS
 
 The following methods are available.
+
+In all methods, when specifying a code set, the name (as a string)
+is always available.
+
+Traditionally, you could also use a perl constant to specify the
+code set.  In order to do so with the OO interface, you have to
+import the constants.  To do that, load the module with:
+
+   use Locale::Codes ':constants';
 
 =over 4
 
@@ -72,6 +84,7 @@ The following methods are available.
    $obj = new Locale::Codes;
    $obj = new Locale::Codes 'country';
    $obj = new Locale::Codes 'country','alpha-3';
+   $obj = new Locale::Codes 'country',LOCALE_COUNTRY_ALPHA_3;
 
 This creates a new object that can access the data.  If no type is specified
 (in the first argument), you must use the B<type> method described below.
@@ -80,6 +93,9 @@ No operations will work unless the type is specified.
 The second argument is the default code set to use.  This is optional, as
 each type has a default code set.  The default code set can be set using
 the B<codeset> method below.
+
+The last example is only available if the constants were imported when
+the module was loaded.
 
 =item B<show_errors ( FLAG )>
 
