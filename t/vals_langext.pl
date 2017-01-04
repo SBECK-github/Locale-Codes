@@ -6,7 +6,7 @@
 use warnings;
 use strict;
 
-$::tests = $::generic_tests;
+$::tests = '';
 
 $::tests = "
 
@@ -18,7 +18,7 @@ Mesopotamian Arabic
 acm
    Mesopotamian Arabic
 
-_code2code
+code2code
 ACM
 alpha
 alpha
@@ -36,7 +36,6 @@ all_names
    Adamorobe Sign Language
    Afghan Sign Language
 
-$::generic_tests
 ";
 
 1;

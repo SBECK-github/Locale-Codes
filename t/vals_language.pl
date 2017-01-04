@@ -6,7 +6,7 @@
 use warnings;
 use strict;
 
-$::tests = $::generic_tests;
+$::tests = '';
 
 $::tests = "
 
@@ -289,14 +289,12 @@ yi
 za
    Zhuang
 
-_code2code
+code2code
 zu
 alpha-2
 alpha-3
    zul
 
-
-$::generic_tests
 ";
 
 1;

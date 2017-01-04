@@ -6,7 +6,7 @@
 use warnings;
 use strict;
 
-$::tests = $::generic_tests;
+$::tests = '';
 
 $::tests = "
 
@@ -18,7 +18,7 @@ Eastern Armenian
 arevela
    Eastern Armenian
 
-_code2code
+code2code
 arevela
 alpha
 alpha
@@ -36,7 +36,6 @@ all_names
    \"Academic\" (\"governmental\") variant of Belarusian as codified in 1959
    ALA-LC Romanization, 1997 edition
 
-$::generic_tests
 ";
 
 1;

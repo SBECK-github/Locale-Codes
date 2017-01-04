@@ -51,11 +51,11 @@
       },
       "Locale::Codes::Constants" : {
          "file" : "Constants.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::Country" : {
          "file" : "Country.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::Country_Codes" : {
          "file" : "Country_Codes.pm",
@@ -67,7 +67,7 @@
       },
       "Locale::Codes::Currency" : {
          "file" : "Currency.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::Currency_Codes" : {
          "file" : "Currency_Codes.pm",
@@ -79,7 +79,7 @@
       },
       "Locale::Codes::LangExt" : {
          "file" : "LangExt.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::LangExt_Codes" : {
          "file" : "LangExt_Codes.pm",
@@ -91,7 +91,7 @@
       },
       "Locale::Codes::LangFam" : {
          "file" : "LangFam.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::LangFam_Codes" : {
          "file" : "LangFam_Codes.pm",
@@ -103,7 +103,7 @@
       },
       "Locale::Codes::LangVar" : {
          "file" : "LangVar.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::LangVar_Codes" : {
          "file" : "LangVar_Codes.pm",
@@ -115,7 +115,7 @@
       },
       "Locale::Codes::Language" : {
          "file" : "Language.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::Language_Codes" : {
          "file" : "Language_Codes.pm",
@@ -127,7 +127,7 @@
       },
       "Locale::Codes::Script" : {
          "file" : "Script.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Codes::Script_Codes" : {
          "file" : "Script_Codes.pm",
@@ -139,19 +139,19 @@
       },
       "Locale::Country" : {
          "file" : "Country.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Currency" : {
          "file" : "Currency.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Language" : {
          "file" : "Language.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       },
       "Locale::Script" : {
          "file" : "Script.pm",
-         "version" : "3.43"
+         "version" : "3.50"
       }
    },
    "release_status" : "stable",
@@ -162,6 +162,6 @@
          "web" : "https://github.com/SBECK-github/Locale-Codes"
       }
    },
-   "version" : "3.43",
+   "version" : "3.50",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

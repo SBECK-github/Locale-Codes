@@ -6,10 +6,9 @@
 use warnings;
 use strict;
 
-$::tests = $::generic_tests;
+$::tests = '';
 
 $::tests = "
-
 
 2code
 Canadian Dollar
@@ -35,7 +34,7 @@ Zimbabwe Dollar
 KHR
    Riel
 
-_code2code
+code2code
 BZD
 alpha
 num
@@ -117,7 +116,6 @@ all_names
    ADB Unit of Account
    Afghani
 
-$::generic_tests
 ";
 
 1;

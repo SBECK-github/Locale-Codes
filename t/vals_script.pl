@@ -6,8 +6,7 @@
 use warnings;
 use strict;
 
-$::tests = $::generic_tests;
-
+$::tests = '';
 $::tests = "
 
 2code
@@ -32,7 +31,7 @@ phnx
 num
    Phoenician
 
-_code2code
+code2code
 Phnx
 alpha
 num
@@ -50,8 +49,6 @@ all_names
    Adlam
    Afaka
 
-
-$::generic_tests
 ";
 
 1;

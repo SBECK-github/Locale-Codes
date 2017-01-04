@@ -38,7 +38,7 @@ if ($EU_MM_V < 6.64) {
 
 WriteMakefile(
    NAME             => "Locale::Codes",
-   VERSION          => "3.43",
+   VERSION          => "3.50",
    ABSTRACT         => "a distribution of modules to handle locale codes",
    LICENSE          => "perl",
    ($EU_MM_V >= 6.48
@@ -63,11 +63,11 @@ WriteMakefile(
              },
              'Locale::Codes::Constants' => {
                 file    => 'Constants.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::Country' => {
                 file    => 'Country.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::Country_Codes' => {
                 file    => 'Country_Codes.pm',
@@ -79,7 +79,7 @@ WriteMakefile(
              },
              'Locale::Codes::Currency' => {
                 file    => 'Currency.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::Currency_Codes' => {
                 file    => 'Currency_Codes.pm',
@@ -91,7 +91,7 @@ WriteMakefile(
              },
              'Locale::Codes::LangExt' => {
                 file    => 'LangExt.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::LangExt_Codes' => {
                 file    => 'LangExt_Codes.pm',
@@ -103,7 +103,7 @@ WriteMakefile(
              },
              'Locale::Codes::LangFam' => {
                 file    => 'LangFam.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::LangFam_Codes' => {
                 file    => 'LangFam_Codes.pm',
@@ -115,7 +115,7 @@ WriteMakefile(
              },
              'Locale::Codes::LangVar' => {
                 file    => 'LangVar.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::LangVar_Codes' => {
                 file    => 'LangVar_Codes.pm',
@@ -127,7 +127,7 @@ WriteMakefile(
              },
              'Locale::Codes::Language' => {
                 file    => 'Language.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::Language_Codes' => {
                 file    => 'Language_Codes.pm',
@@ -139,7 +139,7 @@ WriteMakefile(
              },
              'Locale::Codes::Script' => {
                 file    => 'Script.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Codes::Script_Codes' => {
                 file    => 'Script_Codes.pm',
@@ -151,19 +151,19 @@ WriteMakefile(
              },
              'Locale::Country' => {
                 file    => 'Country.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Currency' => {
                 file    => 'Currency.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Language' => {
                 file    => 'Language.pm',
-                version => '3.43',
+                version => '3.50',
              },
              'Locale::Script' => {
                 file    => 'Script.pm',
-                version => '3.43',
+                version => '3.50',
              },
 
           },

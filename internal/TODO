@@ -1,3 +1,9 @@
+Add capabilites of
+   Locale::Codes::Multilingual
+   Locale::Codes::Extra
+including unicode, phone prefix
+
+
 ??? Make the name list and alias lists case sensitive.  RT 92680
 
 Add regional codes including:

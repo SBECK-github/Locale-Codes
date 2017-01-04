@@ -6,7 +6,7 @@
 use warnings;
 use strict;
 
-$::tests = $::generic_tests;
+$::tests = '';
 
 $::tests = "
 
@@ -19,7 +19,7 @@ Apache languages
 apa
    Apache languages
 
-_code2code
+code2code
 apa
 alpha
 alpha
@@ -37,7 +37,6 @@ all_names
    Afro-Asiatic languages
    Alacalufan languages
 
-$::generic_tests
 ";
 
 1;
