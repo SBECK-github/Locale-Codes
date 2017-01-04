@@ -46,6 +46,12 @@ Update the copyright
      sed -e "s,\(Copyright (c) ....\)\-.... \(Sullivan Beck\),\1-$y \2," $i > z
      mv z $i
    done
+   chmod +x internal/deprecate_codes \
+            internal/dump_curr \
+            internal/gen_mods \
+            internal/harvest_and_check \
+            internal/harvest_data \
+            internal/print_curr_data
 
 #########################################################################
 Before every release, spellcheck the documents:
