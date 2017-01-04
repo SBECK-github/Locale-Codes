@@ -15,7 +15,7 @@ use Carp;
 use Locale::Codes::Constants;
 
 our($VERSION);
-$VERSION='3.43';
+$VERSION='3.50';
 
 ###############################################################################
 # GLOBAL DATA
