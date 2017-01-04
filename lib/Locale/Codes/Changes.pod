@@ -53,7 +53,7 @@ named inconsistently.  Constants for codesets are:
    langvar   LOCALE_LANGVAR_*
    langext   LOCALE_LANGEXT_*
 
-For consistancies sake, I have added some new codes (which are otherwise
+For consistencies sake, I have added some new codes (which are otherwise
 identical to the irregularly named codes):
 
    country   LOCALE_COUNTRY_*

@@ -171,7 +171,7 @@ CPAN/modules/by-module/Locale/
 
 The World Factbook maintained by the CIA is a potential source of
 the data.  Unfortunately, it adds/preserves non-standard codes, so it is
-mpt used as a source of data.
+not used as a source of data.
 L<https://www.cia.gov/library/publications/the-world-factbook/appendix/print_appendix-d.html>
 
 Another unofficial source of data is the Statoids web site:

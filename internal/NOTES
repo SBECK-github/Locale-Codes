@@ -24,25 +24,15 @@ no HTML is getting added to a code.
    rm lib/Locale/Codes/*.bak
 
 #########################################################################
-Update documentation
+Update mods/documentation
 
-   sed -e 's,Locale::Codes::Country,Locale::Country,g' \
-       lib/Locale/Codes/Country.pod > lib/Locale/Country.pod
-
-   sed -e 's,Locale::Codes::Language,Locale::Language,g' \
-       lib/Locale/Codes/Language.pod > lib/Locale/Language.pod
-
-   sed -e 's,Locale::Codes::Currency,Locale::Currency,g' \
-       lib/Locale/Codes/Currency.pod > lib/Locale/Currency.pod
-
-   sed -e 's,Locale::Codes::Script,Locale::Script,g' \
-       lib/Locale/Codes/Script.pod > lib/Locale/Script.pod
+   ./internal/gen_mods
 
 #########################################################################
 Update the copyright
 
    y=`date '+%Y'`
-   for i in `find . -type f | xargs egrep -l 'Copyright \(c\) ....\-.... Sullivan Beck'` ;do
+   for i in `find . -type f | egrep -v '.git' | xargs egrep -l 'Copyright \(c\) ....\-.... Sullivan Beck'` ;do
      sed -e "s,\(Copyright (c) ....\)\-.... \(Sullivan Beck\),\1-$y \2," $i > z
      mv z $i
    done

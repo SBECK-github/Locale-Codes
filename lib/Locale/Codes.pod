@@ -13,12 +13,12 @@ currencies, different languages, etc.  These sets of codes are typically
 maintained in some standard.
 
 This distribution provides a way to work with these lists of codes.
-Because the data from the various standars is not available in any
+Because the data from the various standards is not available in any
 sort of consistent API, access to the lists is not available in any
 direct fashion.  To compensate for this, the list of codes is stored
 internally within this distribution, and the distribution is updated
 on a regular basis to include all known codes at that point in time.
-This does mean that it is necessary to keep this distrbution
+This does mean that it is necessary to keep this distribution
 up-to-date to keep up with the various changes that are made in the
 various standards.
 
