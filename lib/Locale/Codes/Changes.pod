@@ -28,7 +28,9 @@ codes, I will add them to the module and release a new version.
 
 =head1 VERSION 3.51  (planned 2017-06-01; sbeck)
 
-=head1 VERSION 3.50  (planned 2017-03-01; sbeck)
+=head1 VERSION 3.50  (2017-03-01; sbeck)
+
+NEW CODE(s)
 
 =over 4
 
@@ -36,7 +38,7 @@ codes, I will add them to the module and release a new version.
 
 The core module (Locale::Codes) is now an OO module that can be used
 directly.  All of the other modules (Locale::Codes::TYPE) are still
-the functional interface and remain unchanged.
+the older functional interfaces and remain unchanged.
 
 =item B<Added some constants>
 
@@ -71,6 +73,12 @@ of code sets.
 
 All of the documentation for them is also generated except for the description
 of the code sets.  That has been moved into the Locale::Codes::Types document.
+
+=item Fixed a bug where constants were not exported
+
+Some of the constants for some of the newer code sets were not exported properly.
+This was fixed when I started generating the non-OO modules, but was reported
+(after I had already fixed it in development) as RT 119741 .
 
 =back
 

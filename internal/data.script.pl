@@ -26,6 +26,10 @@ $Data{'script'}{'iso'}{'orig'}{'name'} =
    "Takri, Ṭākrī, Ṭāṅkrī"              => "Takri, Takri, Tankri",
    "Siddham, Siddhaṃ, Siddhamātṛkā"   => "Siddham, Siddham, Siddhamatrka",
    "Newa, Newar, Newari, Nepāla lipi" => "Newa, Newar, Newari, Nepala lipi",
+   "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)" =>
+   "Medefaidrin (Oberi Okaime, Oberi Okaime)",
+   "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)" =>
+   "Zanabazar Square (Zanabazarin Dorboljin Useg, Xewtee Dorboljin Bicig, Horizontal Square Script)"
 };
 
 $Data{'script'}{'iso'}{'ignore'} = {
@@ -56,6 +60,9 @@ $Data{'script'}{'iana'}{'orig'}{'name'} =
    "Siddhaṃ"            => "Siddham",
    "Siddhamātṛkā"        => "Siddhamatrka",
    "Nepāla lipi"         => "Nepala lipi",
+   "Oberi Ɔkaimɛ"        => "Oberi Okaime",
+   "Zanabazarin Dörböljin Useg" => "Zanabazarin Dorboljin Useg",
+   "Xewtee Dörböljin Bicig" => "Xewtee Dorboljin Bicig",
 };
 
 $Data{'script'}{'iana'}{'ignore'} = {

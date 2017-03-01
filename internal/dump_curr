@@ -29,16 +29,17 @@ if (-f $yaml) {
 my %hash;
 
 foreach my $type (@type) {
+   my $obj = new Locale::Codes $type;
    foreach my $codeset (keys %{ $Locale::Codes::Constants::ALL_CODESETS{$type}{'codesets'} }) {
-      my @codes = Locale::Codes::_all_codes($type,$codeset);
+      my @codes = $obj->all_codes($codeset);
       foreach my $code (@codes) {
-         my $name = Locale::Codes::_code2name($type,$code,$codeset);
+         my $name = $obj->code2name($code,$codeset);
          $hash{$type}{$codeset}{'code'}{$code} = $name;
       }
 
-      my @names = Locale::Codes::_all_names($type,$codeset);
+      my @names = $obj->all_names($codeset);
       foreach my $name (@names) {
-         my $code = Locale::Codes::_name2code($type,$name,$codeset);
+         my $code = $obj->name2code($name,$codeset);
          $hash{$type}{$codeset}{'name'}{lc($name)} = [$code,$name];
       }
    }

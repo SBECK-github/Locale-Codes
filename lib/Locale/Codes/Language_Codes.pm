@@ -3,7 +3,7 @@ Locale::Codes::Language_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Tue Nov 29 15:43:44 EST 2016
+#    Generated on: Wed Mar  1 08:42:06 EST 2017
 
 use strict;
 require 5.006;
@@ -176,6 +176,7 @@ $Locale::Codes::Data{'language'}{'id2names'} = {
       ],
    q(0050) => [
       q(Bengali),
+      q(Bangla),
       ],
    q(0051) => [
       q(Berber languages),
@@ -26947,6 +26948,10 @@ $Locale::Codes::Data{'language'}{'alias2id'} = {
    q(bangka) => [
       q(4217),
       q(0),
+      ],
+   q(bangla) => [
+      q(0050),
+      q(1),
       ],
    q(bangolan) => [
       q(1169),

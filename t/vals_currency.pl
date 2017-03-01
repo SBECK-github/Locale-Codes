@@ -57,10 +57,6 @@ bob
    Boliviano
 
 2name
-byr
-   Belarusian Ruble
-
-2name
 chf
    Swiss Franc
 

@@ -3001,7 +3001,6 @@ country:
     code: 
       A1: Unknown
       A2: Guantanamo Bay Naval Base
-      A3: Entity 6
       AD: Andorra
       AE: United Arab Emirates
       AF: Afghanistan
@@ -3274,7 +3273,6 @@ country:
       ZA: South Africa
       ZM: Zambia
       ZW: Zimbabwe
-      "[None Assigned]": ~
     name: 
       afghanistan: 
         - AF
@@ -3498,12 +3496,6 @@ country:
       el salvador: 
         - SV
         - El Salvador
-      entity 5: 
-        - "[None Assigned]"
-        - Entity 5
-      entity 6: 
-        - A3
-        - Entity 6
       equatorial guinea: 
         - GQ
         - Equatorial Guinea
@@ -4123,7 +4115,6 @@ country:
       AUT: Austria
       AX1: Unknown
       AX2: Guantanamo Bay Naval Base
-      AX3: Entity 6
       AZE: Azerbaijan
       BDI: Burundi
       BEL: Belgium
@@ -4353,12 +4344,9 @@ country:
       WLF: Wallis and Futuna
       WSM: Samoa
       XAC: Ashmore and Cartier Islands
-      XAZ: Entity 1
       XBI: Bassas Da India
       XBK: Baker Island
-      XCR: Entity 2
       XCS: Coral Sea Islands
-      XCY: Entity 3
       XEU: Europa Island
       XGL: Glorioso Islands
       XGZ: Gaza Strip
@@ -4367,8 +4355,6 @@ country:
       XJM: Jan Mayen
       XJN: Juan de Nova Island
       XJV: Jarvis Island
-      XKM: Entity 4
-      XKN: Entity 5
       XKR: Kingman Reef
       XKS: Kosovo
       XMW: Midway Islands
@@ -4609,24 +4595,6 @@ country:
       el salvador: 
         - SLV
         - El Salvador
-      entity 1: 
-        - XKN
-        - Entity 1
-      entity 2: 
-        - XKN
-        - Entity 2
-      entity 3: 
-        - XKN
-        - Entity 3
-      entity 4: 
-        - XKN
-        - Entity 4
-      entity 5: 
-        - XKN
-        - Entity 5
-      entity 6: 
-        - AX3
-        - Entity 6
       equatorial guinea: 
         - GNQ
         - Equatorial Guinea
@@ -5483,12 +5451,6 @@ country:
       906: Coral Sea Islands
       907: Dhekelia
       908: Diego Garcia
-      909: Entity 1
-      910: Entity 2
-      911: Entity 3
-      912: Entity 4
-      913: Entity 5
-      914: Entity 6
       915: Europa Island
       916: Gaza Strip
       917: Glorioso Islands
@@ -5732,24 +5694,6 @@ country:
       el salvador: 
         - 222
         - El Salvador
-      entity 1: 
-        - 913
-        - Entity 1
-      entity 2: 
-        - 913
-        - Entity 2
-      entity 3: 
-        - 913
-        - Entity 3
-      entity 4: 
-        - 913
-        - Entity 4
-      entity 5: 
-        - 913
-        - Entity 5
-      entity 6: 
-        - 914
-        - Entity 6
       equatorial guinea: 
         - 226
         - Equatorial Guinea
@@ -9007,7 +8951,6 @@ currency:
       BTN: Ngultrum
       BWP: Pula
       BYN: Belarusian Ruble
-      BYR: Belarusian Ruble
       BZD: Belize Dollar
       CAD: Canadian Dollar
       CDF: Congolese Franc
@@ -9200,7 +9143,7 @@ currency:
         - BBD
         - Barbados Dollar
       belarusian ruble: 
-        - BYR
+        - BYN
         - Belarusian Ruble
       belize dollar: 
         - BZD
@@ -9853,7 +9796,6 @@ currency:
       971: Afghani
       972: Somoni
       973: Kwanza
-      974: Belarusian Ruble
       975: Bulgarian Lev
       976: Congolese Franc
       977: Convertible Mark
@@ -9908,7 +9850,7 @@ currency:
         - '052'
         - Barbados Dollar
       belarusian ruble: 
-        - 974
+        - 933
         - Belarusian Ruble
       belize dollar: 
         - '084'
@@ -45906,6 +45848,9 @@ langvar:
       nulik: Volapuk nulik
       osojs: The Oseacco dialect of Resian
       oxendict: Oxford English Dictionary spelling
+      pahawh2: Pahawh Hmong Second Stage Reduced orthography
+      pahawh3: Pahawh Hmong Third Stage Reduced orthography
+      pahawh4: Pahawh Hmong Final Version orthography
       pamaka: Pamaka dialect
       petr1708: Petrine orthography
       pinyin: Pinyin romanization
@@ -46019,6 +45964,15 @@ langvar:
       oxford english dictionary spelling: 
         - oxendict
         - Oxford English Dictionary spelling
+      pahawh hmong final version orthography: 
+        - pahawh4
+        - Pahawh Hmong Final Version orthography
+      pahawh hmong second stage reduced orthography: 
+        - pahawh2
+        - Pahawh Hmong Second Stage Reduced orthography
+      pahawh hmong third stage reduced orthography: 
+        - pahawh3
+        - Pahawh Hmong Third Stage Reduced orthography
       pamaka dialect: 
         - pamaka
         - Pamaka dialect
@@ -46195,6 +46149,7 @@ script:
       Cyrl: Cyrillic
       Cyrs: Cyrillic (Old Church Slavonic variant)
       Deva: Devanagari
+      Dogr: Dogra
       Dsrt: Deseret
       Dupl: Duployan shorthand
       Egyd: Egyptian demotic
@@ -46203,8 +46158,10 @@ script:
       Elba: Elbasan
       Ethi: Ethiopic
       Geok: Khutsuri (Asomtavruli and Nuskhuri)
-      Geor: Georgian (Mkhedruli)
+      Geor: Georgian (Mkhedruli and Mtavruli)
       Glag: Glagolitic
+      Gong: Gunjala Gondi
+      Gonm: Masaram Gondi
       Goth: Gothic
       Gran: Grantha
       Grek: Greek
@@ -46255,10 +46212,12 @@ script:
       Lyci: Lycian
       Lydi: Lydian
       Mahj: Mahajani
+      Maka: Makasar
       Mand: Mandaic
       Mani: Manichaean
       Marc: Marchen
       Maya: Mayan hieroglyphs
+      Medf: Medefaidrin
       Mend: Mende Kikakui
       Merc: Meroitic Cursive
       Mero: Meroitic Hieroglyphs
@@ -46309,6 +46268,7 @@ script:
       Sind: Khudawadi
       Sinh: Sinhala
       Sora: Sora Sompeng
+      Soyo: Soyombo
       Sund: Sundanese
       Sylo: Syloti Nagri
       Syrc: Syriac
@@ -46338,6 +46298,7 @@ script:
       Xpeo: Old Persian
       Xsux: Sumero-Akkadian cuneiform
       Yiii: Yi
+      Zanb: Zanabazar Square
       Zinh: Code for inherited script
       Zmth: Mathematical notation
       Zsye: Symbols (Emoji variant)
@@ -46445,6 +46406,9 @@ script:
       devanagari: 
         - Deva
         - Devanagari
+      dogra: 
+        - Dogr
+        - Dogra
       duployan shorthand: 
         - Dupl
         - Duployan shorthand
@@ -46463,9 +46427,9 @@ script:
       ethiopic: 
         - Ethi
         - Ethiopic
-      georgian (mkhedruli): 
+      georgian (mkhedruli and mtavruli): 
         - Geor
-        - Georgian (Mkhedruli)
+        - Georgian (Mkhedruli and Mtavruli)
       glagolitic: 
         - Glag
         - Glagolitic
@@ -46481,6 +46445,9 @@ script:
       gujarati: 
         - Gujr
         - Gujarati
+      gunjala gondi: 
+        - Gong
+        - Gunjala Gondi
       gurmukhi: 
         - Guru
         - Gurmukhi
@@ -46622,6 +46589,9 @@ script:
       mahajani: 
         - Mahj
         - Mahajani
+      makasar: 
+        - Maka
+        - Makasar
       malayalam: 
         - Mlym
         - Malayalam
@@ -46634,12 +46604,18 @@ script:
       marchen: 
         - Marc
         - Marchen
+      masaram gondi: 
+        - Gonm
+        - Masaram Gondi
       mathematical notation: 
         - Zmth
         - Mathematical notation
       mayan hieroglyphs: 
         - Maya
         - Mayan hieroglyphs
+      medefaidrin: 
+        - Medf
+        - Medefaidrin
       meitei mayek: 
         - Mtei
         - Meitei Mayek
@@ -46787,6 +46763,9 @@ script:
       sora sompeng: 
         - Sora
         - Sora Sompeng
+      soyombo: 
+        - Soyo
+        - Soyombo
       sumero-akkadian cuneiform: 
         - Xsux
         - Sumero-Akkadian cuneiform
@@ -46880,6 +46859,9 @@ script:
       yi: 
         - Yiii
         - Yi
+      zanabazar square: 
+        - Zanb
+        - Zanabazar Square
   num: 
     code: 
       "020": Cuneiform, Sumero-Akkadian
@@ -46923,7 +46905,6 @@ script:
       170: Thaana
       175: Old Turkic, Orkhon Runic
       176: Old Hungarian (Hungarian Runic)
-      199: Mro, Mru
       200: Greek
       201: Carian
       202: Lycian
@@ -46944,7 +46925,7 @@ script:
       227: Old Permic
       230: Armenian
       239: Caucasian Albanian
-      240: Georgian (Mkhedruli)
+      240: Georgian (Mkhedruli and Mtavruli)
       241: Khutsuri (Asomtavruli and Nuskhuri)
       250: Deseret (Mormon)
       259: Bassa Vah
@@ -46952,6 +46933,8 @@ script:
       261: Ol Chiki (Ol Cemet, Ol, Santali)
       262: Warang Citi (Varang Kshiti)
       263: Pau Cin Hau
+      264: Mro, Mru
+      265: Medefaidrin (Oberi Okaime, Oberi Okaime)
       280: Visible Speech
       281: Shavian (Shaw)
       282: Miao (Pollard)
@@ -46968,6 +46951,8 @@ script:
       302: Siddham, Siddham, Siddhamatrka
       305: Kharoshthi
       310: Gurmukhi
+      312: Gunjala Gondi
+      313: Masaram Gondi
       314: Mahajani
       315: Devanagari (Nagari)
       316: Syloti Nagri
@@ -46979,9 +46964,11 @@ script:
       322: Khojki
       323: Multani
       324: Modi, Modi
-      325: Bengali
+      325: Bengali (Bangla)
       326: Tirhuta
-      327: Oriya
+      327: Oriya (Odia)
+      328: Dogra
+      329: Soyombo
       330: Tibetan
       331: Phags-pa
       332: Marchen
@@ -46991,6 +46978,7 @@ script:
       336: Limbu
       337: Meitei Mayek (Meithei, Meetei)
       338: Ahom, Tai Ahom
+      339: Zanabazar Square (Zanabazarin Dorboljin Useg, Xewtee Dorboljin Bicig, Horizontal Square Script)
       340: Telugu
       343: Grantha
       344: Saurashtra
@@ -47015,6 +47003,7 @@ script:
       363: Rejang (Redjang, Kaganga)
       364: Leke
       365: Batak
+      366: Makasar
       367: Buginese
       370: Tagalog (Baybayin, Alibata)
       371: Hanunoo (Hanunoo)
@@ -47098,9 +47087,9 @@ script:
       batak: 
         - 365
         - Batak
-      bengali: 
+      bengali (bangla): 
         - 325
-        - Bengali
+        - Bengali (Bangla)
       bhaiksuki: 
         - 334
         - Bhaiksuki
@@ -47167,6 +47156,9 @@ script:
       devanagari (nagari): 
         - 315
         - Devanagari (Nagari)
+      dogra: 
+        - 328
+        - Dogra
       duployan shorthand, duployan stenography: 
         - 755
         - Duployan shorthand, Duployan stenography
@@ -47185,9 +47177,9 @@ script:
       ethiopic (geez): 
         - 430
         - Ethiopic (Geez)
-      georgian (mkhedruli): 
+      georgian (mkhedruli and mtavruli): 
         - 240
-        - Georgian (Mkhedruli)
+        - Georgian (Mkhedruli and Mtavruli)
       glagolitic: 
         - 225
         - Glagolitic
@@ -47203,6 +47195,9 @@ script:
       gujarati: 
         - 320
         - Gujarati
+      gunjala gondi: 
+        - 312
+        - Gunjala Gondi
       gurmukhi: 
         - 310
         - Gurmukhi
@@ -47344,6 +47339,9 @@ script:
       mahajani: 
         - 314
         - Mahajani
+      makasar: 
+        - 366
+        - Makasar
       malayalam: 
         - 347
         - Malayalam
@@ -47356,12 +47354,18 @@ script:
       marchen: 
         - 332
         - Marchen
+      masaram gondi: 
+        - 313
+        - Masaram Gondi
       mathematical notation: 
         - 995
         - Mathematical notation
       mayan hieroglyphs: 
         - '090'
         - Mayan hieroglyphs
+      medefaidrin (oberi okaime, oberi okaime): 
+        - 265
+        - Medefaidrin (Oberi Okaime, Oberi Okaime)
       meitei mayek (meithei, meetei): 
         - 337
         - Meitei Mayek (Meithei, Meetei)
@@ -47387,7 +47391,7 @@ script:
         - 218
         - Moon (Moon code, Moon script, Moon type)
       mro, mru: 
-        - 199
+        - 264
         - Mro, Mru
       multani: 
         - 323
@@ -47440,9 +47444,9 @@ script:
       old turkic, orkhon runic: 
         - 175
         - Old Turkic, Orkhon Runic
-      oriya: 
+      oriya (odia): 
         - 327
-        - Oriya
+        - Oriya (Odia)
       osage: 
         - 219
         - Osage
@@ -47509,6 +47513,9 @@ script:
       sora sompeng: 
         - 398
         - Sora Sompeng
+      soyombo: 
+        - 329
+        - Soyombo
       sundanese: 
         - 362
         - Sundanese
@@ -47599,3 +47606,6 @@ script:
       yi: 
         - 460
         - Yi
+      zanabazar square (zanabazarin dorboljin useg, xewtee dorboljin bicig, horizontal square script): 
+        - 339
+        - Zanabazar Square (Zanabazarin Dorboljin Useg, Xewtee Dorboljin Bicig, Horizontal Square Script)

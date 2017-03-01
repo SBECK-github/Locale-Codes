@@ -1,6 +1,20 @@
+o  Add 1<->many relationships
+      code X1 in set 1 = A
+      code X2 in set 1 = B
+      code Y1 in set 2 = A,B
+          code2code(X1) => Y1
+          code2code(X2) => Y1
+          code2code(Y1) => X1,X2
+o  Add support for UTF-8
+o  Read in first codes
+   Second codes have code overlap (i.e. foo-alpha-2 overlaps alpha-2) to check
+      for aliases
+   Any name with UTF-8 has known substitutions (e' => e) and reports if any
+      non-ASCII characters found
+
 Add capabilites of
    Locale::Codes::Multilingual
-   Locale::Codes::Extra
+   Locale::Country::Extra
 including unicode, phone prefix
 
 

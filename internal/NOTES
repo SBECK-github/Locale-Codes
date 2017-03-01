@@ -95,7 +95,6 @@ Copy in the modified files.
    for i in `find . -type f` ;do
       if [ ! -e $lcdir/$i ]; then
          echo "## Remove: $i"
-         echo "## git rm $i"
          git rm $i
       else
          cp -p $lcdir/$i $i
@@ -127,9 +126,7 @@ Copy in the modified files.
 
       if [ ! -e $file ]; then
          echo "## Added: $file"
-         echo "## cp -p $lcdir/$file $file"
          cp -p $lcdir/$file $file
-         echo "## git add $file"
          git add $file
       fi
    done

@@ -301,6 +301,19 @@ $Data{'country'}{'genc'}{'orig'}{'name'} = {
    "WEST BANK"                               => "West Bank",
 };
 
+$Data{'country'}{'genc'}{'ignore'} = {
+   'name'           => { "ENTITY 1" => 1,
+                         "ENTITY 2" => 1,
+                         "ENTITY 3" => 1,
+                         "ENTITY 4" => 1,
+                         "ENTITY 5" => 1,
+                         "ENTITY 6" => 1,
+                       },
+   'genc-alpha-2'   => {},
+   'genc-alpha-3'   => {},
+   'genc-numeric'   => {},
+};
+
 $Data{'country'}{'genc'}{'new'} = {
 };
 
