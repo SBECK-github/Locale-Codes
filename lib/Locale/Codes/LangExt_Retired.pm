@@ -3,7 +3,7 @@ Locale::Codes::LangExt_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Wed Mar  1 09:21:21 EST 2017
+#    Generated on: Mon Apr 10 10:39:56 EDT 2017
 
 use strict;
 require 5.006;
@@ -14,11 +14,13 @@ our($VERSION);
 $VERSION='3.51';
 
 $Locale::Codes::Retired{'langext'}{'alpha'}{'code'} = {
+   q(rsi) => q(Rennellese Sign Language),
    q(yds) => q(Yiddish Sign Language),
 };
 
 $Locale::Codes::Retired{'langext'}{'alpha'}{'name'} = {
    q(hawai'i pidgin sign language) => [ q(hps), q(Hawai'i Pidgin Sign Language) ],
+   q(rennellese sign language) => [ q(rsi), q(Rennellese Sign Language) ],
    q(yiddish sign language) => [ q(yds), q(Yiddish Sign Language) ],
 };
 

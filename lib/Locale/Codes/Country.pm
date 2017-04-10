@@ -7,7 +7,7 @@ package Locale::Codes::Country;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Wed Mar  1 09:17:51 EST 2017
+#    Generated on: Mon Apr 10 10:38:20 EDT 2017
 
 use strict;
 use warnings;

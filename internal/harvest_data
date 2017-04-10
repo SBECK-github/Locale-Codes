@@ -91,7 +91,7 @@ our $country_iso_url    = "http://www.iso.org/iso/home/standards/country_codes.h
 # extended list of ISO 3166 codes.
 our $country_iana_url   = "http://www.iana.org/domains/root/db/";
 
-our $country_un_url     = "http://unstats.un.org/unsd/methods/m49/m49alpha.htm";
+our $country_un_url     = "https://unstats.un.org/unsd/methodology/m49/";
 
 our $country_genc_url   = "https://nsgreg.nga.mil/genc/discovery";
 
@@ -478,7 +478,7 @@ sub do_country {
       # Look for a table who's first row has the header:
       #    Country or area name
 
-      my $found = jump_to_row(\$in,"Country or area name");
+      my $found = jump_to_row(\$in,"Country or Area");
       if (! $found) {
          die "ERROR [un]: country code file format changed!\n";
       }
@@ -489,7 +489,7 @@ sub do_country {
          my @row = get_row("un",\$in);
          return ()  if (! @row);
 
-         my($num,$country,$alpha) = @row;
+         my($country,$num,$alpha) = @row;
 
          my($id,$i);
          if (exists $Code2ID{'alpha-3'}{lc($alpha)}) {

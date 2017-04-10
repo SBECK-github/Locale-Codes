@@ -30,13 +30,13 @@ sub do_tests {
 
    my($dir,$tdir);
    if ( -f "t/testfunc.pl" ) {
-     require "t/testfunc.pl";
-     require "t/vals_${data_type}.pl";
+     require "./t/testfunc.pl";
+     require "./t/vals_${data_type}.pl";
      $dir="./lib";
      $tdir="t";
    } elsif ( -f "testfunc.pl" ) {
-     require "testfunc.pl";
-     require "vals_${data_type}.pl";
+     require "./testfunc.pl";
+     require "./vals_${data_type}.pl";
      $dir="../lib";
      $tdir=".";
    } else {

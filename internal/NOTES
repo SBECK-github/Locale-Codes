@@ -90,7 +90,7 @@ Copy in the modified files.
    lcdir=`find ~/perl-modules -type d -name Locale-Codes\*`
 
    new=`echo $lcdir | sed -e 's,^.*-,,'`
-   old=`echo "$new - 0.01" | bc`
+   old=`grep 'VERSION=' lib/Locale/Codes.pm | sed -e "s,';,," -e "s,^.*',,"`
 
    for i in `find . -type f` ;do
       if [ ! -e $lcdir/$i ]; then

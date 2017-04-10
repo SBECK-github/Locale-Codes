@@ -5,9 +5,9 @@ use strict;
 require 5.002;
 
 if ( -f "t/do_tests.pl" ) {
-   require "t/do_tests.pl";
+   require "./t/do_tests.pl";
 } elsif (-f "do_tests.pl") {
-   require "do_tests.pl";
+   require "./do_tests.pl";
 } else {
   die "ERROR: cannot find do_tests.pl\n";
 }

@@ -123,7 +123,7 @@ The United Nations also maintains country lists.  Their list is also
 similar, but not identical, to the ISO 3166 list.
 
 The data is available here:
-L<http://unstats.un.org/unsd/methods/m49/m49alpha.htm>
+L<https://unstats.un.org/unsd/methodology/m49/>
 
 Previously, this table was treated as a source of the ISO 3166 data,
 but I found that the table was incomplete, so I stopped using it.

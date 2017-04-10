@@ -236,11 +236,14 @@ $Data{'country'}{'iana'}{'new'} = {
 # UN countries
 
 $Data{'country'}{'un'}{'orig'}{'name'} = {
-   "&Aring;land Islands"                     => "Aland Islands",
-   "C&ocirc;te d'Ivoire"                     => "Cote d'Ivoire",
-   "Cura&ccedil;ao"                          => "Curacao",
-   "R\xE9union"                              => "Reunion",
-   "Saint Barth&eacute;lemy"                 => "Saint Barthelemy",
+   "&#197;land Islands"                      => "Aland Islands",
+   "C&#244;te d&#39;Ivoire"                  => "Cote d'Ivoire",
+   "Cura&#231;ao"                            => "Curacao",
+   "Democratic People&#39;s Republic of Korea" =>
+     "Democratic People's Republic of Korea",
+   "Lao People&#39;s Democratic Republic"    => "Lao People's Democratic Republic",
+   "R&#233;union"                            => "Reunion",
+   "Saint Barth&#233;lemy"                   => "Saint Barthelemy",
 };
 
 $Data{'country'}{'un'}{'new'} = {
