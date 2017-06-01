@@ -3,7 +3,7 @@ Locale::Codes::Country_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Mon Apr 10 10:39:56 EDT 2017
+#    Generated on: Tue May 30 10:32:10 EDT 2017
 
 use strict;
 require 5.006;
