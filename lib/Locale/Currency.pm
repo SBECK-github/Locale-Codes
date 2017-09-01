@@ -7,7 +7,7 @@ package Locale::Currency;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Tue Jul 25 13:42:10 EDT 2017
+#    Generated on: Mon Aug 28 13:35:23 EDT 2017
 
 use strict;
 use warnings;
