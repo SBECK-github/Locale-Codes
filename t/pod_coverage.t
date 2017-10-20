@@ -5,6 +5,8 @@
 #
 
 use strict;
+use warnings;
+
 use Test::More;
 
 # Don't run tests for installs
