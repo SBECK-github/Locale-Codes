@@ -33,6 +33,7 @@
       "runtime" : {
          "requires" : {
             "Carp" : "0",
+            "if" : "0",
             "perl" : "5.006",
             "utf8" : "0"
          }

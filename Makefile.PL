@@ -14,6 +14,7 @@ my $ConvVers= $ExtUtils::MakeMaker::VERSION;
 
 my %module_prereq = (
    'Carp'                     => '0',
+   'if'                       => '0',
    'utf8'                     => '0',
 );
 
@@ -189,6 +190,6 @@ WriteMakefile(
 
 
 
-   INSTALLDIRS      => (($] >= 5.007003) ? 'perl' : 'site'),
+   INSTALLDIRS      => (($] >= 5.007003 && $] < 5.012) ? 'perl' : 'site'),
 
 );
