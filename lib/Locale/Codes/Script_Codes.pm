@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.57';
+$VERSION='3.58';
 
 $Locale::Codes::Data{'script'}{'id'} = '0195';
 
