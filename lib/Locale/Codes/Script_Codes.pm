@@ -3,7 +3,7 @@ Locale::Codes::Script_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Fri Feb 23 12:55:05 EST 2018
+#    Generated on: Wed May 30 10:18:38 EDT 2018
 
 use strict;
 require 5.006;

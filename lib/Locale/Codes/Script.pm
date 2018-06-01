@@ -7,7 +7,7 @@ package Locale::Codes::Script;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Fri Feb 23 12:55:25 EST 2018
+#    Generated on: Wed May 30 10:22:15 EDT 2018
 
 use strict;
 use warnings;
