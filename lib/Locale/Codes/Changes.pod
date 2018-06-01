@@ -26,7 +26,13 @@ codes, I will add them to the module and release a new version.
 
 =head1 VERSION 3.58  (planned 2018-09-01  sbeck)
 
-=head1 VERSION 3.57  (planned 2018-06-01  sbeck)
+=head1 VERSION 3.57  (2018-06-01  sbeck)
+
+=over 4
+
+=item NEW CODE(s)
+
+=back
 
 =head1 VERSION 3.56  (2018-03-01  sbeck)
 
@@ -51,7 +57,9 @@ codes, I will add them to the module and release a new version.
 Because correct usage of any of the Locale::Codes modules requires that
 they be kept up-to-date, I have long felt that it should not be distributed
 as a core module.  After discussion on the perl5-porters list, it is agreed,
-and the deprecation process has been started.
+and the deprecation process has been started.  Starting with perl 5.28.0,
+Locale-Codes will be flagged as deprecated, and it will be removed in
+version 5.30.0 .
 
 Thanks to p5p-porters (especially Dagfinn Ilmari Mannsaker) for discussion
 and guidance.
