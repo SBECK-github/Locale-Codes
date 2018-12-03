@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.59';
+$VERSION='3.60';
 
 $Locale::Codes::Retired{'langext'}{'alpha'}{'code'} = {
    q(lsg) => q(Lyons Sign Language),
