@@ -40,8 +40,14 @@
       },
       "test" : {
          "requires" : {
-            "Storable" : "0",
-            "Test::More" : "0"
+            "Cwd" : "0",
+            "File::Basename" : "0",
+            "File::Find::Rule" : "0",
+            "IO::File" : "0",
+            "Test::Inter" : "1.09",
+            "Test::More" : "0",
+            "Test::Pod" : "1.00",
+            "Test::Pod::Coverage" : "1.00"
          }
       }
    },
@@ -164,5 +170,5 @@
       }
    },
    "version" : "3.61",
-   "x_serialization_backend" : "JSON::PP version 4.00"
+   "x_serialization_backend" : "JSON::PP version 4.02"
 }
