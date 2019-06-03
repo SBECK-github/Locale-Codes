@@ -239,10 +239,9 @@ sub code2name {
 
    } elsif ($retired  &&  exists $Retired{$type}{$codeset}{'code'}{$code}) {
       return $Retired{$type}{$codeset}{'code'}{$code};
-
-   } else {
-      return undef;
    }
+
+   return undef;
 }
 
 sub name2code {

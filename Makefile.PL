@@ -22,8 +22,14 @@ my %script_prereq = (
 );
 
 my %test_prereq = (
-   'Storable'                 => '0',
+   'Cwd'                      => '0',
+   'File::Basename'           => '0',
+   'File::Find::Rule'         => '0',
+   'IO::File'                 => '0',
+   'Test::Inter'              => '1.09',
    'Test::More'               => '0',
+   'Test::Pod'                => '1.00',
+   'Test::Pod::Coverage'      => '1.00',
 );
 
 my %config_prereq = (

@@ -7,7 +7,7 @@ package Locale::Codes::LangExt;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'gen_mods' is run.
-#    Generated on: Thu Feb 21 10:50:50 EST 2019
+#    Generated on: Tue May 28 14:05:47 EDT 2019
 
 use strict;
 use warnings;
