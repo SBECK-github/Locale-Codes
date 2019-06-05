@@ -3,15 +3,18 @@
 use warnings 'all';
 use strict;
 use Test::More;
+
+BEGIN {
+    # Don't run tests for installs
+    unless ($ENV{RELEASE_TESTING}) {
+       plan skip_all => 'Author tests not required for installation (set RELEASE_TESTING to test)';
+    }
+}
+
 use File::Basename;
 use Cwd 'abs_path';
 use Test::Pod 1.00;
 
-# Don't run tests for installs
-unless ($ENV{RELEASE_TESTING}) {
-   plan skip_all => 'Author tests not required for installation (set RELEASE_TESTING to test)';
-}
-  
 # Figure out the directories.  This comes from Test::Inter.
 
 my($moddir,$testdir,$libdir);

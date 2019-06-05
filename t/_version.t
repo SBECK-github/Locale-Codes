@@ -3,13 +3,17 @@
 use warnings 'all';
 use strict;
 use Test::Inter;
+my $ti;
+
+BEGIN {
+    $ti      = new Test::Inter $0;
+    unless ($ENV{RELEASE_TESTING}) {
+       $ti->skip_all('Author tests not required for installation (set RELEASE_TESTING to test)');
+    }
+}
+
 use IO::File;
 use File::Find::Rule;
-my $ti      = new Test::Inter $0;
-
-unless ($ENV{RELEASE_TESTING}) {
-   $ti->skip_all('Author tests not required for installation (set RELEASE_TESTING to test)');
-}
 
 # Figure out what module we are in.  A module is in a directory:
 #    My-Mod-Name-1.00
