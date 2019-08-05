@@ -10,31 +10,15 @@ $::tests = '';
 
 $::tests = "
 
-2code
-Mesopotamian Arabic
-   acm
+2code 'Mesopotamian Arabic' => acm
 
-2name
-acm
-   Mesopotamian Arabic
+2name acm => 'Mesopotamian Arabic'
 
-code2code
-ACM
-alpha
-alpha
-   acm
+code2code ACM alpha alpha => acm
 
-all_codes
-2
-   ~
-   aao
-   abh
+all_codes 2 => aao abh
 
-all_names
-2
-   ~
-   Adamorobe Sign Language
-   Afghan Sign Language
+all_names 2 => 'Adamorobe Sign Language' 'Afghan Sign Language'
 
 ";
 

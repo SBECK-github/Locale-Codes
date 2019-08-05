@@ -8,35 +8,23 @@ use strict;
 
 $::tests = '';
 
-$::tests = "
+$::tests = qq{
 
-2code
-Auvergnat
-   auvern
+2code Auvergnat => auvern
 
-2name
-auvern
-   Auvergnat
+2name auvern => Auvergnat
 
-code2code
-auvern
-alpha
-alpha
-   auvern
+code2code auvern alpha alpha => auvern
 
-all_codes
-2
-   ~
-   1606nict
-   1694acad
+all_codes 2 => 1606nict 1694acad
 
 all_names
 2
-   ~
-   \"Academic\" (\"governmental\") variant of Belarusian as codified in 1959
-   ALA-LC Romanization, 1997 edition
+   =>
+   '"Academic" ("governmental") variant of Belarusian as codified in 1959'
+   'ALA-LC Romanization, 1997 edition'
 
-";
+};
 
 1;
 # Local Variables:

@@ -68,7 +68,7 @@ sub type {
    my($self,$type) = @_;
 
    if (! exists $ALL_CODESETS{$type}) {
-      carp "ERROR: type: invalid argument: $type\n";
+      carp "ERROR: type: invalid argument: $type\n"  if ($$self{'err'});
       return;
    }
 
@@ -98,8 +98,10 @@ sub codeset {
    if (! exists $ALL_CODESETS{$type}{'codesets'}{$codeset}) {
       # uncoverable branch true
       # uncoverable branch false
-      if ($$self{'err'}) {                                       # uncoverable statement
-         carp "ERROR: codeset: invalid argument: $codeset\n";    # uncoverable statement
+      # uncoverable statement
+      if ($$self{'err'}) {
+         # uncoverable statement
+         carp "ERROR: codeset: invalid argument: $codeset\n"  if ($$self{'err'});
       }
    }
 
@@ -139,12 +141,12 @@ sub _code {
    $codeset                 = lc($codeset)  if (defined($codeset));
 
    if (! $$self{'type'}) {
-      carp "ERROR: no type set for Locale::Codes object\n";
+      carp "ERROR: no type set for Locale::Codes object\n"  if ($$self{'err'});
       return (1);
    }
    my $type = $$self{'type'};
    if ($codeset  &&  ! exists $ALL_CODESETS{$type}{'codesets'}{$codeset}) {
-      carp "ERROR: _code: invalid codeset provided: $codeset\n";
+      carp "ERROR: _code: invalid codeset provided: $codeset\n"  if ($$self{'err'});
       return (1);
    }
 
@@ -177,7 +179,7 @@ sub _code {
 
       } else {
          # uncoverable statement
-         carp "ERROR: _code: invalid numeric code: $code\n";
+         carp "ERROR: _code: invalid numeric code: $code\n"  if ($$self{'err'});
          # uncoverable statement
          return (1);
       }
@@ -189,7 +191,7 @@ sub _code {
        ! exists $Data{$type}{'code2id'}{$codeset}{$code}  &&
        ! exists $Retired{$type}{$codeset}{'code'}{$code}  &&
        ! exists $Data{$type}{'codealias'}{$codeset}{$code}) {
-      carp "ERROR: _code: code not in codeset: $code [$codeset]\n";
+      carp "ERROR: _code: code not in codeset: $code [$codeset]\n"  if ($$self{'err'});
       return (1);
    }
 
@@ -849,7 +851,7 @@ sub delete_code_alias {
 
    if (! exists $Data{$type}{'codealias'}{$codeset}{$code}) {
       # uncoverable branch true
-      carp "delete_code_alias(): no alias defined: $code\n"  if ($$self{'err'});
+      carp "delete_code_alias: no alias defined: $code\n"  if ($$self{'err'});
       return 0;
    }
 

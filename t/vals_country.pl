@@ -300,7 +300,7 @@ rename x1 NewName         => 'ERROR: _code: code not in codeset: x1 [alpha-2]'
 
 rename gb NewName foo     => 'ERROR: _code: invalid codeset provided: foo'
 
-rename gb Macao           => 0
+rename gb Macao           => 'ERROR: rename: rename to an existing name not allowed'
 
 rename gb NewName alpha-3 => 'ERROR: _code: code not in codeset: gb [alpha-3]'
 
@@ -321,9 +321,9 @@ rename us 'The United States' => 1
 
 2name xx                    => 'ERROR: _code: code not in codeset: xx [alpha-2]'
 
-add xx Bolivia              => 0
+add xx Bolivia              => 'add_code: name already in use: Bolivia'
 
-add fi Xxxxx                => 0
+add fi Xxxxx                => 'add_code: code already in use: fi'
 
 add xx Xxxxx                => 1
 
@@ -338,9 +338,9 @@ add xyy 'New Country' alpha-3 => 1
 ###################################
 # Test add_alias
 
-add_alias FooBar NewName        => 0
+add_alias FooBar NewName        => 'add_alias: name does not exist: FooBar'
 
-add_alias Australia Angola      => 0
+add_alias Australia Angola      => 'add_alias: alias already in use: Angola'
 
 2code Australia                 => au
 
@@ -355,13 +355,13 @@ add_alias Australia DownUnder   => 1
 
 2code uk                        => gb
 
-delete_alias Foobar             => 0
+delete_alias Foobar             => 'delete_alias: name does not exist: Foobar'
 
 delete_alias UK                 => 1
 
 2code uk                        => __undef__
 
-delete_alias Angola             => 0
+delete_alias Angola             => 'delete_alias: only one name defined (use delete_code instead)'
 
 add z1 NameA1 alpha-2           => 1
 
@@ -425,11 +425,11 @@ delete zz      => 'ERROR: _code: code not in codeset: zz [alpha-2]'
 
 2code Argentina                 => ar
 
-replace_code ar us              => 0
+replace_code ar us              => 'rename_code: new code already in use: us'
 
 replace_code ar zz              => 1
 
-replace_code us ar              => 0
+replace_code us ar              => 'rename_code: new code already in use: ar'
 
 2name zz                        => Argentina
 
@@ -459,9 +459,9 @@ replace_code ar z2 alpha-3    => 'ERROR: _code: code not in codeset: ar [alpha-3
 
 2code Bermuda                   => bm
 
-add_code_alias bm us            => 0
+add_code_alias bm us            => 'add_code_alias: code already in use: us'
 
-add_code_alias bm zz            => 0
+add_code_alias bm zz            => 'add_code_alias: code already in use: zz'
 
 add_code_alias bm yy            => 1
 
@@ -471,7 +471,7 @@ add_code_alias bm yy            => 1
 
 2code Bermuda                   => bm
 
-delete_code_alias us            => 0
+delete_code_alias us            => 'delete_code_alias: no alias defined: us'
 
 delete_code_alias ww        => 'ERROR: _code: code not in codeset: ww [alpha-2]'
 
@@ -487,7 +487,7 @@ add_code_alias bm yy            => 1
 
 2name yy                        => Bermuda
 
-add yy Foo                      => 0
+add yy Foo                      => 'add_code: code already in use: yy' 
 
 delete bm                       => 1
 

@@ -7,6 +7,7 @@ use warnings;
 use strict;
 no strict 'subs';
 no strict 'refs';
+$| = 1;
 
 my %type = ('country'  => 'Country',
             'language' => 'Language',
@@ -53,16 +54,16 @@ sub init_tests {
       $::module = "Locale::$mod";
       eval("use $::module");
       my $tmp   = $::module . "::show_errors";
-      &{ $tmp }(0);
+      &{ $tmp }(1);
    } elsif ($::test_type eq 'func') {
       $::module = "Locale::Codes::$mod";
       eval("use $::module");
       my $tmp   = $::module . "::show_errors";
-      &{ $tmp }(0);
+      &{ $tmp }(1);
    } else {
       eval("use Locale::Codes");
       $::obj = new Locale::Codes $::data_type;
-      $::obj->show_errors(0);
+      $::obj->show_errors(1);
    }
 }
 
@@ -78,7 +79,7 @@ sub test {
    }
 
    if ($stderr) {
-      $stderr =~ s/\n.*//m;
+      $stderr =~ s/\n.*//s;
       chomp($stderr);
       return $stderr;
    } else {

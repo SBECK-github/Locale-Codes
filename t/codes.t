@@ -6,7 +6,7 @@ use Test::Inter;
 my $t = new Test::Inter $0;
 
 use Locale::Codes;
-my $o = new Locale::Codes();
+my $o;
 
 local $SIG{__WARN__} = sub { my @err = split(/\n/,$_[0]); $::stderr_msg = $err[0] };
 
@@ -19,6 +19,9 @@ sub test {
       @ret = $o->type(@test);
    } elsif ($sub eq '_code') {
       @ret = $o->_code(@test);
+   } elsif ($sub eq 'new') {
+      $o = new Locale::Codes(@test);
+      return 0;
    }
 
    if ($::stderr_msg) {
@@ -30,6 +33,8 @@ sub test {
 }
 
 my $tests = "
+
+new              => 0
 
 type foo         => 'ERROR: type: invalid argument: foo'
 
@@ -48,6 +53,14 @@ _code zzz        => 'ERROR: _code: code not in codeset: zzz [alpha-2]'
 _code zzz ''     => 'ERROR: _code: code not in codeset: zzz [alpha-2]'
 
 _code zz alpha-3 => 'ERROR: _code: code not in codeset: zz [alpha-3]'
+
+#####
+
+new country      => 0
+
+_code '' alpha-3 => 0 '' alpha-3
+
+new country alpha-2 1 => 0
 
 ";
 

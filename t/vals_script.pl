@@ -9,45 +9,21 @@ use strict;
 $::tests = '';
 $::tests = "
 
-2code
-Phoenician
-   phnx
+2code Phoenician => phnx
 
-2code
-Phoenician
-num
-   115
+2code Phoenician num => 115
 
-2name
-Phnx
-   Phoenician
+2name Phnx => Phoenician
 
-2name
-phnx
-   Phoenician
+2name phnx => Phoenician
 
-2name
-115
-num
-   Phoenician
+2name 115 num => Phoenician
 
-code2code
-Phnx
-alpha
-num
-   115
+code2code Phnx alpha num => 115
 
-all_codes
-2
-   ~
-   Adlm
-   Afak
+all_codes 2 => Adlm Afak
 
-all_names
-2
-   ~
-   Adlam
-   Afaka
+all_names 2 => Adlam Afaka
 
 ";
 
