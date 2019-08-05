@@ -9,6 +9,7 @@ use strict;
 $::tests = '';
 
 $::tests = "
+
 all_names
 foo
 2

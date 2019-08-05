@@ -68,27 +68,22 @@ sub type {
    my($self,$type) = @_;
 
    if (! exists $ALL_CODESETS{$type}) {
-      # uncoverable branch false
-      carp "ERROR: type: invalid argument: $type\n"  if ($$self{'err'});
+      carp "ERROR: type: invalid argument: $type\n";
       return;
    }
 
-   # uncoverable branch false
-   if (! $ALL_CODESETS{$type}{'loaded'}) {
-      my $label = $ALL_CODESETS{$type}{'module'};
-      eval "require Locale::Codes::${label}_Codes";
-      # uncoverable branch true
-      if ($@) {
-         # uncoverable statement
-         croak "ERROR: type: unable to load module: ${label}_Codes\n";
-      }
-      eval "require Locale::Codes::${label}_Retired";
-      # uncoverable branch true
-      if ($@) {
-         # uncoverable statement
-         croak "ERROR: type: unable to load module: ${label}_Retired\n";
-      }
-      $ALL_CODESETS{$type}{'loaded'} = 1;
+   my $label = $ALL_CODESETS{$type}{'module'};
+   eval "require Locale::Codes::${label}_Codes";
+   # uncoverable branch true
+   if ($@) {
+      # uncoverable statement
+      croak "ERROR: type: unable to load module: ${label}_Codes\n";
+   }
+   eval "require Locale::Codes::${label}_Retired";
+   # uncoverable branch true
+   if ($@) {
+      # uncoverable statement
+      croak "ERROR: type: unable to load module: ${label}_Retired\n";
    }
 
    $$self{'type'}    = $type;
@@ -99,9 +94,13 @@ sub codeset {
    my($self,$codeset) = @_;
 
    my $type           = $$self{'type'};
+   # uncoverable branch true
    if (! exists $ALL_CODESETS{$type}{'codesets'}{$codeset}) {
+      # uncoverable branch true
       # uncoverable branch false
-      carp "ERROR: codeset: invalid argument: $codeset\n"  if ($$self{'err'});
+      if ($$self{'err'}) {                                       # uncoverable statement
+         carp "ERROR: codeset: invalid argument: $codeset\n";    # uncoverable statement
+      }
    }
 
    $$self{'codeset'}  = $codeset;
@@ -139,17 +138,13 @@ sub _code {
    $code                    = ''  if (! defined($code));
    $codeset                 = lc($codeset)  if (defined($codeset));
 
-   # uncoverable branch true
    if (! $$self{'type'}) {
-      # uncoverable statement
-      carp "ERROR: no type set for Locale::Codes object\n"  if ($$self{'err'});
-      # uncoverable statement
+      carp "ERROR: no type set for Locale::Codes object\n";
       return (1);
    }
    my $type = $$self{'type'};
    if ($codeset  &&  ! exists $ALL_CODESETS{$type}{'codesets'}{$codeset}) {
-      carp "ERROR: _code: invalid codeset provided: $codeset\n"
-        if ($$self{'err'});
+      carp "ERROR: _code: invalid codeset provided: $codeset\n";
       return (1);
    }
 
@@ -162,7 +157,7 @@ sub _code {
 
    my($op,@args) = @{ $ALL_CODESETS{$type}{'codesets'}{$codeset} };
 
-   if      ($op eq 'lc') {
+   if ($op eq 'lc') {
       $code = lc($code);
    }
 
@@ -182,7 +177,7 @@ sub _code {
 
       } else {
          # uncoverable statement
-         carp "ERROR: _code: invalid numeric code: $code\n"  if ($$self{'err'});
+         carp "ERROR: _code: invalid numeric code: $code\n";
          # uncoverable statement
          return (1);
       }
@@ -194,8 +189,7 @@ sub _code {
        ! exists $Data{$type}{'code2id'}{$codeset}{$code}  &&
        ! exists $Retired{$type}{$codeset}{'code'}{$code}  &&
        ! exists $Data{$type}{'codealias'}{$codeset}{$code}) {
-      carp "ERROR: _code: code not in codeset: $code [$codeset]\n"
-        if ($$self{'err'});
+      carp "ERROR: _code: code not in codeset: $code [$codeset]\n";
       return (1);
    }
 
