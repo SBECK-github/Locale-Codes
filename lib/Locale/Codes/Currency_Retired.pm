@@ -3,7 +3,7 @@ Locale::Codes::Currency_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Tue May 28 14:06:31 EDT 2019
+#    Generated on: Thu Aug 29 15:10:04 EDT 2019
 
 use strict;
 require 5.006;
