@@ -24,6 +24,22 @@ all_names
    '"Academic" ("governmental") variant of Belarusian as codified in 1959'
    'ALA-LC Romanization, 1997 edition'
 
+rename AAA newCode2 => 'ERROR: _code: code not in codeset: aaa [alpha]'
+
+add AAA newCode => 1
+
+delete AAA => 1
+
+add_alias FooBar NewName        => 'ERROR: add_alias: name does not exist: FooBar'
+
+delete_alias Foobar             => 'ERROR: delete_alias: name does not exist: Foobar'
+
+replace_code Foo Bar => 'ERROR: _code: code not in codeset: foo [alpha]'
+
+add_code_alias Foo Bar => 'ERROR: _code: code not in codeset: foo [alpha]'
+
+delete_code_alias Foo => 'ERROR: _code: code not in codeset: foo [alpha]'
+
 };
 
 1;

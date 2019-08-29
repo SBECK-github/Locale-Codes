@@ -1,4 +1,5 @@
 perl -I../lib _version.t 1
+perl -I../lib codes.t 1
 perl -I../lib country_func.t 1
 perl -I../lib country_old.t 1
 perl -I../lib country_oo.t 1

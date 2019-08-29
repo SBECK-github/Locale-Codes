@@ -58,6 +58,22 @@ all_codes 2 => AED AFN
 
 all_names 2 => 'ADB Unit of Account' Afghani
 
+rename AAA newCode2 => 'ERROR: _code: code not in codeset: AAA [alpha]'
+
+add AAA newCode => 1
+
+delete AAA => 1
+
+add_alias FooBar NewName        => 'ERROR: add_alias: name does not exist: FooBar'
+
+delete_alias Foobar             => 'ERROR: delete_alias: name does not exist: Foobar'
+
+replace_code Foo Bar => 'ERROR: _code: code not in codeset: FOO [alpha]'
+
+add_code_alias Foo Bar => 'ERROR: _code: code not in codeset: FOO [alpha]'
+
+delete_code_alias Foo => 'ERROR: _code: code not in codeset: FOO [alpha]'
+
 ";
 
 1;

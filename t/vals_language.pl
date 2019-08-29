@@ -18,7 +18,7 @@ all_codes 2 => aa ab
 
 rename zu NewName foo => 'ERROR: _code: invalid codeset provided: foo'
 
-rename zu English alpha-2 => 'ERROR: rename: rename to an existing name not allowed'
+rename zu English alpha-2 => 'ERROR: rename_code: rename to an existing name not allowed'
 
 rename zu NewName alpha-3 => 'ERROR: _code: code not in codeset: zu [alpha-3]'
 
@@ -141,6 +141,22 @@ rename zu NewName alpha-2 => 1
 2name za => Zhuang
 
 code2code zu alpha-2 alpha-3 => zul
+
+rename AAA newCode2 => 'ERROR: _code: code not in codeset: aaa [alpha-2]'
+
+add AAA newCode => 1
+
+delete AAA => 1
+
+add_alias FooBar NewName        => 'ERROR: add_alias: name does not exist: FooBar'
+
+delete_alias Foobar             => 'ERROR: delete_alias: name does not exist: Foobar'
+
+replace_code Foo Bar => 'ERROR: _code: code not in codeset: foo [alpha-2]'
+
+add_code_alias Foo Bar => 'ERROR: _code: code not in codeset: foo [alpha-2]'
+
+delete_code_alias Foo => 'ERROR: _code: code not in codeset: foo [alpha-2]'
 
 ";
 
