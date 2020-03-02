@@ -3,7 +3,7 @@ Locale::Codes::Language_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Thu Aug 29 15:10:04 EDT 2019
+#    Generated on: Mon Mar  2 09:31:35 EST 2020
 
 use strict;
 require 5.006;
@@ -484,7 +484,6 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
    q(nung (myanmar)) => [ q(nun), q(Nung (Myanmar)) ],
    q(nyigina) => [ q(nyh), q(Nyigina) ],
    q(nyunga) => [ q(nys), q(Nyunga) ],
-   q(nçng) => [ q(), q(NÇng) ],
    q(omati) => [ q(mgx), q(Omati) ],
    q(omejes) => [ q(ome), q(Omejes) ],
    q(opuuo) => [ q(lgn), q(Opuuo) ],
@@ -598,6 +597,12 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
 };
 
 $Locale::Codes::Retired{'language'}{'term'}{'name'} = {
+   q(bantu (other)) => [ q(bnt), q(Bantu (Other)) ],
+   q(creoles and pidgins ) => [ q(crp), q(Creoles and pidgins ) ],
+   q(creoles and pidgins, french-based ) => [ q(cpf), q(Creoles and pidgins, French-based ) ],
+   q(creoles and pidgins, portuguese-based ) => [ q(cpp), q(Creoles and pidgins, Portuguese-based ) ],
+   q(south american indian (other)) => [ q(sai), q(South American Indian (Other)) ],
+   q(walamo) => [ q(wal), q(Walamo) ],
 };
 
 
