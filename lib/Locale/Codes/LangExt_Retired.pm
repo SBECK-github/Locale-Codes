@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.64';
+$VERSION='3.65';
 
 $Locale::Codes::Retired{'langext'}{'alpha'}{'code'} = {
    q(bbz) => q(Babalia Creole Arabic),

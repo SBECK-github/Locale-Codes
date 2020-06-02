@@ -15,7 +15,7 @@ require 5.006;
 use Exporter qw(import);
 
 our($VERSION,@EXPORT);
-$VERSION   = '3.64';
+$VERSION='3.65';
 
 ################################################################################
 our(@CONSTANTS,%ALL_CODESETS);
