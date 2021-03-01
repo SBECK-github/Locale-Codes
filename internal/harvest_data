@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# Copyright (c) 2010-2020 Sullivan Beck.  All rights reserved.
+# Copyright (c) 2010-2021 Sullivan Beck.  All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -564,7 +564,9 @@ sub do_country {
       my $inst = qq
 (Please download the data manually for ISO 3166 country codes.
 
-Currently, this works best in firefox (not in chrome).
+Currently, this works best in firefox (not in chrome) with the
+'Absolute Enable Right Click and Copy' extension enabled, with Copy
+enabled.
 
 Go to the following URL:
    $country_iso_url
