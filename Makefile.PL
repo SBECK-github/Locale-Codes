@@ -178,6 +178,10 @@ WriteMakefile(
              version   => 2,
           },
           resources    => {
+             bugtracker => {
+                web  => 'https://github.com/SBECK-github/Locale-Codes/issues',
+             },
+             homepage => 'https://github.com/SBECK-github/Locale-Codes',
              repository => {
                 type => 'git',
                 web  => 'https://github.com/SBECK-github/Locale-Codes',
