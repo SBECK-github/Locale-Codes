@@ -107,6 +107,8 @@ requires:
   perl: '5.006'
   utf8: '0'
 resources:
+  bugtracker: https://github.com/SBECK-github/Locale-Codes/issues
+  homepage: https://github.com/SBECK-github/Locale-Codes
   repository: git://github.com/SBECK-github/Locale-Codes.git
 version: '3.71'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
