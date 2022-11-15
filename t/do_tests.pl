@@ -33,6 +33,7 @@ sub init_tests {
    # Module is based on DATATYPE
 
    my $tmp      = $0;
+   $tmp         =~ s/\\/\//g;
    $tmp         =~ s,^.*/,,;
    $tmp         =~ s,\.t$,,;
    my($dt,$flag,$n) = split(/_/,$tmp);
