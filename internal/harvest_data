@@ -94,7 +94,8 @@ our $country_iana_url   = "http://www.iana.org/domains/root/db/";
 
 our $country_un_url     = "https://unstats.un.org/unsd/methodology/m49/";
 
-our $country_genc_url   = "https://nsgreg.nga.mil/genc/discovery";
+#our $country_genc_url   = "https://nsgreg.nga.mil/genc/discovery";
+our $country_genc_url   = "https://nsgreg-api.nga.mil/registries/browse/results.jsp?registryType=genc&registerField=IE4&browseType=genc";
 
 require "data.country.pl";
 
@@ -286,7 +287,7 @@ sub do_country {
 
    sub _init_country_genc {
       my $inst = qq
-(Please download the data manually for GNEC country codes.
+(Please download the data manually for GENC country codes.
 
 Go to the following URL:
    $country_genc_url
@@ -306,6 +307,7 @@ countries fit on a single page, do it in multiple steps.
       while (@$in) {
          my $line = shift (@$in);
          next  if ($line =~ /None Assigned/);
+         next  if ($line =~ /ENTITY \d/);
 
          if ($line !~ /^(\S\S)\s+(\S\S\S)\s+(\S\S\S)\s+(.*?)\s+(Independent|Other|U.S. Dependency)/) {
             print "WARNING [genc]: invalid line: $line\n";
