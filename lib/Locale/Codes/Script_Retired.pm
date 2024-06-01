@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.79';
+$VERSION='3.80';
 
 $Locale::Codes::Retired{'script'}{'alpha'}{'code'} = {
 };
