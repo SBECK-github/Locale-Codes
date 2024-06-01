@@ -3,7 +3,7 @@ Locale::Codes::LangVar_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Fri Mar  8 10:13:49 EST 2024
+#    Generated on: Sat Jun  1 11:32:16 EDT 2024
 
 use strict;
 require 5.006;
