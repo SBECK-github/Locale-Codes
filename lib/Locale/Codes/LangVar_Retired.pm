@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.81';
+$VERSION='3.82';
 
 $Locale::Codes::Retired{'langvar'}{'alpha'}{'code'} = {
    q(arevela) => q(Eastern Armenian),

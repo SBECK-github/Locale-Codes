@@ -15,7 +15,7 @@ require 5.006;
 use Exporter qw(import);
 
 our($VERSION,@EXPORT);
-$VERSION   = '3.81';
+$VERSION='3.82';
 
 ################################################################################
 use if $] >= 5.027007, 'deprecate';
