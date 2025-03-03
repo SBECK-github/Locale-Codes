@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.82';
+$VERSION='3.83';
 
 $Locale::Codes::Retired{'langext'}{'alpha'}{'code'} = {
    q(ajp) => q(South Levantine Arabic),
