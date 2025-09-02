@@ -316,7 +316,9 @@ sub code2names {
    my $type = $$self{'type'};
 
    my ($err,$code,$codeset) = $self->_code(@args);
-   return undef  if ($err  ||  ! $code);
+   return undef  if ($err  ||
+                     ! $code  ||
+                     ! exists $Data{$type}{'code2id'}{$codeset}{$code});
 
    my $id   = $Data{$type}{'code2id'}{$codeset}{$code}[0];
    my @name = @{ $Data{$type}{'id2names'}{$id} };
