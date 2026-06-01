@@ -11,7 +11,7 @@ use warnings;
 use utf8;
 
 our($VERSION);
-$VERSION='3.89';
+$VERSION='3.90';
 
 $Locale::Codes::Retired{'country'}{'alpha-2'}{'code'} = {
    q(an) => q(Netherlands Antilles),
