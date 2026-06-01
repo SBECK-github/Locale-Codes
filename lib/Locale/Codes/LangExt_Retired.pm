@@ -3,7 +3,7 @@ Locale::Codes::LangExt_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Mon Mar  2 13:00:48 EST 2026
+#    Generated on: Mon Jun  1 10:27:55 EDT 2026
 
 use strict;
 require 5.006;
