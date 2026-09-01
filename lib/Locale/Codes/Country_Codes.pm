@@ -3,7 +3,7 @@ Locale::Codes::Country_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Mon Jun  1 10:25:30 EDT 2026
+#    Generated on: Tue Sep  1 11:14:40 EDT 2026
 
 use strict;
 require 5.006;
@@ -599,6 +599,7 @@ $Locale::Codes::Data{'country'}{'id2names'} = {
       q(Namibia),
       ],
    q(0154) => [
+      q(Naoero),
       q(Nauru),
       ],
    q(0155) => [
@@ -2256,9 +2257,13 @@ $Locale::Codes::Data{'country'}{'alias2id'} = {
       q(0153),
       q(0),
       ],
-   q(nauru) => [
+   q(naoero) => [
       q(0154),
       q(0),
+      ],
+   q(nauru) => [
+      q(0154),
+      q(1),
       ],
    q(navassa island) => [
       q(0285),
@@ -6912,7 +6917,7 @@ $Locale::Codes::Data{'country'}{'code2id'} = {
          ],
       q(NR) => [
          q(0154),
-         q(0),
+         q(1),
          ],
       q(NU) => [
          q(0162),
@@ -8094,7 +8099,7 @@ $Locale::Codes::Data{'country'}{'code2id'} = {
          ],
       q(NRU) => [
          q(0154),
-         q(0),
+         q(1),
          ],
       q(NZL) => [
          q(0158),
@@ -9180,7 +9185,7 @@ $Locale::Codes::Data{'country'}{'code2id'} = {
          ],
       q(520) => [
          q(0154),
-         q(0),
+         q(1),
          ],
       q(524) => [
          q(0155),

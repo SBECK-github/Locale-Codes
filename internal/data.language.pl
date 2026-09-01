@@ -520,6 +520,12 @@ $Data{'language'}{'iana'}{'orig'}{'name'} = {
    "Sḵwx̱wú7mesh sníchim"                     => "Skwxwu7mesh snichim",
    "Nłeʔkepmxcín"                             => "Nlekepmxcin",
    "Tāłtān"                                  => "Taltan",
+   "Luiseño"                                      => "Luiseno",
+   "Kanien'kéha"                                  => "Kanien'keha",
+   "Lhéchelesem"                                 => "Lhechelesem",
+   "Dene Kedé"                                   => "Dene Kede",
+   "Dän K'è"                                    => "Dan K'e",
+   "Dene Zhatié"                                 => "Dene Zhatie",
 };
 
 $Data{'language'}{'iana'}{'ignore'} = {

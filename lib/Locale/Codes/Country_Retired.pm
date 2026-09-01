@@ -3,7 +3,7 @@ Locale::Codes::Country_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Mon Jun  1 10:27:55 EDT 2026
+#    Generated on: Tue Sep  1 12:14:09 EDT 2026
 
 use strict;
 require 5.006;
@@ -393,6 +393,7 @@ $Locale::Codes::Retired{'country'}{'alpha-2'}{'name'} = {
    q(micronesia, federated states of) => [ q(fm), q(Micronesia, Federated States of) ],
    q(micronesia, the federated states of) => [ q(fm), q(Micronesia, The Federated States of) ],
    q(moldova, republic of) => [ q(md), q(Moldova, Republic of) ],
+   q(nauru) => [ q(nr), q(Nauru) ],
    q(netherlands) => [ q(nl), q(Netherlands) ],
    q(netherlands antilles) => [ q(an), q(Netherlands Antilles) ],
    q(saint helena) => [ q(sh), q(Saint Helena) ],
@@ -468,6 +469,7 @@ $Locale::Codes::Retired{'country'}{'alpha-3'}{'name'} = {
    q(micronesia, federated states of) => [ q(fsm), q(Micronesia, Federated States of) ],
    q(micronesia, the federated states of) => [ q(fsm), q(Micronesia, The Federated States of) ],
    q(moldova, republic of) => [ q(mda), q(Moldova, Republic of) ],
+   q(nauru) => [ q(nru), q(Nauru) ],
    q(netherlands) => [ q(nld), q(Netherlands) ],
    q(netherlands antilles) => [ q(ant), q(Netherlands Antilles) ],
    q(palestinian territory, occupied) => [ q(pse), q(Palestinian Territory, Occupied) ],
@@ -530,6 +532,7 @@ $Locale::Codes::Retired{'country'}{'dom'}{'name'} = {
    q(micronesia, federated states of) => [ q(fm), q(Micronesia, Federated States of) ],
    q(micronesia, the federated states of) => [ q(fm), q(Micronesia, The Federated States of) ],
    q(moldova, republic of) => [ q(md), q(Moldova, Republic of) ],
+   q(nauru) => [ q(nr), q(Nauru) ],
    q(netherlands) => [ q(nl), q(Netherlands) ],
    q(netherlands antilles) => [ q(an), q(Netherlands Antilles) ],
    q(portuguese timor) => [ q(TP), q(Portuguese Timor) ],
@@ -649,6 +652,7 @@ $Locale::Codes::Retired{'country'}{'numeric'}{'name'} = {
    q(micronesia, federated states of) => [ q(583), q(Micronesia, Federated States of) ],
    q(micronesia, the federated states of) => [ q(583), q(Micronesia, The Federated States of) ],
    q(moldova, republic of) => [ q(498), q(Moldova, Republic of) ],
+   q(nauru) => [ q(520), q(Nauru) ],
    q(netherlands) => [ q(528), q(Netherlands) ],
    q(netherlands antilles) => [ q(530), q(Netherlands Antilles) ],
    q(palestinian territory, occupied) => [ q(275), q(Palestinian Territory, Occupied) ],
@@ -693,6 +697,7 @@ $Locale::Codes::Retired{'country'}{'un-alpha-3'}{'name'} = {
    q(czech republic) => [ q(CZE), q(Czech Republic) ],
    q(korea, the democratic people's republic of) => [ q(PRK), q(Korea, The Democratic People's Republic of) ],
    q(macedonia, the former yugoslav republic of) => [ q(MKD), q(Macedonia, The former Yugoslav Republic of) ],
+   q(nauru) => [ q(NRU), q(Nauru) ],
    q(netherlands) => [ q(NLD), q(Netherlands) ],
    q(swaziland) => [ q(SWZ), q(Swaziland) ],
    q(t&#252;rkiye) => [ q(TUR), q(T&#252;rkiye) ],
@@ -705,6 +710,7 @@ $Locale::Codes::Retired{'country'}{'un-numeric'}{'name'} = {
    q(czech republic) => [ q(203), q(Czech Republic) ],
    q(korea, the democratic people's republic of) => [ q(408), q(Korea, The Democratic People's Republic of) ],
    q(macedonia, the former yugoslav republic of) => [ q(807), q(Macedonia, The former Yugoslav Republic of) ],
+   q(nauru) => [ q(520), q(Nauru) ],
    q(netherlands) => [ q(528), q(Netherlands) ],
    q(sark) => [ q(680), q(Sark) ],
    q(swaziland) => [ q(748), q(Swaziland) ],

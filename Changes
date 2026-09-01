@@ -1,11 +1,20 @@
 Currently maintained by:
-   Sullivan Beck (sbeck@cpan.org)
+   Sullivan Beck (https://github.com/SBECK-github/)
 Any suggestions, bug reports, or donations :-) should be sent to me.
 
 This document is automatically generated from the document:
    Locale::Codes::Changes
 and that document should be considered the canonical source of change
 related information.
+
+3.91  2026-09-01  sbeck
+  -  NEW CODE(s)
+  -  CPAN email contact removed
+         As of April, CPAN no longer forwards emails, so the old cpan.org
+         email address is no longer a supported contact method and has been
+         removed.
+
+         Reported in GitHub #22
 
 3.90  2026-06-01  sbeck
   -  Version 3.89 was created with a flaw and has been deleted.

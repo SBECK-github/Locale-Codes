@@ -3,7 +3,7 @@ Locale::Codes::Script_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Mon Jun  1 10:27:55 EDT 2026
+#    Generated on: Tue Sep  1 12:14:09 EDT 2026
 
 use strict;
 require 5.006;

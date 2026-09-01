@@ -24,6 +24,21 @@ changes that you use, feel free to contact me.  Based on my available
 time and the time until the next release is scheduled, I will try to
 do a release any time the standards change.
 
+=head1 VERSION 3.91  (2026-09-01  sbeck)
+
+=over 5
+
+=item NEW CODE(s)
+
+=item CPAN email contact removed
+
+As of April, CPAN no longer forwards emails, so the old cpan.org email
+address is no longer a supported contact method and has been removed.
+
+Reported in GitHub #22
+
+=back
+
 =head1 VERSION 3.90  (2026-06-01  sbeck)
 
 Version 3.89 was created with a flaw and has been deleted.
@@ -1499,7 +1514,7 @@ Locale::Codes
 
 See Locale::Codes for full author history.
 
-Currently maintained by Sullivan Beck (sbeck@cpan.org).
+Currently maintained by Sullivan Beck (https://github.com/SBECK-github/).
 
 =head1 COPYRIGHT
 

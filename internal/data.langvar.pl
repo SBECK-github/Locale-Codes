@@ -33,8 +33,7 @@ $Data{'langvar'}{'iana'}{'orig'}{'name'} = {
    "Niçard"                           => "Nicard",
    "Provençal"                       => "Provencal",
    "Østgrønlands"                 =>"Ostgronlands",
-   "Latvian orthography used before 1920s (\"vecā druka\")" =>
-   "Latvian orthography used before 1920s (\"veca druka\")",
+   "Latvian orthography used before 1920s (\"vecā druka\")" => "Latvian orthography used before 1920s (\"veca druka\")",
    "Lengua de señas Albarradas"      => "Lengua de senas Albarradas",
    "Østgrønlandsk"               => "Ostgronlandsk",
    "Gherdëina standard of Ladin"  => "Ghereina standard of Ladin",
@@ -43,6 +42,8 @@ $Data{'langvar'}{'iana'}{'orig'}{'name'} = {
    "The Hà Nội variant of Vietnamese" => "The Ha Noi variant of Vietnamese",
    "The Huế (province Thừa Thiên) variant of Vietnamese" => "The Hue (province Thua Thien) variant of Vietnamese",
    "The Sài Gòn variant of Vietnamese" => "The Sai Gon variant of Vietnamese",
+   "The moderate (conservative, i.e. Danish-like) spelling variant of Bokmål" => "The moderate (conservative, i.e. Danish-like) spelling variant of Bokmal",
+   "Radical (i.e. Nynorsk-like) spelling variant of Bokmål" => "Radical (i.e. Nynorsk-like) spelling variant of Bokmal",
 };
 
 $Data{'langvar'}{'iana'}{'ignore'} = {

@@ -1,20 +1,3 @@
-perl -I../lib _version.t 1
-perl -I../lib codes.t 1
-perl -I../lib country_func.t 1
-perl -I../lib country_old.t 1
-perl -I../lib country_oo.t 1
-perl -I../lib currency_func.t 1
-perl -I../lib currency_old.t 1
-perl -I../lib currency_oo.t 1
-perl -I../lib langext_func.t 1
-perl -I../lib langext_oo.t 1
-perl -I../lib langfam_func.t 1
-perl -I../lib langfam_oo.t 1
-perl -I../lib language_func.t 1
-perl -I../lib language_old.t 1
-perl -I../lib language_oo.t 1
-perl -I../lib langvar_func.t 1
-perl -I../lib langvar_oo.t 1
-perl -I../lib script_func.t 1
-perl -I../lib script_old.t 1
-perl -I../lib script_oo.t 1
+set TI_MODE=inter
+set TI_QUIET=2
+perl -I../lib *.t

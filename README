@@ -472,8 +472,9 @@ KNOWN BUGS AND LIMITATIONS
         limitation in the future.
 
 BUGS AND QUESTIONS
-    If you find a bug in Locale::Codes, please let me know. The best ways to
-    contact me are:
+    If you find a bug in Locale::Codes, please let me know. As CPAN has
+    removed email support, the only supported way to submit a bug is via
+    ticket:
 
     GitHub
         You can submit it as an issue on GitHub. This can be done at the
@@ -483,17 +484,6 @@ BUGS AND QUESTIONS
 
         This is the preferred method. Please submit problems requests as
         GitHub issues if at all possible.
-
-    Direct email
-        You are welcome to send it directly to me by email. The email
-        address to use is: sbeck@cpan.org.
-
-        There is some discussion of discontinuing CPAN email, so please use
-        this as a last resort. The GitHub method is strongly preferred.
-        Also, because cpan.org addresses are published, they are used by a
-        lot of spammers and phishers. Please include the name of the perl
-        module in the subject line of ALL messages sent to my cpan.org
-        address or it will likely be overlooked.
 
     Please do not use other means to report bugs (such as forums for a
     specific OS or Linux distribution) as it is impossible for me to keep up
@@ -530,9 +520,10 @@ AUTHOR
 
     From 2004-2009, the module was unmaintained.
 
-    In 2010, maintenance was taken over by Sullivan Beck (sbeck@cpan.org)
-    with Neil Bower's permission. All problems or comments should be sent to
-    him using any of the methods listed above.
+    In 2010, maintenance was taken over by Sullivan Beck
+    (https://github.com/SBECK-github/) with Neil Bower's permission. All
+    problems or comments should be sent to him using any of the methods
+    listed above.
 
 COPYRIGHT
        Copyright (c) 1997-2001 Canon Research Centre Europe (CRE).

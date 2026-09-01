@@ -400,7 +400,7 @@ The Locale-Codes distribution.
 
 See Locale::Codes for full author history.
 
-Currently maintained by Sullivan Beck (sbeck@cpan.org).
+Currently maintained by Sullivan Beck (https://github.com/SBECK-github/).
 
 =head1 COPYRIGHT
 

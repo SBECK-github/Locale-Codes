@@ -170,7 +170,7 @@ country:
       nl: Netherlands (Kingdom of the)
       "no": Norway
       np: Nepal
-      nr: Nauru
+      nr: Naoero
       nu: Niue
       nz: New Zealand
       om: Oman
@@ -714,9 +714,9 @@ country:
       namibia: 
         - na
         - Namibia
-      nauru: 
+      naoero: 
         - nr
-        - Nauru
+        - Naoero
       nepal: 
         - np
         - Nepal
@@ -1170,7 +1170,7 @@ country:
       nld: Netherlands (Kingdom of the)
       nor: Norway
       npl: Nepal
-      nru: Nauru
+      nru: Naoero
       nzl: New Zealand
       omn: Oman
       pak: Pakistan
@@ -1713,9 +1713,9 @@ country:
       namibia: 
         - nam
         - Namibia
-      nauru: 
+      naoero: 
         - nru
-        - Nauru
+        - Naoero
       nepal: 
         - npl
         - Nepal
@@ -2168,7 +2168,7 @@ country:
       nl: Netherlands (Kingdom of the)
       "no": Norway
       np: Nepal
-      nr: Nauru
+      nr: Naoero
       nu: Niue
       nz: New Zealand
       om: Oman
@@ -2712,9 +2712,9 @@ country:
       namibia: 
         - na
         - Namibia
-      nauru: 
+      naoero: 
         - nr
-        - Nauru
+        - Naoero
       nepal: 
         - np
         - Nepal
@@ -6696,7 +6696,7 @@ country:
       508: Mozambique
       512: Oman
       516: Namibia
-      520: Nauru
+      520: Naoero
       524: Nepal
       528: Netherlands (Kingdom of the)
       531: Curacao
@@ -7260,9 +7260,9 @@ country:
       namibia: 
         - 516
         - Namibia
-      nauru: 
+      naoero: 
         - 520
-        - Nauru
+        - Naoero
       nepal: 
         - 524
         - Nepal
@@ -7716,7 +7716,7 @@ country:
       NLD: Netherlands (Kingdom of the)
       NOR: Norway
       NPL: Nepal
-      NRU: Nauru
+      NRU: Naoero
       NZL: New Zealand
       OMN: Oman
       PAK: Pakistan
@@ -8258,9 +8258,9 @@ country:
       namibia: 
         - NAM
         - Namibia
-      nauru: 
+      naoero: 
         - NRU
-        - Nauru
+        - Naoero
       nepal: 
         - NPL
         - Nepal
@@ -8689,7 +8689,7 @@ country:
       508: Mozambique
       512: Oman
       516: Namibia
-      520: Nauru
+      520: Naoero
       524: Nepal
       528: Netherlands (Kingdom of the)
       531: Curacao
@@ -9253,9 +9253,9 @@ country:
       namibia: 
         - 516
         - Namibia
-      nauru: 
+      naoero: 
         - 520
-        - Nauru
+        - Naoero
       nepal: 
         - 524
         - Nepal
@@ -11978,7 +11978,6 @@ language:
       ba: Bashkir
       be: Belarusian
       bg: Bulgarian
-      bh: Bihari languages
       bi: Bislama
       bm: Bambara
       bn: Bengali
@@ -12206,9 +12205,6 @@ language:
       bengali: 
         - bn
         - Bengali
-      bihari languages: 
-        - bh
-        - Bihari languages
       bislama: 
         - bi
         - Bislama
@@ -13952,7 +13948,7 @@ language:
       cel: Celtic languages
       cen: Cen
       cet: Centuum
-      cey: Ekai Chin
+      cey: Laoktu Chin
       cfa: Dijim-Bwilim
       cfd: Cara
       cfg: Como Karim
@@ -16557,7 +16553,7 @@ language:
       luf: Laua
       lug: Ganda
       luh: Leizhou Chinese
-      lui: LuiseÃ±o
+      lui: Luiseno
       luj: Luna
       luk: Lunanakha
       lul: Olu'bo
@@ -16766,7 +16762,7 @@ language:
       mgm: Mambae
       mgn: Mbangi
       mgo: Meta'
-      mgp: Eastern Magar
+      mgp: Magar
       mgq: Malila
       mgr: Mambwe-Lungu
       mgs: Manda (Tanzania)
@@ -17024,11 +17020,10 @@ language:
       mra: Mlabri
       mrb: Marino
       mrc: Maricopa
-      mrd: Western Magar
       mre: Martha's Vineyard Sign Language
       mrf: Elseng
       mrg: Mising
-      mrh: Mara Chin
+      mrh: Mara
       mrj: Western Mari
       mrk: Hmwaveke
       mrl: Mortlockese
@@ -18641,7 +18636,6 @@ language:
       shi: Tachelhit
       shj: Shatt
       shk: Shilluk
-      shl: Shendu
       shm: Shahrudi
       shn: Shan
       sho: Shanga
@@ -26140,9 +26134,6 @@ language:
       eastern lawa: 
         - lwl
         - Eastern Lawa
-      eastern magar: 
-        - mgp
-        - Eastern Magar
       eastern malayo-polynesian languages: 
         - pqe
         - Eastern Malayo-Polynesian languages
@@ -26296,9 +26287,6 @@ language:
       ejamat: 
         - eja
         - Ejamat
-      ekai chin: 
-        - cey
-        - Ekai Chin
       ekajuk: 
         - eka
         - Ekajuk
@@ -31831,6 +31819,9 @@ language:
       lao naga: 
         - nlq
         - Lao Naga
+      laoktu chin: 
+        - cey
+        - Laoktu Chin
       laomian: 
         - lwm
         - Laomian
@@ -32557,9 +32548,9 @@ language:
       luimbi: 
         - lum
         - Luimbi
-      luiseã±o: 
-        - ~
-        - LuiseÃ±o
+      luiseno: 
+        - lui
+        - Luiseno
       lukpa: 
         - dop
         - Lukpa
@@ -32797,6 +32788,9 @@ language:
       magahi: 
         - mag
         - Magahi
+      magar: 
+        - mgp
+        - Magar
       magbukun ayta: 
         - ayt
         - Magbukun Ayta
@@ -33403,9 +33397,9 @@ language:
       maquiritari: 
         - mch
         - Maquiritari
-      mara chin: 
+      mara: 
         - mrh
-        - Mara Chin
+        - Mara
       marachi: 
         - lri
         - Marachi
@@ -39604,9 +39598,6 @@ language:
       shempire senoufo: 
         - seb
         - Shempire Senoufo
-      shendu: 
-        - shl
-        - Shendu
       sheni: 
         - scv
         - Sheni
@@ -43681,9 +43672,6 @@ language:
       western lawa: 
         - lcp
         - Western Lawa
-      western magar: 
-        - mrd
-        - Western Magar
       western malayo-polynesian languages: 
         - pqw
         - Western Malayo-Polynesian languages
@@ -46901,7 +46889,7 @@ langvar:
       mdctrans: Ancient Egyptian transliteration encoded in Manuel de Codage
       mesokem: Mesokemic alias Oxyrhynchite dialect of Coptic
       metelko: Slovene in Metelko alphabet
-      moderat: The moderate (conservative, i.e. Danish-like) spelling variant of BokmÃ¥l
+      moderat: The moderate (conservative, i.e. Danish-like) spelling variant of Bokmal
       monoton: Monotonic Greek
       ndyuka: Ndyuka dialect
       nedis: Natisone dialect
@@ -46922,7 +46910,7 @@ langvar:
       polyton: Polytonic Greek
       provenc: Provencal
       puter: Puter idiom of Romansh
-      radikalt: Radical (i.e. Nynorsk-like) spelling variant of BokmÃ¥l
+      radikalt: Radical (i.e. Nynorsk-like) spelling variant of Bokmal
       rigik: Volapuk rigik
       rozaj: Resian
       rumgr: Rumantsch Grischun
@@ -47186,9 +47174,9 @@ langvar:
       puter idiom of romansh: 
         - puter
         - Puter idiom of Romansh
-      radical (i.e. nynorsk-like) spelling variant of bokmã¥l: 
-        - ~
-        - Radical (i.e. Nynorsk-like) spelling variant of BokmÃ¥l
+      radical (i.e. nynorsk-like) spelling variant of bokmal: 
+        - radikalt
+        - Radical (i.e. Nynorsk-like) spelling variant of Bokmal
       resian: 
         - rozaj
         - Resian
@@ -47288,9 +47276,9 @@ langvar:
       the lipovaz dialect of resian: 
         - lipaw
         - The Lipovaz dialect of Resian
-      the moderate (conservative, i.e. danish-like) spelling variant of bokmã¥l: 
-        - ~
-        - The moderate (conservative, i.e. Danish-like) spelling variant of BokmÃ¥l
+      the moderate (conservative, i.e. danish-like) spelling variant of bokmal: 
+        - moderat
+        - The moderate (conservative, i.e. Danish-like) spelling variant of Bokmal
       the oseacco dialect of resian: 
         - osojs
         - The Oseacco dialect of Resian

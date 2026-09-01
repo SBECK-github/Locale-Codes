@@ -3,7 +3,7 @@ Locale::Codes::Language_Retired;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'deprecate_codes' is run.
-#    Generated on: Mon Jun  1 10:27:55 EDT 2026
+#    Generated on: Tue Sep  1 12:14:09 EDT 2026
 
 use strict;
 require 5.006;
@@ -14,6 +14,7 @@ our($VERSION);
 $VERSION='3.91';
 
 $Locale::Codes::Retired{'language'}{'alpha-2'}{'code'} = {
+   q(bh) => q(Bihari languages),
    q(in) => q(Indonesian),
    q(iw) => q(Hebrew),
    q(ji) => q(Yiddish),
@@ -127,6 +128,7 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'code'} = {
    q(mja) => q(Mahei),
    q(mld) => q(Malakhel),
    q(mnt) => q(Maykulan),
+   q(mrd) => q(Western Magar),
    q(mvm) => q(Muya),
    q(mwd) => q(Mudbura),
    q(mwj) => q(Maligo),
@@ -176,6 +178,7 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'code'} = {
    q(sca) => q(Sansu),
    q(sdm) => q(Semandang),
    q(sgo) => q(Songa),
+   q(shl) => q(Shendu),
    q(skk) => q(Sok),
    q(slq) => q(Salchuq),
    q(smd) => q(Sama),
@@ -241,6 +244,7 @@ $Locale::Codes::Retired{'language'}{'alpha-2'}{'name'} = {
    q(bengali; bangla) => [ q(bn), q(Bengali; Bangla) ],
    q(bhutani) => [ q(dz), q(Bhutani) ],
    q(bihari) => [ q(bh), q(Bihari) ],
+   q(bihari languages) => [ q(bh), q(Bihari languages) ],
    q(bokmal, norwegian) => [ q(nb), q(Bokmal, Norwegian) ],
    q(byelorussian) => [ q(be), q(Byelorussian) ],
    q(cambodian) => [ q(km), q(Cambodian) ],
@@ -402,6 +406,8 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
    q(dzodinka) => [ q(add), q(Dzodinka) ],
    q(eastern gurung) => [ q(ggn), q(Eastern Gurung) ],
    q(eastern karnic) => [ q(ekc), q(Eastern Karnic) ],
+   q(eastern magar) => [ q(mgp), q(Eastern Magar) ],
+   q(ekai chin) => [ q(cey), q(Ekai Chin) ],
    q(elpaputih) => [ q(elp), q(Elpaputih) ],
    q(emok) => [ q(emo), q(Emok) ],
    q(english, middle (1100-1500)) => [ q(enm), q(English, Middle (1100-1500)) ],
@@ -515,7 +521,6 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
    q(lua') => [ q(prb), q(Lua') ],
    q(luhu) => [ q(lcq), q(Luhu) ],
    q(lui) => [ q(lba), q(Lui) ],
-   q(luiseno) => [ q(lui), q(Luiseno) ],
    q(lumbee) => [ q(lmz), q(Lumbee) ],
    q(lyons sign language) => [ q(lsg), q(Lyons Sign Language) ],
    q(maden) => [ q(xmx), q(Maden) ],
@@ -531,6 +536,7 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
    q(mann) => [ q(mev), q(Mann) ],
    q(manusela) => [ q(wha), q(Manusela) ],
    q(mara) => [ q(mec), q(Mara) ],
+   q(mara chin) => [ q(mrh), q(Mara Chin) ],
    q(maramba) => [ q(myd), q(Maramba) ],
    q(mari) => [ q(chm), q(Mari) ],
    q(marithiel) => [ q(mfr), q(Marithiel) ],
@@ -664,6 +670,7 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
    q(seru) => [ q(szd), q(Seru) ],
    q(shabo) => [ q(sbf), q(Shabo) ],
    q(shangzhai) => [ q(jih), q(Shangzhai) ],
+   q(shendu) => [ q(shl), q(Shendu) ],
    q(shinabo) => [ q(snh), q(Shinabo) ],
    q(shixing) => [ q(sxg), q(Shixing) ],
    q(shuwa-zamani) => [ q(ksa), q(Shuwa-Zamani) ],
@@ -734,6 +741,7 @@ $Locale::Codes::Retired{'language'}{'alpha-3'}{'name'} = {
    q(were) => [ q(wei), q(Were) ],
    q(western canadian inuktitut) => [ q(ikt), q(Western Canadian Inuktitut) ],
    q(western gurung) => [ q(gvr), q(Western Gurung) ],
+   q(western magar) => [ q(mrd), q(Western Magar) ],
    q(wik-ngathana) => [ q(wig), q(Wik-Ngathana) ],
    q(wiradhuri) => [ q(wrh), q(Wiradhuri) ],
    q(worora) => [ q(unp), q(Worora) ],

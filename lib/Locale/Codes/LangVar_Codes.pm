@@ -3,7 +3,7 @@ Locale::Codes::LangVar_Codes;
 
 # This file was automatically generated.  Any changes to this file will
 # be lost the next time 'harvest_data' is run.
-#    Generated on: Mon Jun  1 10:25:54 EDT 2026
+#    Generated on: Tue Sep  1 12:13:14 EDT 2026
 
 use strict;
 require 5.006;
@@ -261,7 +261,7 @@ $Locale::Codes::Data{'langvar'}{'id2names'} = {
       q(Slovene in Metelko alphabet),
       ],
    q(0079) => [
-      q(The moderate (conservative, i.e. Danish-like) spelling variant of BokmÃ¥l),
+      q(The moderate (conservative, i.e. Danish-like) spelling variant of Bokmal),
       ],
    q(0080) => [
       q(Monotonic Greek),
@@ -337,7 +337,7 @@ $Locale::Codes::Data{'langvar'}{'id2names'} = {
       q(Puter idiom of Romansh),
       ],
    q(0100) => [
-      q(Radical (i.e. Nynorsk-like) spelling variant of BokmÃ¥l),
+      q(Radical (i.e. Nynorsk-like) spelling variant of Bokmal),
       ],
    q(0101) => [
       q(Volapuk rigik),
@@ -838,7 +838,7 @@ $Locale::Codes::Data{'langvar'}{'alias2id'} = {
       q(0099),
       q(0),
       ],
-   q(radical (i.e. nynorsk-like) spelling variant of bokmÃ¥l) => [
+   q(radical (i.e. nynorsk-like) spelling variant of bokmal) => [
       q(0100),
       q(0),
       ],
@@ -1006,7 +1006,7 @@ $Locale::Codes::Data{'langvar'}{'alias2id'} = {
       q(0070),
       q(1),
       ],
-   q(the moderate (conservative, i.e. danish-like) spelling variant of bokmÃ¥l) => [
+   q(the moderate (conservative, i.e. danish-like) spelling variant of bokmal) => [
       q(0079),
       q(0),
       ],
